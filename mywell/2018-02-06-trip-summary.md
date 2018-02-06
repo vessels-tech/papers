@@ -42,7 +42,26 @@ At one stage in the Megraj workshop, we had to refer to a paper based list of we
 
 ## Feedback
 
+### Feedback from BJs:
+
+#### Good
+- using mywell will lead to less errors, reduces the need to use paper, and makes recording readings faster
+- MyWell was quick and easy to understand
+- the mywell data is secure and shareable with anyone
+
+
+#### Needs improvement
+- Needs a Hindi version (just about everyone said this)
+- want to be able to record water quality data
+- data should be easy to download (this feature already exists, only not on mobile!)
+
+
+
+
 - quick to offer suggestions, like integration with WhatsApp
+
+
+
 
 
 
