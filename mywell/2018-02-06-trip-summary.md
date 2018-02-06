@@ -8,3 +8,9 @@
 ## Feedback
 
 ## Next Steps
+
+
+![Using MyWell to record a new reading.]({{site.baseurl}}/myw![IMG_5354.jpg]({{site.baseurl}}/mywell/IMG_5354.jpg)
+ell/IMG_5354.jpg)
+
+![Running a MyWell workshop]({{site.baseurl}}/mywell/IMG_5883.jpg)
