@@ -1,28 +1,28 @@
 
-# Monitoring Groundwater at Village Level through Citizen Science Approach in India: Application of Mobile Phone Technology
+# MyWell: Crowdsourcing Citizen science for Groundwater Intervention
 
-__TODO__ better, new title
-
-
+----
 Purpose:
 1. Present MyWell, and demonstrate how it can/is being used for PGWM
 2. Compare to other approaches
-3.
+3. Evaluate use and define how it may be used in the future
+----
 
 
 ## Abstract
 
-__TODO:__ maybe bring in new abstract?
+In rural India, over 60% of agriculture relies on groundwater. Groundwater is often over-exploited, and groundwater depletion threatens many livelihoods. Existing interventions have been insufficient, and often fail to engage farmers at the lowest level. MyWell sets out to build a participatory, bottom-up approach to groundwater management. MyWell is an application for data-driven insights of groundwater at the village level. MyWell crowdsources groundwater indicators from a group of connected farmers using SMS or a smartphone application. In this paper, we show how MyWell has the potential to impact the lives of farmers by (1) empowering them to participate in science, and finding solutions to groundwater scarcity, and (2) assist them in building communities which work together to conserve groundwater. Then, we assess MyWell's application across two watersheds in rural India. We show how farmers are using MyWell to gain visibility into the groundwater situation, and examine the limitations of MyWell's approach.
 
-Citizen science is when everyday citizens are involved in scientific study. Citizen science allows professionals to harness a large of resources, and amateurs the opportunity to contribute to science. Crowdsourcing, or obtaining information from the general public can be a method of citizen science (Howe, 2006). The growth of mobile networks and the ubiquity of mobile phones in low income countries (Pew, 2014) has created an opportunity for innovation around crowdsourced citizen science to solve practical problems.
-
-MyWell is a smartphone and SMS application for crowdsourcing groundwater, rainfall, water quality and checkdam water levels in rural India. Groundwater depletion is a serious issue for farmers and villagers who rely on groundwater for their livelihoods. MyWell crowdsources well information from villagers, and aims to improve the situation, both through information collection, and building community involvement and citizen ‘buy-in’.
 
 ## Introduction
 
+In this paper, we outline the challenges faced by rural communities that rely on groundwater in rural India. We introduce the MARVI project, a project which aims to promote a participatory approach to groundwater management. We show how MyWell can be used as a tool for facilitating PGWM and empowering villagers. We outline the MyWell system and talk through its implementation. We then evaluate MyWell in two watersheds in rural west India, outlining its benefits, limitations, and the potential MyWell and of the MyWell approach to facilitate people to share water and stuff.
+
+
+
 The aim of this paper is to outline the process of developing and implementing mobile phone technology for villages in rural India and evaluate its potential for assisting sustainable groundwater management. __is it? maybe more of a case study__
 
-India uses the largest amount of groundwater in the world, estimated at 230 __?__ per year (World Bank, 2010). Groundwater is a relatively cheap and accessible resource, which contributes to its over exploitation. As it is shared among a watershed, the property rights of groundwater are difficult to manage, as whoever pumps first owns the water (Maheshwari et al, 2014; Chinnasamy, Maheshwari and Prathapar, 2015). Groundwater is often overexploited for food production, with rainfall insufficient to recharge the groundwater levels (Rathore, 2004)
+India uses the largest amount of groundwater in the world, estimated at 230 cubic kilometers per year (World Bank, 2010). Groundwater is a relatively cheap and accessible resource, which contributes to its over exploitation. As it is shared among a watershed, the property rights of groundwater are difficult to manage, as whoever pumps first owns the water (Maheshwari et al, 2014; Chinnasamy, Maheshwari and Prathapar, 2015). Groundwater is often overexploited for food production, with rainfall insufficient to recharge the groundwater levels (Rathore, 2004)
 
 Groundwater is fundamental to the livelihoods of many farmers across India. In rural India, over 60 percent of agriculture is dependent on groundwater irrigation (World Bank, 2010). It allows farmers to grow crops in the dry season, as well as manage deficiencies in monsoonal rainfall, contributing to improved livelihoods and poverty alleviation (Maheshwari et al, 2014).
 
@@ -272,6 +272,14 @@ Singh, Tanaya. "Farmers in Rural Maharashtra Are Fighting Climate Change. With J
 
 
 # OLD:
+
+## Abstract:
+
+Citizen science is when everyday citizens are involved in scientific study. Citizen science allows professionals to harness a large of resources, and amateurs the opportunity to contribute to science. Crowdsourcing, or obtaining information from the general public can be a method of citizen science (Howe, 2006). The growth of mobile networks and the ubiquity of mobile phones in low income countries (Pew, 2014) has created an opportunity for innovation around crowdsourced citizen science to solve practical problems.
+
+MyWell is a smartphone and SMS application for crowdsourcing groundwater, rainfall, water quality and checkdam water levels in rural India. Groundwater depletion is a serious issue for farmers and villagers who rely on groundwater for their livelihoods. MyWell crowdsources well information from villagers, and aims to improve the situation, both through information collection, and building community involvement and citizen ‘buy-in’.
+
+## other bit?
 
 MyWell has two clients, MyWell SMS and MyWell Mobile. Both clients share the same server and database. The server is a Node.js server, written in JavaScript, running on Microsoft Azure Mobile Backend as a Service (MBaaS). MBaaS abstracts away many aspects of traditional web servers, streamlining the maintenance and upkeep of MyWell. MBaaS provides important features, such as autoscaling, user authentication and database management. In addition, Microsoft Azure MSSQL Database is used for storing all of the MyWell relational data. MyWell also benefits from Azure’s 95.95% uptime guarantee, making the system reliable.
 
