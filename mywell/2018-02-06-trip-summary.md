@@ -1,4 +1,10 @@
 ![Green Fields!]({{site.baseurl}}/mywell/IMG_5908.jpg)
+Green Fields in Dharta
+
+# MyWell Jan 18 Trip Summary
+
+Over two days in early January, we ventured out to run workshops and conduct field trials of MyWell. Apart from flying kites (apparently a tradition in Gujarat on the 14th) and ___ we had a great time teaching BJs about MyWell, and learning from their experiences.
+
 
 
 ## What did we do?
@@ -35,7 +41,6 @@ At one stage in the Megraj workshop, we had to refer to a paper based list of we
 ## Feedback
 
 - quick to offer suggestions, like integration with WhatsApp
-
 
 
 
