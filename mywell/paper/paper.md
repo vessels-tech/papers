@@ -58,54 +58,57 @@ Involving villagers for groundwater monitoring enables them to make a direct con
 
 ## Study Area
 
-MyWell has been piloted in two watersheds, the Dharta watershed in Rajasthan and the Meghraj watershed in Gujarat (Figure 2). In both watersheds, groundwater is the main source of irrigation water supply and plays an important role in agriculture and the livelihood of people. Both districts are in hard rock aquifer areas and groundwater levels have dropped significantly due to excessive pumping. MyWell is designed to be used in any part of India or in other parts of the world with a slight modification.
+MyWell has been piloted in two watersheds, the Dharta watershed in Rajasthan and the Meghraj watershed in Gujarat (Figure 2). In both watersheds, groundwater is the main source of irrigation water supply and plays an important role in agriculture and the livelihood of people. Both districts are in hard rock aquifer areas and groundwater levels have dropped significantly due to excessive pumping. MyWell is designed to be used in any part of India or in other parts of the world with minor modifications.
 
 ### Rajasthan
 
 The study area of this project, the Dharta watershed, in Rajasthan is located in the Udaipur district, one of the 33 districts of the state. This district has about 2500 villages with population of 3 million and some parts of the district are predominantly tribal. The district is drained by the Sabarmati River in the west, the Banas River in the north and east and the Mahi River in the south and central parts. Agriculture plays a major role in the livelihoods of villagers but farmers often face Kharif __define__ crop failure due to the lack of rain at a critical stage of the crop growth.
 
-The soil type in the district is sandy loam to clay loam and the topography is often undulating. The average rainfall of the district is 650 mm, and about 128,000 ha of land is under irrigation with 89,000 ha mainly dependent on groundwater. The Dharta watershed is about 55 km east of Udaipur city. The main Kharif crops in the Dharta Watershed are maize, pulses, sorghum, guar, soybeans and the Rabi crops are wheat, barley, chick pea and mustard. For irrigation they mainly depend on open wells or tubewells but a large proportion of open wells have dried up or they are not reliable as source of water supply. Many farmers have gone for __gone for?__ tubewell to a depth up to 150 m but they are also not reliable these days as they can also dry up during summer months or during drought years.
+The soil type in the district is sandy loam to clay loam and the topography is often undulating. The average rainfall of the district is 650 mm, and about 128,000 ha of land is under irrigation with 89,000 ha mainly dependent on groundwater. The Dharta watershed is about 55 km east of Udaipur city. The main Kharif crops in the Dharta Watershed are maize, pulses, sorghum, guar, soybeans and the Rabi crops are wheat, barley, chick pea and mustard. For irrigation they mainly depend on open wells or tubewells but a large proportion of open wells have dried up or they are not reliable as source of water supply. Many farmers have dug tubewells to a depth of up to 150 metres, but they can also dry up during summer months or drought years.
 
-The surface method of irrigation is widely used but some farmers are going for __going for?__ sprinkler and drip systems as there is a government subsidy on the cost of installation of these systems. The source of drinking water in all the villages is groundwater and it accessed through hand pumps, open wells or tubewells. Hinta village has piped water supply to most homes from a village overhead water tank constructed by the Government. Recently, a village overhead tank was constructed in Dharta village but most homes do not have piped water supply yet. Families in Sunderpura rely on hand pumps for their domestic water supply.
+Irrigation is widely performed using the surface method, however some farmers are rolling out sprinkler and drip systems as there is a government subsidy on the installation cost of these systems. Drinking water in these villages is soley from groundwater and is accessed through hand pumps, open wells or tubewells. Hinta village has piped water supply to most homes from a village overhead water tank constructed by the Government. Recently, a village overhead tank was constructed in Dharta village but most homes do not have piped water supply yet. Families in Sunderpura rely on hand pumps for their domestic water supply.
 
 ### Gujarat
 
 The study area in Gujarat is located in the Aravali district, the 29th district created in 2013 and lies north of Ahmedabad. It has about 650 villages with a total population over 1 million. The district is drained by the Sabarmati River in the west, the Banas river in the north and east and the Mahi River in the south and central parts. The Aravalli district has a large tribal population with approximately 30% of the population coming from socially and economically disadvantaged groups.
 
-The soil in the district is loamy type with topography undulating. Unlike other districts in the state, about 80% of rural livelihoods are dependent mainly on agriculture and dairying and the district does not have many industries or urban centres __eww__. Average rainfall of the district is 750 mm, and there are 444,000 ha under irrigation with 170,000 ha dependent on groundwater through dug and tube wells.
+The soil in the district is loamy type with an undulating topography. This distruct does not have many industries or urban centres, and unlike other districts in the state, about 80% of rural livelihoods are dependent mainly on agriculture and dairying. The average rainfall of the district is 750 mm, and there are 444,000 ha under irrigation with 170,000 ha dependent on groundwater through dug and tube wells.
 
 The Meghraj watershed is located about 25 km west of Modasa town and 100 km from the state capital Gandhinagar. In this watershed also, agriculture is quite important in the livelihoods of villagers and the threat of Kharif crop failure is always there if there is insufficient rainfall at some stage during the monsoon season. The main crops grown in the district are maize, cotton, wheat, pigeon pea and castor. The soil type in the district is sandy loam to clay loam and the topography is often undulating. The average rainfall of the district is 750 mm, and about 444,000 ha of land is under irrigation with 170,000 ha mainly dependent on groundwater.
 
 
 ## MyWell
-MyWell is a Smartphone and SMS application for recording and tracking data in project MARVI. The app crowdsources Well, Checkdam and Rainfall readings from BJs, and displays the current status of each Well, Rainfall Station and Checkdam, as well as historical and village level data for simple comparison and analysis.
+
+MyWell is a smartphone and SMS application for crowdsourcing groundwater, rainfall, water quality and checkdam water levels in prject MARVI. BJs armed with a smartphone or feature phone can participate in a network of connected farmers who collect information, and glean insights into the groundwater situation.
 
 **Figure 2**
 
 ### Features
-MyWell is available on Android and iOS smartphones in the form of an app, and also to browsers as a web application. For users with feature phones, MyWell's basic tools and analysis are also available over SMS. When a BJ takes a well reading, they can record it directly using the MyWell app - submitting the date, Well Id, and the depth to water level of the well.
+
+MyWell is available as an app on Android and iOS smartphones, and also to any web browser as a web app. For users with feature phones, MyWell's basic tools and analysis are also available over SMS. When a BJ takes a well, they can record it directly with MyWell - submitting the date, Well Id, and the depth to water level of the well.
 
 With MARVI's network of BJs collecting data, MyWell is able to provide valuable insights to villagers. MyWell displays simple graphs; snapshots of the readings from a Well, Raingauge or Checkdam over the last 3 years.  MyWell also calculates village level statistics. These tools allow villagers to easily compare and benchmark their wells against each other, and previous years.
 
 MyWell also has a host of tools for BJs to manage the MyWell system. BJs can register a new Well, Rainfall Station or Checkdam - using their device's inbuilt GPS to pinpoint the location. Each well also has a unique Banner Image - usually of the well and well's owner -  allowing for greater personalisation and buy-in at the village level.
 
-Finally, MyWell allows MARVI project administrators to upload a large number of readings at a time. This allows an import of large amounts of historical data; increasing the immediate value of MyWell to the farmers.
+Finally, MyWell allows MARVI project administrators and groundwater researchers to upload a large number of readings at a time. This allows an import of large amounts of historical data; increasing the immediate value of MyWell to the farmers.
 
 **Figure 4.**??
 
-### How it works
-
-MyWell boasts a number of features that allow users to submit readings, learn about their , as well as other utilities such as bulk uploading past readings,
 
 
 #### MyWell SMS
 
-Using SMS messages, users can submit readings and query MyWell for basic data analysis.
+Users can interact with MyWell by sending and recieving SMS messages, a part of the application known as MyWell SMS. MyWell users can submit well, raingauge and check dam readings as well as query MyWell for some basic groundwater statistics. 
 
+Data submission is performed over a single SMS message to MyWell's phone number. The most common case is submitting a well reading. The message takes the format: "MYWL S PINCODE/WELL_ID/READING", where reading is the depth to water level in centimetres.
 
-Users can also query MyWell over SMS, for some basic data analytics. Each well and village has a unique ID, and using these ID’s, users can query at a village or well level. For a well query, a user can send a text message of the format “SMA 999 POSTCODE WELL_ID “. MyWell will process this message and reply with the current watertable depth, last month’s watertable depth, and last year’s watertable depth. To get an average for a village, a user can send a query with the format “SMA 999 POSTCODE VILLAGE_ID”. This will return the same current, month, and last year measures, using the average of all wells within the requested village.
+Users can also query MyWell over SMS, for some basic basic groundwater statistics. Every well, village and collection of villages in the MyWell system is uniquely identifyable, using a combination of pincode, village Ids and well/resource ids.
+
+Each well and village has a unique ID, and using these IDs, users can query at a village or well level. For a well query, a user can send a text message of the format “MYWL Q POSTCODE/WELL_ID “. MyWell will process this message and reply with the current watertable depth, last month’s watertable depth, and last year’s watertable depth. To get an average for a village, a user can send a query with the format “MYWL Q POSTCODE/VILLAGE_ID”. This query will return the same current, month, and last year measures, using the average of all wells within the requested village.
 
 ### MyWell Mobile
+
 Similar to the SMS submissions, a user fills out a form on the MyWell app to submit a well level. Since this is on a smartphone, MyWell performs a number of checks to ensure a valid message before the message can be sent to the server. This submission is then processed in a similar manner on MyWell server, and a message thanking the user for submitting is displayed.
 Users can query MyWell for well readings from the heatmap on the opening page of MyWell. The heatmap displays the current well readings for all wells within the MyWell database. Upon clicking on a well, a popup showing the well information is displayed to the user. Village- level analytics are displayed above the heat map. As the user scrolls through the heatmap, the closest village to their current position is found, and the village name updates in the button above the heatmap. Upon clicking on this button, the village-level analytics are loaded and displayed to the user.
 
