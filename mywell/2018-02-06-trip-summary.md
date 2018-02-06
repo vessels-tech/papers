@@ -56,9 +56,24 @@ At one stage in the Megraj workshop, we had to refer to a paper based list of we
 - data should be easy to download (this feature already exists, only not on mobile!)
 
 
+#### Used for:
+- Water and rainfall monitoring
+- Developing an understanding of the water needs of a household and farm
+- Information from MyWell can help to quantify the water in their well to know how much
+- helps with crop planning
+
+
+
+All BJs identified MyWell as a viable source of well information in the future
+
+
+
 
 
 - quick to offer suggestions, like integration with WhatsApp
+
+Favourite feedback (although not all that helpful):
+>There should be a good music come from background while using MyWell App. There should be 1 GB free data for users.
 
 
 
