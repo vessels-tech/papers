@@ -10,6 +10,9 @@
 ## Next Steps
 
 
-![Using MyWell to record a new reading.]({{site.baseurl}}/mywell/IMG_5354.jpg)
+![Using MyWell to record a new reading.]({{site.baseurl}}/mywell/well_reading.jpg)
 
-![Running a MyWell workshop]({{site.baseurl}}/mywell/IMG_5883.jpg)
+![Running a MyWell workshop in Dharta]({{site.baseurl}}/mywell/IMG_5883.jpg)
+
+
+
