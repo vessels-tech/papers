@@ -14,6 +14,7 @@ We ran MyWell workshops with BJs (groundwater monitoring volunteers) in both the
 We also conducted field trials where BJs uploaded well readings in real time, and we were able to see them on other devices.
 
 ![Using MyWell to record a new reading.]({{site.baseurl}}/mywell/well_reading.jpg)
+Using MyWell to record a new well reading
 
 
 We surveyed the BJs in attendance, along with researchers involved in the MARVI project learn their feedback on things that worked, didn't work, and areas where they think MyWell could expand and grow.
@@ -26,6 +27,7 @@ There are many minor UI/UX improvements that need to be done. Users who were unf
 Once they had learned the interface, they seemed to pick it up more quickly, and were able to navigate around mywell with relative ease, however there were a few minor issues that turned out to be major in practice (eg. selecting the country code)
 
 ![Running a MyWell workshop in Dharta]({{site.baseurl}}/mywell/IMG_5883.jpg)
+Running a MyWell workshop in Dharta
 
 
 Since the first field trials run with MyWell, the 3G/4G network coverage has improved, making it easier to use in the field. Additionally, the ability to save readings offline was still important, and was a key feature to both BJs and researchers.
@@ -47,7 +49,10 @@ At one stage in the Megraj workshop, we had to refer to a paper based list of we
 
 ## Next Steps
 
-These workshops and field trials will be vital in progressing the development of MyWell.
+These workshops and field trials are a vital step in progressing the development of MyWell.
+
+![BJs using MyWell in Megraj]({{site.baseurl}}/mywell/IMG_5916.jpg)
+BJs using MyWell in Megraj to record some paper readings.
 
 As we keep on talking with other groundwater organisations about integrating MyWell, this trip was a good reminder of the minor issues that will affect the end user in a major way. Improvements to MyWell Android and MyWell SMS need to always take this into consideration.
 
@@ -57,7 +62,7 @@ Curiously, this approach seems more and more popular in India with the rise of a
 
 
 
-![BJs using MyWell in Megraj]({{site.baseurl}}/mywell/IMG_5916.jpg)
+
 
 
 
