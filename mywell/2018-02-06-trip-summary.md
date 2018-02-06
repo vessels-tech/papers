@@ -5,7 +5,7 @@ Green Fields in Dharta
 
 Over two days in early January, we ventured out to run workshops and conduct field trials of MyWell. Apart from flying kites (apparently a tradition in Gujarat on the 14th) and ___ we had a great time teaching BJs about MyWell, and learning from their experiences.
 
-
+__note__: This is what yen thinks
 
 ## What did we do?
 
@@ -93,10 +93,3 @@ As we keep on talking with other groundwater organisations about integrating MyW
 One key improvement that we are working towards is making it easier to identify wells using a simple QR code attached to the pump or near the well - this will take an extra hurdle of BJs who manage readings for multiple wells, and help ensure the accuracy of data.
 
 Curiously, this approach seems more and more popular in India with the rise of apps like PayTM.
-
-
-
-
-
-
-
