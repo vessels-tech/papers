@@ -1,2 +1,3 @@
 # papers
-A collection of all papers, blogs, articles etc.
+
+This is the public papers directory for Vessels Tech.
