@@ -88,7 +88,7 @@ MyWell is a smartphone and SMS application for crowdsourcing groundwater, rainfa
 
 In the MyWell system, any groundwater ____?___ is known as a "Resource", which can be a Well, Check dam or Rainfall Station. Every resource, village and collection of villages in the MyWell system is uniquely identifyable, using a combination of pincode, village ids and resource ids.
 
-**Figure 2**
+_Figure 2_
 
 ### Features
 
@@ -96,7 +96,7 @@ MyWell is available as an app on Android and iOS smartphones (MyWell Mobile), an
 
 With MARVI's network of BJs collecting data, MyWell is able to provide valuable insights to villagers. MyWell displays simple graphs; snapshots of the readings from a Well, Raingauge or Checkdam over the last 3 years.  MyWell also calculates village level statistics. These tools allow villagers to easily compare and benchmark their wells against each other, and previous years.
 
-**Figure 4.**??
+_Figure 4.?_
 
 
 #### MyWell SMS
@@ -112,7 +112,7 @@ To get the average for a village, a user can send a query with the format "`MYWL
 Users can also request for groundwater statistics for all resources within a pincode, which will aggregate the data from resources across multiple villages. This is done using a query with format "`MYWEL Q PINCODE`".
 
 
-### MyWell Mobile
+#### MyWell Mobile
 
 The process for submitting readings on MyWell mobile is simpler than over SMS, but requires the user to have an Android or iOS smartphone and access to the internet, either over mobile data or Wifi.
 
@@ -125,8 +125,8 @@ Groundwater statistics are also available for users of MyWell mobile. The map sc
 
 When the user clicks a resource, users get a popup with the Village name of the well, the resource id, and the last recorded reading of the resource. Clicking the "more" button takes the user to a page that shows more information about that resource, including a graph that displays data for the last 3 years.
 
-** fig. n [MyWell popup screen]**
-** fig. n [MyWell resource detail screen]**
+_fig. n [MyWell popup screen]_
+_fig. n [MyWell resource detail screen]_
 
 MyWell also has a host of tools for BJs to manage the MyWell system. BJs can register a new Well, Rainfall Station or Checkdam - using their device's inbuilt GPS to pinpoint the location. Each well also has a unique Banner Image - usually of the well and well's owner -  allowing for greater personalisation and buy-in at the village level.
 
@@ -187,7 +187,7 @@ Limited field tests on both MyWell SMS and Mobile were conducted. These tests in
 
 After well data were successfully submitted over MyWell, MyWell mobile was also tested to ensure that the visualisations were also updated, and correct.
 
-**Figure 6.**
+_Figure 6._
 
 ### Initial Results
 These limited field tests revealed that MyWell worked successfully, with a few areas for improvement. While MyWell SMS functioned as expected, MyWell Mobile encountered issues when mobile data coverage was limited. Google Maps, the mapping platform used for the visualisations in MyWell Mobile, doesn’t allow for offline access to maps. This meant that when there was no or unreliable data coverage, Google Maps failed to load, and stopped the entire application from working. Related to this is the issue of data usage. Google Maps downloads maps for the current area every time MyWell opens. This wastes valuable data, and is something that will need to be addressed in future versions of MyWell.
@@ -195,9 +195,9 @@ Potential issues were also encountered over the translation of MyWell. Currently
 MyWell SMS started with a small set of text-based queries. As features have been added to MyWell, the complexity of the queries has also grown. Testing revealed that erroneous SMS messages resulted in no response to the user. MyWell SMS will need a more robust system for handling errors. This system could reply to a user if their query doesn’t make sense, or even attempt to auto-correct the query before processing.
 Despite some minor issues, the initial results show MyWell to be fully functional; users can update wells over SMS and MyWell mobile. These changes are reflected almost instantly in the mobile heat map, which can be found at watervisualizationmobile.azurewebsites.net, or on MyWell mobile. The system for querying data was also tested for both the SMS and mobile application, and found to be working, as shown below
 
-**Figure 7.**
+_Figure 7._
 
-**Figure 8**
+_Figure 8_
 
 ### Full Scale Testing
 Larger scale tests for MyWell are planned over the next three months. These tests will involve BJ’s from a number of villages. Before conducting these tests, the BJ’s must first be trained in using MyWell SMS. To aid this training, an SMS Query guide is currently being written to explain the functions and query formats of MyWell SMS. Once the BJ’s use MyWell for a number of weeks, the data collected will be analysed for accuracy, and the BJ’s will be interviewed to find any difficulties they encountered, and receive general feedback. After this stage, should there be no major flaws found, MyWell will be scaled up to the entire MARVI study areas in Gujarat and Rajasthan.
@@ -225,7 +225,9 @@ MyWell also deals with a number of constraints that are unique to the areas of l
 
 Citizen science is where citizens are actively involved in a field of study. Once such approach is crowdsourcing for citizen science, where data are collected from a large number of citizens. MyWell is an application of crowdsourced citizen science, within the context of project MARVI.
 Project MARVI looks at the issues of groundwater management in rural India, and aims to give the ownership of groundwater monitoring to the villagers, and to assist them in developing their own solutions to the issues they face. MyWell is a part of this solution, as a data collection and information dissemination tool.
+
 This report looked at how MyWell supports the goals of MARVI, namely through improving data collection, and supporting community involvement around the issue of groundwater depletion. We looked at how MyWell works, the technology behind MyWell, and an example of MyWell being used in the field.
+
 Within the scope of project MARVI, a desirable future of MyWell is to increase the usage and utility of the application. The administration system, and new features around the adding of new wells will allow for the system to be maintained and hopefully scale.
 Outside of MARVI, MyWell could also have future applications as an agnostic data collection platform for low income countries. It could be adapted for collection of many other types of information – and is not limited to water measurements. The combination of SMS and mobile app allow it to reach a wide audience, and the authentication and administration tools protect the integrity of the data being collected, while allowing public access to the data being collected.
 
@@ -260,32 +262,3 @@ Rural Coverage: Strategies for Sustainability. GSMA Intelligence, 2015. Web. 1 A
 Toon, John. "Crowdsourcing Could Lead to Better Water in Rural India". News.gatech.edu. N.p., 2016. Web. 9 Apr. 2016.
 Singh, Tanaya. "Farmers in Rural Maharashtra Are Fighting Climate Change. With Just a Mobile Phone.". The Better India. N.p., 2016. Web. 10 Apr. 2016.
 
-
-
-
-
-# OLD:
-
-## Abstract:
-
-Citizen science is when everyday citizens are involved in scientific study. Citizen science allows professionals to harness a large of resources, and amateurs the opportunity to contribute to science. Crowdsourcing, or obtaining information from the general public can be a method of citizen science (Howe, 2006). The growth of mobile networks and the ubiquity of mobile phones in low income countries (Pew, 2014) has created an opportunity for innovation around crowdsourced citizen science to solve practical problems.
-
-MyWell is a smartphone and SMS application for crowdsourcing groundwater, rainfall, water quality and checkdam water levels in rural India. Groundwater depletion is a serious issue for farmers and villagers who rely on groundwater for their livelihoods. MyWell crowdsources well information from villagers, and aims to improve the situation, both through information collection, and building community involvement and citizen ‘buy-in’.
-
-
-## role of citizen science in pgwm:
-_last bit_
-Ultimately, citizen science allows for more research to be accomplished globally and connects people in a worldwide environmental movement.
-
-## other bit?
-
-MyWell has two clients, MyWell SMS and MyWell Mobile. Both clients share the same server and database. The server is a Node.js server, written in JavaScript, running on Microsoft Azure Mobile Backend as a Service (MBaaS). MBaaS abstracts away many aspects of traditional web servers, streamlining the maintenance and upkeep of MyWell. MBaaS provides important features, such as autoscaling, user authentication and database management. In addition, Microsoft Azure MSSQL Database is used for storing all of the MyWell relational data. MyWell also benefits from Azure’s 95.95% uptime guarantee, making the system reliable.
-
-
-
-The MyWell Database is a MSSQL database, hosted on Microsoft’s Azure cloud. It is a relational database, containing 5 tables for storing all of the MyWell data, including well levels, user information, and historical data. As it is hosted on Azure, it is highly scalable, and is capable of handling thousands of well entries.
-
-
-### Azure MBaaS
-Both the MyWell Database and MyWell Server are managed through Microsoft Azure Mobile Backend as a Service (MBaaS). MBaaS adds another layer of abstraction to hosting and managing the server and database, simplifying the overall development and hosting process. MBaaS has a number of API’s, simplifying integration between MyWell Mobile and MyWell Server. Since it is hosted on Azure, it also has a 99.95% availability guarantee, and benefits from autoscaling and continuous integration (Microsoft Azure, 2015).
-MyWell server and database also benefit from the autoscaling features of Azure. Autoscaling is when the supply of computing resources is configured to automatically change to match the demand on the system. As MyWell scales, and the MyWell network grows, more farmers are using MyWell to track their wells, and more BJ’s are submitting well levels on a regular basis. This puts more demand on MyWell server resources. Azure MBaaS will automatically scale the number of servers to match the needs of the system, allowing MyWell to grow without constant monitoring and manual adjustment of computing resources.
