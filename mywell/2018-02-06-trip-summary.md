@@ -1,7 +1,10 @@
 ![Green Fields!]({{site.baseurl}}/mywell/IMG_5908.jpg)
 Green Fields in Dharta
 
-# MyWell Jan 18 Trip Summary
+# Water, Wells and Workshops
+## A summary of our field work with MyWell in January
+
+_What's MyWell you ask? Well feel free to read on, but the basics of what we're doing with MyWell are here: https://medium.com/vessels/https-medium-com-vessels-mywell-ict4dev-india-water-d8f628f9bdb6__. In short: MyWell is an app for crowdsourcing groundwater levels in rural India from groups of Groundwater informed volunteers, known as Bhujal Jankars (BJs) in Hindi. MyWell aims to engage everyday villagers in groundwater science, and helps to build communities that are resilient in the face of groundwater scarcity and climate change._
 
 Over two days in early January, we ventured out to run workshops and conduct field trials for MyWell. Apart from flying kites (apparently a tradition in Gujarat for Hindu New Years) and drinking copious amounts of tea, we had a great time teaching BJs about MyWell, and learning from their experiences.
 
@@ -31,7 +34,7 @@ Running a MyWell workshop in Dharta
 
 Since the first MyWell field trials, the 3G/4G network coverage has improved, making it easier to use in the field. Neverthless, the ability to save readings offline was still important, and was a key feature to both BJs and researchers.
 
-Unfortunately, the MyWell SMS provider had stopped working only days earlier - and since we were in a holiday period in India, we were not able to get this working on the day. We were still able to demonstrate MyWell's features over SMS to the BJs, but we were not able to demonstrate a full end to end test.
+Unfortunately, the MyWell SMS provider had stopped working only days earlier - and since we were in a holiday period in India, we were not able to get this working on the day. We were still able to demonstrate MyWell's features over SMS to the BJs, but we were not able to run a full end to end test.
 
 There were a number of different coding schemes being used across the MARVI project to identify wells, checkdams and raingauges - which added another hurdle to the BJs.
 
@@ -41,43 +44,26 @@ At one stage in the Megraj workshop, we had to refer to a paper based list of we
 
 ## Feedback
 
-### Feedback from BJs:
+After running the workshops, we sat down with the BJs and asked them for their feedback about MyWell. This is what they had to say:
 
-#### Good
-- Using mywell will lead to less errors, reduces the need to use paper, and makes recording readings faster
-- MyWell was quick and easy to understand
-- The MyWell data is secure and shareable with anyone
+### The Good:
 
+Just about everyone noted that using MyWell will lead to less errors, reduces the need for using paper, and makes recording well readings easier (this is coming from seasoned pros of recording well readings btw!). The BJs picked up the features really easily, and found it easy to understand - in spite of being only in English (more on that in a second). They saw how MyWell can be used to help with crop planning, and understanding their household and farm water needs. Finally, BJs and researchers alike liked that the data stored in MyWell is secure and isn't going to get lost very easily, and it's now shareable with just about anyone.
 
-#### Needs improvement
-- Needs a Hindi version (just about everyone said this)
-- Want to be able to record water quality data
-- Data should be easy to download (this feature already exists, only not on mobile!)
-- Some found it difficult to analyse graphs, and requested for labels to be made for points on the graphs, or a chart be made available instead. 
+### The Bad:
 
-#### Want to see MyWell be used for:
-- Water and rainfall monitoring
-- Developing an understanding of the water needs of a household and farm
-- Information from MyWell can help to quantify the water in their well to know how much (does this sentence make sense??)
-- Helps with crop planning
+As I said, there is currently only an English version of MyWell. Everyone expressed the need for a Hindi version, not to mention versions in local dialects (such as Mewari and Gujarati). Some users found it difficult to analyse the graphs, and asked for a few changes to be made to make the graphs digestable on smaller screen sizes. There were also other minor ui fixes that also need to be addressed - many of which are now on our todo list.
+
+### The Future:
+
+We also asked everyone about what they see the future of MyWell being used for. Some said they wanted a WhatsApp integration, and others suggested that we add more datapoints in, such as water quality data and farm size. Many said that they wanted to see MyWell expanded more than just these two watersheds - we couldn't agree more!
 
 
+And - as a side note - my favourite piece of feedback was this:
 
-All BJs identified MyWell as a viable source of well information in the future
+>There should be a good music come from the background while using MyWell App. There should be 1 GB free data for users.
 
-
-
-
-
-- quick to offer suggestions, like integration with WhatsApp
-
-Favourite feedback (although not all that helpful):
->There should be a good music come from background while using MyWell App. There should be 1 GB free data for users.
-
-
-
-
-
+At first I dismissed this feedback, but I think this user has a point. Are there ways we can make MyWell more fun to use (maybe not necessarily by playing music)? And data is expensive. That's something we already know, and are looking for ways to lessen the costs of using MyWell for the BJs.
 
 
 ## Next Steps
