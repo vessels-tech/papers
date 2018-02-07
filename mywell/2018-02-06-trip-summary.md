@@ -3,9 +3,8 @@ Green Fields in Dharta
 
 # MyWell Jan 18 Trip Summary
 
-Over two days in early January, we ventured out to run workshops and conduct field trials of MyWell. Apart from flying kites (apparently a tradition in Gujarat on the 14th) and ___ we had a great time teaching BJs about MyWell, and learning from their experiences.
+Over two days in early January, we ventured out to run workshops and conduct field trials for MyWell. Apart from flying kites (apparently a tradition in Gujarat for Hindu New Years) and drinking copious amounts of tea, we had a great time teaching BJs about MyWell, and learning from their experiences.
 
-__note__: This is what yen thinks
 
 ## What did we do?
 
@@ -17,7 +16,7 @@ We also conducted field trials where BJs uploaded well readings in real time, an
 Using MyWell to record a new well reading
 
 
-We surveyed the BJs in attendance, along with researchers involved in the MARVI project learn their feedback on things that worked, didn't work, and areas where they think MyWell could expand and grow.
+We surveyed the BJs in attendance, along with researchers involved in the MARVI project. We gathered their feedback on things that worked, didn't work, and areas where they think MyWell could expand and grow.
 
 
 ## What did we learn?
@@ -30,9 +29,9 @@ Once they had learned the interface, they seemed to pick it up more quickly, and
 Running a MyWell workshop in Dharta
 
 
-Since the first field trials run with MyWell, the 3G/4G network coverage has improved, making it easier to use in the field. Additionally, the ability to save readings offline was still important, and was a key feature to both BJs and researchers.
+Since the first MyWell field trials, the 3G/4G network coverage has improved, making it easier to use in the field. Neverthless, the ability to save readings offline was still important, and was a key feature to both BJs and researchers.
 
-Unfortunately, the MyWell SMS provider had stopped working only days earlier - and since we were in a holiday period in India, we were not able to get this working on the day. We did still demonstrate MyWell's features over SMS to the BJs, but we were not able to demonstrate a full end to end test.
+Unfortunately, the MyWell SMS provider had stopped working only days earlier - and since we were in a holiday period in India, we were not able to get this working on the day. We were still able to demonstrate MyWell's features over SMS to the BJs, but we were not able to demonstrate a full end to end test.
 
 There were a number of different coding schemes being used across the MARVI project to identify wells, checkdams and raingauges - which added another hurdle to the BJs.
 
@@ -45,22 +44,22 @@ At one stage in the Megraj workshop, we had to refer to a paper based list of we
 ### Feedback from BJs:
 
 #### Good
-- using mywell will lead to less errors, reduces the need to use paper, and makes recording readings faster
+- Using mywell will lead to less errors, reduces the need to use paper, and makes recording readings faster
 - MyWell was quick and easy to understand
-- the mywell data is secure and shareable with anyone
+- The MyWell data is secure and shareable with anyone
 
 
 #### Needs improvement
 - Needs a Hindi version (just about everyone said this)
-- want to be able to record water quality data
-- data should be easy to download (this feature already exists, only not on mobile!)
+- Want to be able to record water quality data
+- Data should be easy to download (this feature already exists, only not on mobile!)
+- Some found it difficult to analyse graphs, and requested for labels to be made for points on the graphs, or a chart be made available instead. 
 
-
-#### Used for:
+#### Want to see MyWell be used for:
 - Water and rainfall monitoring
 - Developing an understanding of the water needs of a household and farm
-- Information from MyWell can help to quantify the water in their well to know how much
-- helps with crop planning
+- Information from MyWell can help to quantify the water in their well to know how much (does this sentence make sense??)
+- Helps with crop planning
 
 
 
