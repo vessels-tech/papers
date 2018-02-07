@@ -136,29 +136,29 @@ Finally, MyWell allows MARVI project administrators and groundwater researchers 
 
 - talk about all the components, how they work together. Don't go into too much detail
 
-
 ----
-## Approach
 
-### Implementation Journey
+## Implementation Journey
 
-We have been working on MyWell since ....
+MyWell has been under development since 2015. It originally started as a university project, run by students of Carnegie Mellon University. Since the developers have graduated, the continued development of MyWell has been taken over by australian social enterprise Vessels Tech.
+
+As a project, MyWell has gone through four major iterations, starting as
 
 This project was managed using agile software development principles. The basic functionality was built, and new features were added to MyWell one at a time, each in complete and working stages. __ew__
 
-#### Version 0:
+### Version 0:
 - The initial efforts were by Romin Parek, Constantin Baumgartner and James Laney.
 - They designed and implemented the first version of MyWell, which focused on the SMS component.
 - This version was a Node.js server running at CMU-A, which received HTTP requests from the SMS Gateway. Messages could be received by the system, and were written to a text file. This text file was then imported into SQLite, an in-memory database, with a simple, single table structure. This version also contained a small website, which displayed the heatmap visualization of the wells in the system.
 
-#### Version 1:
+### Version 1:
 - Added mobile app component
 - Used Azure MBaaS to build out the backend
 After this initial version was built, the project scope was expanded, with a focus on replying to users over SMS with basic analysis measures, and a mobile app component. The primary goal of the mobile app was for administrators to be able to see the system as a whole. Functionality from MyWell SMS, such as being able to submit well readings was transferred into MyWell mobile. Once this was done, this app would be public to anyone, and some security measures were put in place; through the login and verification of users.
 
 - Gathered feedback in small field trial...
 
-#### Version 2:
+### Version 2:
 - Moved to Microservices approach on Docker
   - Primary motivation was cost & extensibility
   - Issue with cloud services such as MBaaS is vendor lock in - moving to microservices on docker allows us to pick up and move MyWell quite easily
@@ -171,7 +171,7 @@ After this initial version was built, the project scope was expanded, with a foc
   - Well images - helping personalisation of wells
 
 
-#### Version 3:
+### Version 3:
 
 Moved to AWS
 
@@ -261,4 +261,3 @@ Rural Coverage: Strategies for Sustainability. GSMA Intelligence, 2015. Web. 1 A
 "The History of Audubon". Audubon. N.p., 2015. Web. 9 Apr. 2016.
 Toon, John. "Crowdsourcing Could Lead to Better Water in Rural India". News.gatech.edu. N.p., 2016. Web. 9 Apr. 2016.
 Singh, Tanaya. "Farmers in Rural Maharashtra Are Fighting Climate Change. With Just a Mobile Phone.". The Better India. N.p., 2016. Web. 10 Apr. 2016.
-
