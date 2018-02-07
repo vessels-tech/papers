@@ -136,7 +136,7 @@ Finally, MyWell allows MARVI project administrators and groundwater researchers 
 
 - talk about all the components, how they work together. Don't go into too much detail
 
-MyWell can be seen as a collection of a number of smaller services.
+MyWell can be seen as a collection of a number of smaller services. Figure _n_ shows an overview of each service, and how they work together.
 
 
 
