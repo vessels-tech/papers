@@ -232,10 +232,6 @@ MyWell also deals with a number of constraints that are unique to the areas of l
 ----
 ## Conclusion
 
-Citizen science is where citizens are actively involved in a field of study. Once such approach is crowdsourcing for citizen science, where data are collected from a large number of citizens. MyWell is an application of crowdsourced citizen science, within the context of project MARVI.
-Project MARVI looks at the issues of groundwater management in rural India, and aims to give the ownership of groundwater monitoring to the villagers, and to assist them in developing their own solutions to the issues they face. MyWell is a part of this solution, as a data collection and information dissemination tool.
-
-This report looked at how MyWell supports the goals of MARVI, namely through improving data collection, and supporting community involvement around the issue of groundwater depletion. We looked at how MyWell works, the technology behind MyWell, and an example of MyWell being used in the field.
 Groundwater scarcity is a serious issue faced by many communities in rural India, and around the world. In this paper we looked at the need for paticipatory approaches for managing groundwater, and introduced project MARVI.
 
 Project MARVI looks at the issues of groundwater management in rural India, and aims to give the ownership of groundwater monitoring to the villagers, and to assist them in developing their own solutions to the issues they face. MyWell, the technology component of MARVI, is a tool that aims to facilitate crowdsourced citizen science among the villagers.
