@@ -81,11 +81,13 @@ The Meghraj watershed is located about 25 km west of Modasa town and 100 km from
 
 MyWell is a smartphone and SMS application for crowdsourcing groundwater, rainfall, water quality and checkdam water levels in prject MARVI. BJs armed with a smartphone or feature phone can participate in a network of connected farmers who collect information, and glean insights into the groundwater situation.
 
+In the MyWell system, any groundwater ____?___ is known as a "Resource", which can be a Well, Check dam or Rainfall Station. Every resource, village and collection of villages in the MyWell system is uniquely identifyable, using a combination of pincode, village ids and resource ids.
+
 **Figure 2**
 
 ### Features
 
-MyWell is available as an app on Android and iOS smartphones, and also to any web browser as a web app. For users with feature phones, MyWell's basic tools and analysis are also available over SMS. When a BJ takes a well, they can record it directly with MyWell - submitting the date, Well Id, and the depth to water level of the well.
+MyWell is available as an app on Android and iOS smartphones (MyWell Mobile), and also on any web browser as a web app (MyWelll web). For users with feature phones, MyWell's basic tools and analysis are also available over SMS (MyWell SMS). When a BJ takes a well, they can record it directly with MyWell - submitting the date, Well Id, and the depth to water level of the well.
 
 With MARVI's network of BJs collecting data, MyWell is able to provide valuable insights to villagers. MyWell displays simple graphs; snapshots of the readings from a Well, Raingauge or Checkdam over the last 3 years.  MyWell also calculates village level statistics. These tools allow villagers to easily compare and benchmark their wells against each other, and previous years.
 
@@ -96,20 +98,40 @@ Finally, MyWell allows MARVI project administrators and groundwater researchers 
 **Figure 4.**??
 
 
-
 #### MyWell SMS
 
-Users can interact with MyWell by sending and recieving SMS messages, a part of the application known as MyWell SMS. MyWell users can submit well, raingauge and check dam readings as well as query MyWell for some basic groundwater statistics. 
+Users interact with MyWell by sending and recieving SMS messages, a part of the application known as MyWell SMS. MyWell users submit resource readings, as well as query MyWell for some basic groundwater statistics. 
 
-Data submission is performed over a single SMS message to MyWell's phone number. The most common case is submitting a well reading. The message takes the format: "MYWL S PINCODE/WELL_ID/READING", where reading is the depth to water level in centimetres.
+Data submission is performed over a single SMS message to MyWell's phone number. The most common case is submitting a well reading. The message takes the format: "`MYWL S PINCODE/RESOURCE_ID/READING`", where reading is the depth to water level in centimetres.
 
-Users can also query MyWell over SMS, for some basic basic groundwater statistics. Every well, village and collection of villages in the MyWell system is uniquely identifyable, using a combination of pincode, village Ids and well/resource ids.
+Users can also query MyWell over SMS, for some basic basic groundwater statistics. To query the groundwater level of a well, most recent rainfall amount in a rainfall station, or water column height in a checkdam, users send a text message of the format "`MYWL Q PINCODE/RESOURCE_ID`". This query will return the current value, the value from last month, and the value one year ago.
 
-Each well and village has a unique ID, and using these IDs, users can query at a village or well level. For a well query, a user can send a text message of the format “MYWL Q POSTCODE/WELL_ID “. MyWell will process this message and reply with the current watertable depth, last month’s watertable depth, and last year’s watertable depth. To get an average for a village, a user can send a query with the format “MYWL Q POSTCODE/VILLAGE_ID”. This query will return the same current, month, and last year measures, using the average of all wells within the requested village.
+To get the average for a village, a user can send a query with the format "`MYWL Q PINCODE/VILLAGE_ID`". This query will return the current average depth to water level and the average rainfall amount for this village __TODO: what does this do again?__
+
+Users can also request ... __TODO: pincode section__
+
 
 ### MyWell Mobile
 
-Similar to the SMS submissions, a user fills out a form on the MyWell app to submit a well level. Since this is on a smartphone, MyWell performs a number of checks to ensure a valid message before the message can be sent to the server. This submission is then processed in a similar manner on MyWell server, and a message thanking the user for submitting is displayed.
+The process for submitting readings on MyWell mobile is simpler than over SMS, but requires the user to have an Android or iOS smartphone and access to the internet, either over mobile data or Wifi.
+
+To submit a reading, the user must first login using a one time code sent to either an email address or mobile number. The user then fills out a form, specifying the type of resource - well, rainfall station or checkdam-, pincode, resource id, date of the reading (used for backdating readings) and the value of the reading - either depth to water level, rainfall amount or water column height for a well, rainfall station and checkdam accordingly.
+
+The user then presses the "submit" button, and MyWell mobile performs some validation and submits the reading. If the user doesn't have access to the internet, they can choose to save the reading locally onto the device, and submit the reading later.
+
+Groundwater statistics are also available for users of MyWell mobile. The map screen displays a map containing all the resources registed in MyWell, along with village names.
+** fig. n [MyWell mobile map screen, with wells, rainfall stations, checkdams and village names]**
+
+When the user clicks a resource, users get a popup with the Village name of the well, the resource id, and the last recorded reading of the resource. Clicking the "more" button takes the user to a page that 
+
+** fig. n [MyWell popup screen]**
+** fig. n [MyWell popup screen]**
+
+
+
+
+
+
 Users can query MyWell for well readings from the heatmap on the opening page of MyWell. The heatmap displays the current well readings for all wells within the MyWell database. Upon clicking on a well, a popup showing the well information is displayed to the user. Village- level analytics are displayed above the heat map. As the user scrolls through the heatmap, the closest village to their current position is found, and the village name updates in the button above the heatmap. Upon clicking on this button, the village-level analytics are loaded and displayed to the user.
 
 **Figure 5**
