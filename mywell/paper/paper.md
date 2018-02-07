@@ -232,21 +232,22 @@ MyWell also deals with a number of constraints that are unique to the areas of l
 ----
 ## Conclusion
 
-Groundwater scarcity is a serious issue faced by many communities in rural India, and around the world. In this paper we looked at the need for paticipatory approaches for managing groundwater, and introduced project MARVI.
+Groundwater scarcity is a serious issue faced by many communities in rural India, and around the world. In this paper we looked at project MARVI, and its approach to facilitating paticipatory approaches for groundwater management.
 
 Project MARVI looks at the issues of groundwater management in rural India, and aims to give the ownership of groundwater monitoring to the villagers, and to assist them in developing their own solutions to the issues they face. MyWell, the technology component of MARVI, is a tool that aims to facilitate crowdsourced citizen science among the villagers.
 
-
-In this paper, we show how MyWell has the potential to impact the lives of farmers by (1) empowering them to participate in science, and finding solutions to groundwater scarcity, and (2) assist them in building communities which work together to conserve groundwater. We also outlined the design, architecture and development process of MyWell, and compared it to other approaches in crowdsourcing citizen science.
+In this paper, we looked at how MyWell has the potential to impact the lives of farmers by (1) empowering them to participate in science, and finding solutions to groundwater scarcity, and (2) assist them in building communities which work together to conserve groundwater. We also outlined the design, architecture and development process of MyWell, and compared it to other approaches in crowdsourcing citizen science.
 
 
 Our findings in the field... show... We show how farmers are using MyWell to gain visibility into the groundwater situation, and examine the limitations of MyWell's approach.
 
 
 
-Within the scope of project MARVI, a desirable future of MyWell is to increase the usage and utility of the application. The administration system, and new features around the adding of new wells will allow for the system to be maintained and hopefully scale.
+Within the scope of project MARVI, a desirable future of MyWell is to increase the usage and utility of the application. We are actively working on features to make MyWell easier to use for both researchers and BJs, as well as looking for partnerships with ther NGOs and governments to share water data together, this will foster new opportunities in groundwater management and...
 
-Outside of MARVI, MyWell could also have future applications as an agnostic data collection platform for low income countries. It could be adapted for collection of many other types of information – and is not limited to water measurements. The combination of SMS and mobile app allow it to reach a wide audience, and the authentication and administration tools protect the integrity of the data being collected, while allowing public access to the data being collected.
+We are also rolling MyWell out into other communities, and learning much about how the MyWell approach can work, and can be adapted to work in other communities.
+
+
 
 
 >Abstract. Don't forget
