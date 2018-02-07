@@ -134,11 +134,17 @@ Finally, MyWell allows MARVI project administrators and groundwater researchers 
 
 ### MyWell Architecture
 
-- talk about all the components, how they work together. Don't go into too much detail
-
 MyWell can be seen as a collection of a number of smaller services. Figure _n_ shows an overview of each service, and how they work together.
 
+The core of the MyWell System is a service called MyWell Server. MyWell server is a web service written in Javascript, running on node js. All users, whether it be those using MyWell Web, Android or SMS ultimately end up interacting with MyWell Server.
 
+MyWell's database is a MariaDB database running in RDS, Amazon's managed database service. RDS is responsible for securing and backing up data of the MyWell system. MyWell Server interacts with the database in order to save and retrieve data.
+
+The SMS gateway provider is responsible for recieving and sending SMS messages for MyWell. It converts SMS messages into http calls that call MyWell Server. It also converts http calls from MyWell Server into SMS messages that get delivered to MyWell's users.
+
+The MyWell Mobile application is available on iOS and Android devices. It interacts directly with MyWell server, and also has some offline functionality to save readings and reduce the data usage for end users.
+
+Finally, MyWell Web is MyWell's website, which can be found at https://mywell.vessels.tech this site is hosted on Amazon's Cloudfront, a content delivery network (CDN) that allows for fast loading of MyWell in users's browsers.
 
 
 ### Implementation Journey
@@ -171,29 +177,9 @@ In the fourth - and latest - version of MyWell, we moved the hosting to Amazon W
 
 ----
 ## Testing & Evaluation
-**We will include feedback from the recent Workshop and evaluation of MyWell.**
 
-While there have been some limited field tests, MyWell is yet to receive full scale testing. The first tests revealed the querying system to be effective, but some issues were uncovered with MyWell Mobile in areas of low mobile data coverage. The initial results looked promising, with MyWell SMS and Mobile fully operational. A full scale test is planned in the next few months, and will involve three components, training, testing on a small subset of wells, and scaling up to more wells.
 
-### What’s Happened
-Limited field tests on both MyWell SMS and Mobile were conducted. These tests involved travelling to two different wells, and attempting to query the history of each well, and submit the current level of each well over SMS and mobile. An example case of submitting a well level over SMS is demonstrated below.
-
-After well data were successfully submitted over MyWell, MyWell mobile was also tested to ensure that the visualisations were also updated, and correct.
-
-_Figure 6._
-
-### Initial Results
-These limited field tests revealed that MyWell worked successfully, with a few areas for improvement. While MyWell SMS functioned as expected, MyWell Mobile encountered issues when mobile data coverage was limited. Google Maps, the mapping platform used for the visualisations in MyWell Mobile, doesn’t allow for offline access to maps. This meant that when there was no or unreliable data coverage, Google Maps failed to load, and stopped the entire application from working. Related to this is the issue of data usage. Google Maps downloads maps for the current area every time MyWell opens. This wastes valuable data, and is something that will need to be addressed in future versions of MyWell.
-Potential issues were also encountered over the translation of MyWell. Currently, MyWell exists in English, which will decrease the utility of the app, as most BJ’s and the MARVI farmers speak mainly Hindi or Gujarati. This is also something that will need to be addressed in the future.
-MyWell SMS started with a small set of text-based queries. As features have been added to MyWell, the complexity of the queries has also grown. Testing revealed that erroneous SMS messages resulted in no response to the user. MyWell SMS will need a more robust system for handling errors. This system could reply to a user if their query doesn’t make sense, or even attempt to auto-correct the query before processing.
-Despite some minor issues, the initial results show MyWell to be fully functional; users can update wells over SMS and MyWell mobile. These changes are reflected almost instantly in the mobile heat map, which can be found at watervisualizationmobile.azurewebsites.net, or on MyWell mobile. The system for querying data was also tested for both the SMS and mobile application, and found to be working, as shown below
-
-_Figure 7._
-
-_Figure 8_
-
-### Full Scale Testing
-Larger scale tests for MyWell are planned over the next three months. These tests will involve BJ’s from a number of villages. Before conducting these tests, the BJ’s must first be trained in using MyWell SMS. To aid this training, an SMS Query guide is currently being written to explain the functions and query formats of MyWell SMS. Once the BJ’s use MyWell for a number of weeks, the data collected will be analysed for accuracy, and the BJ’s will be interviewed to find any difficulties they encountered, and receive general feedback. After this stage, should there be no major flaws found, MyWell will be scaled up to the entire MARVI study areas in Gujarat and Rajasthan.
+_TODO: include from blog post!_
 
 
 ---- 
@@ -216,13 +202,49 @@ MyWell also deals with a number of constraints that are unique to the areas of l
 ----
 ## Conclusion
 
-Citizen science is where citizens are actively involved in a field of study. Once such approach is crowdsourcing for citizen science, where data are collected from a large number of citizens. MyWell is an application of crowdsourced citizen science, within the context of project MARVI.
-Project MARVI looks at the issues of groundwater management in rural India, and aims to give the ownership of groundwater monitoring to the villagers, and to assist them in developing their own solutions to the issues they face. MyWell is a part of this solution, as a data collection and information dissemination tool.
 
-This report looked at how MyWell supports the goals of MARVI, namely through improving data collection, and supporting community involvement around the issue of groundwater depletion. We looked at how MyWell works, the technology behind MyWell, and an example of MyWell being used in the field.
+Groundwater scarcity is a serious issue faced by many communities in rural India, and around the world. In this paper we looked at the need for paticipatory approaches for managing groundwater, and introduced project MARVI.
+
+Project MARVI looks at the issues of groundwater management in rural India, and aims to give the ownership of groundwater monitoring to the villagers, and to assist them in developing their own solutions to the issues they face. MyWell, the technology component of MARVI, is a tool that aims to facilitate crowdsourced citizen science among the villagers.
+
+
+In this paper, we show how MyWell has the potential to impact the lives of farmers by (1) empowering them to participate in science, and finding solutions to groundwater scarcity, and (2) assist them in building communities which work together to conserve groundwater. We also outlined the design, architecture and development process of MyWell, and compared it to other approaches in crowdsourcing citizen science.
+
+
+Our findings in the field... show... We show how farmers are using MyWell to gain visibility into the groundwater situation, and examine the limitations of MyWell's approach.
+
+
 
 Within the scope of project MARVI, a desirable future of MyWell is to increase the usage and utility of the application. The administration system, and new features around the adding of new wells will allow for the system to be maintained and hopefully scale.
+
 Outside of MARVI, MyWell could also have future applications as an agnostic data collection platform for low income countries. It could be adapted for collection of many other types of information – and is not limited to water measurements. The combination of SMS and mobile app allow it to reach a wide audience, and the authentication and administration tools protect the integrity of the data being collected, while allowing public access to the data being collected.
+
+
+>Abstract. Don't forget
+>In rural India, over 60% of agriculture relies on groundwater. Groundwater is often over-exploited, and groundwater depletion threatens many livelihoods. Existing interventions have been insufficient, and often fail to engage farmers at the lowest level. MyWell sets out to build a participatory, bottom-up approach to groundwater management. MyWell is an application for data-driven insights of groundwater at the village level. MyWell crowdsources groundwater indicators from a group of connected farmers using SMS or a smartphone application. In this paper, we show how MyWell has the potential to impact the lives of farmers by (1) empowering them to participate in science, and finding solutions to groundwater scarcity, and (2) assist them in building communities which work together to conserve groundwater. Then, we assess MyWell's application across two watersheds in rural India. We show how farmers are using MyWell to gain visibility into the groundwater situation, and examine the limitations of MyWell's approach.
+
+
+>In this paper, we examined the challenges faced by communities in rural India facing groundwater scarcity. We introducted project MARVI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ----
 ## Definitions
