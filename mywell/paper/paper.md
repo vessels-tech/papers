@@ -136,44 +136,33 @@ Finally, MyWell allows MARVI project administrators and groundwater researchers 
 
 - talk about all the components, how they work together. Don't go into too much detail
 
-----
 
-## Implementation Journey
+### Implementation Journey
 
 MyWell has been under development since 2015. It originally started as a university project, run by students of Carnegie Mellon University. Since the developers have graduated, the continued development of MyWell has been taken over by australian social enterprise Vessels Tech.
 
-As a project, MyWell has gone through four major iterations, starting as
+As a project, MyWell has gone through four major iterations, starting as as a small web server receiving SMS messages from an SMS gateway provider, through to it's current architecture, running as a microservices model on Amazon Web Services.
 
-This project was managed using agile software development principles. The basic functionality was built, and new features were added to MyWell one at a time, each in complete and working stages. __ew__
+#### Version 1:
 
-### Version 0:
-- The initial efforts were by Romin Parek, Constantin Baumgartner and James Laney.
-- They designed and implemented the first version of MyWell, which focused on the SMS component.
-- This version was a Node.js server running at CMU-A, which received HTTP requests from the SMS Gateway. Messages could be received by the system, and were written to a text file. This text file was then imported into SQLite, an in-memory database, with a simple, single table structure. This version also contained a small website, which displayed the heatmap visualization of the wells in the system.
-
-### Version 1:
-- Added mobile app component
-- Used Azure MBaaS to build out the backend
-After this initial version was built, the project scope was expanded, with a focus on replying to users over SMS with basic analysis measures, and a mobile app component. The primary goal of the mobile app was for administrators to be able to see the system as a whole. Functionality from MyWell SMS, such as being able to submit well readings was transferred into MyWell mobile. Once this was done, this app would be public to anyone, and some security measures were put in place; through the login and verification of users.
-
-- Gathered feedback in small field trial...
-
-### Version 2:
-- Moved to Microservices approach on Docker
-  - Primary motivation was cost & extensibility
-  - Issue with cloud services such as MBaaS is vendor lock in - moving to microservices on docker allows us to pick up and move MyWell quite easily
-  - Also didn't need many of the
-- Expanded app to handle Checkdams and Rainfall Stations
-- More features around management, bulk uploads, register new wells
-- resource detail
-  - More stats
-  - Historical charts over the last 3 years
-  - Well images - helping personalisation of wells
+The first version of MyWell was a prototype that supported SMS only. This prototype was developed by Romin Parek, Constantin Baumgartner and James Laney at Carnegie Mellon University. They wrote a web server that recieved SMS messages containing well readings, and displayed them using a heatmap on a website.
 
 
-### Version 3:
+#### Version 2:
 
-Moved to AWS
+After this initial prototype, Lewis Daly came on board to start building MyWell mobile, the mobile app component of MyWell. MyWell was also migrated from running on spare university infrastructure to a managed hosting service, using Azure Mobile backend as a service.
+
+After this prototype was released, we conducted field trials, learning of the benefits and limitations of the current approach, which was incorporated into the next stages.
+
+
+#### Version 3:
+
+The third iteration of MyWell added new features, allowing the application to handle new resource types - Checkdams and Rainfall Stations. We also added more features to help manage the MyWell system, allowing users to upload large amounts of past readings at once, and allowing for new wells to be registered at a time. We also migrated the web components of MyWell to a self-managed environment, in order to reduce costs and prevent vendor lock-in.
+
+
+#### Version 4:
+
+In the fourth - and latest - version of MyWell, we moved the hosting to Amazon Web Services, to allow for a greater level of security and maintainability. We also redesigned the SMS queries to make MyWell SMS easier to use.
 
 
 ----
