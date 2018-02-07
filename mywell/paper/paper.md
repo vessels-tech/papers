@@ -91,10 +91,6 @@ MyWell is available as an app on Android and iOS smartphones (MyWell Mobile), an
 
 With MARVI's network of BJs collecting data, MyWell is able to provide valuable insights to villagers. MyWell displays simple graphs; snapshots of the readings from a Well, Raingauge or Checkdam over the last 3 years.  MyWell also calculates village level statistics. These tools allow villagers to easily compare and benchmark their wells against each other, and previous years.
 
-MyWell also has a host of tools for BJs to manage the MyWell system. BJs can register a new Well, Rainfall Station or Checkdam - using their device's inbuilt GPS to pinpoint the location. Each well also has a unique Banner Image - usually of the well and well's owner -  allowing for greater personalisation and buy-in at the village level.
-
-Finally, MyWell allows MARVI project administrators and groundwater researchers to upload a large number of readings at a time. This allows an import of large amounts of historical data; increasing the immediate value of MyWell to the farmers.
-
 **Figure 4.**??
 
 
@@ -108,7 +104,7 @@ Users can also query MyWell over SMS, for some basic basic groundwater statistic
 
 To get the average for a village, a user can send a query with the format "`MYWL Q PINCODE/VILLAGE_ID`". This query will return the current average depth to water level and the average rainfall amount for this village __TODO: what does this do again?__
 
-Users can also request ... __TODO: pincode section__
+Users can also request for groundwater statistics for all resources within a pincode, which will aggregate the data from resources across multiple villages. This is done using a query with format "`MYWEL Q PINCODE`".
 
 
 ### MyWell Mobile
@@ -122,23 +118,15 @@ The user then presses the "submit" button, and MyWell mobile performs some valid
 Groundwater statistics are also available for users of MyWell mobile. The map screen displays a map containing all the resources registed in MyWell, along with village names.
 ** fig. n [MyWell mobile map screen, with wells, rainfall stations, checkdams and village names]**
 
-When the user clicks a resource, users get a popup with the Village name of the well, the resource id, and the last recorded reading of the resource. Clicking the "more" button takes the user to a page that 
+When the user clicks a resource, users get a popup with the Village name of the well, the resource id, and the last recorded reading of the resource. Clicking the "more" button takes the user to a page that shows more information about that resource, including a graph that displays data for the last 3 years.
 
 ** fig. n [MyWell popup screen]**
-** fig. n [MyWell popup screen]**
+** fig. n [MyWell resource detail screen]**
 
+MyWell also has a host of tools for BJs to manage the MyWell system. BJs can register a new Well, Rainfall Station or Checkdam - using their device's inbuilt GPS to pinpoint the location. Each well also has a unique Banner Image - usually of the well and well's owner -  allowing for greater personalisation and buy-in at the village level.
 
+Finally, MyWell allows MARVI project administrators and groundwater researchers to upload a large number of readings at a time. This allows an import of large amounts of historical data; increasing the immediate value of MyWell to the farmers.
 
-
-
-
-Users can query MyWell for well readings from the heatmap on the opening page of MyWell. The heatmap displays the current well readings for all wells within the MyWell database. Upon clicking on a well, a popup showing the well information is displayed to the user. Village- level analytics are displayed above the heat map. As the user scrolls through the heatmap, the closest village to their current position is found, and the village name updates in the button above the heatmap. Upon clicking on this button, the village-level analytics are loaded and displayed to the user.
-
-**Figure 5**
-
-As MyWell is publicly available, an extra layer of user verification is required, to ensure the integrity of the data being reported. User sign on is handled through Facebook or Google, and once a user has signed up for MyWell, they must be verified before they can submit well readings. An already verified user can see and verify new users, allowing for self-management of the MyWell network.
-
-MyWell also deals with a number of constraints that are unique to the areas of low income countries, such as technology. Mobile coverage, especially mobile data coverage is still limited in many parts of rural India, with 3G coverage reaching 75% of the population (GMSA, 2015). Also, smartphone uptake in these communities is small. In 2015, only 29.8% of all Indian mobile phone users had a smartphone (Statista, 2016). In order for MyWell as a platform to have the reach required, it needs to exist as a smartphone application and SMS application.
 
 
 # MyWell Architecture
@@ -212,6 +200,7 @@ After this initial version was built, the project scope was expanded, with a foc
   - Well images - helping personalisation of wells
 
 
+
 ## Testing & Evaluation
 **We will include feedback from the recent Workshop and evaluation of MyWell.**
 
@@ -237,6 +226,8 @@ Despite some minor issues, the initial results show MyWell to be fully functiona
 ## Full Scale Testing
 Larger scale tests for MyWell are planned over the next three months. These tests will involve BJ’s from a number of villages. Before conducting these tests, the BJ’s must first be trained in using MyWell SMS. To aid this training, an SMS Query guide is currently being written to explain the functions and query formats of MyWell SMS. Once the BJ’s use MyWell for a number of weeks, the data collected will be analysed for accuracy, and the BJ’s will be interviewed to find any difficulties they encountered, and receive general feedback. After this stage, should there be no major flaws found, MyWell will be scaled up to the entire MARVI study areas in Gujarat and Rajasthan.
 
+
+
 ## MyWell Benefits
 MyWell is an example of crowdsourcing citizen science, made to address the needs of farmers in rural India and project MARVI. It builds on previous applications of crowdsourcing citizen science, to fit the requirements of MARVI. It also has potential as a data collection and processing platform, with a focus on data collection in low income countries.
 
@@ -249,6 +240,8 @@ MyWell is unique from the above examples, as it was built with an application fo
 One of the key values of MyWell is its ability to remove the need for paper-based data collection and allow a distributed, self-organised network of data collection; lowering the barriers of entry into citizen science. MyWell can minimise the manual data entry requirements of MARVI, and reduce the time demand, and errors associated with manual data entry.  Additionally, MyWell is much more ready to scale than paper-based data collection; MyWell server is configured to increase the supply of computing resources as the demand increases, something that cannot happen with manual entry.
 
 MyWell is currently being used for groundwater data collection and information dissemination, but also has potential for other applications, especially in low income countries. The three main components; (1) data collection and processing, (2) basic analytics and (3), user verification are common to many different data collection applications, and could easily be adapted and extended for other purposes. The combination of SMS and mobile app allow it to reach a wide audience, especially in countries or situations where mobile data is limited. MyWell also has robust authentication and administration tools to protect the integrity of the data being collected, while allowing public access to the information collected.
+
+MyWell also deals with a number of constraints that are unique to the areas of low income countries, such as technology. Mobile coverage, especially mobile data coverage is still limited in many parts of rural India, with 3G coverage reaching 75% of the population (GMSA, 2015). Also, smartphone uptake in these communities is small. In 2015, only 29.8% of all Indian mobile phone users had a smartphone (Statista, 2016). In order for MyWell as a platform to have the reach required, it needs to exist as a smartphone application and SMS application.
 
 
 
