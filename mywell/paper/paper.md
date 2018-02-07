@@ -136,12 +136,16 @@ Finally, MyWell allows MARVI project administrators and groundwater researchers 
 
 - talk about all the components, how they work together. Don't go into too much detail
 
+MyWell can be seen as a collection of a number of smaller services.
+
+
+
 
 ### Implementation Journey
 
 MyWell has been under development since 2015. It originally started as a university project, run by students of Carnegie Mellon University. Since the developers have graduated, the continued development of MyWell has been taken over by australian social enterprise Vessels Tech.
 
-As a project, MyWell has gone through four major iterations, starting as as a small web server receiving SMS messages from an SMS gateway provider, through to it's current architecture, running as a microservices model on Amazon Web Services.
+MyWell has gone through four major iterations, starting as as a small web server receiving SMS messages from an SMS gateway provider, through to it's current architecture, running as a collection of services hosted on AWS.
 
 #### Version 1:
 
