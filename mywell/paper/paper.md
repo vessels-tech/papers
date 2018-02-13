@@ -141,8 +141,6 @@ Finally, MyWell allows MARVI project administrators and groundwater researchers 
 
 ### MyWell Architecture
 
-- talk about all the components, how they work together. Don't go into too much detail
-
 MyWell can be seen as a collection of a number of smaller services. Figure _n_ shows an overview of each service, and how they work together.
 
 The core of the MyWell System is a service called MyWell Server. MyWell server is a web service written in Javascript, running on node js. All users, whether it be those using MyWell Web, Android or SMS ultimately end up interacting with MyWell Server.
@@ -186,30 +184,27 @@ In the fourth - and latest - version of MyWell, we moved the hosting to Amazon W
 
 ----
 ## Testing & Evaluation
-**We will include feedback from the recent Workshop and evaluation of MyWell.**
 
-While there have been some limited field tests, MyWell is yet to receive full scale testing. The first tests revealed the querying system to be effective, but some issues were uncovered with MyWell Mobile in areas of low mobile data coverage. The initial results looked promising, with MyWell SMS and Mobile fully operational. A full scale test is planned in the next few months, and will involve three components, training, testing on a small subset of wells, and scaling up to more wells.
+### Workshops and Field Trials __TODO: better title__
+We ran MyWell workshops with BJs in both the Dharta and Megraj watersheds. These workshops involved demonstrating to BJs both MyWell on Android and MyWell over SMS, and observing as BJs used MyWell without instruction.
 
-### What’s Happened
-Limited field tests on both MyWell SMS and Mobile were conducted. These tests involved travelling to two different wells, and attempting to query the history of each well, and submit the current level of each well over SMS and mobile. An example case of submitting a well level over SMS is demonstrated below.
-_TODO: include from blog post!_
+We also conducted field trials where BJs uploaded well readings in real time, and we were able to see them on other devices.
 
-After well data were successfully submitted over MyWell, MyWell mobile was also tested to ensure that the visualisations were also updated, and correct.
+After the workshops and field trials, we conducted a survey (n=10) of BJs and researchers in attendance. The survey focused on feedback on the areas of MyWell they thought worked, didn't work, and areas where they think MyWell could expand and grow.
 
-_Figure 6._
+### Results:
 
-### Initial Results
-These limited field tests revealed that MyWell worked successfully, with a few areas for improvement. While MyWell SMS functioned as expected, MyWell Mobile encountered issues when mobile data coverage was limited. Google Maps, the mapping platform used for the visualisations in MyWell Mobile, doesn’t allow for offline access to maps. This meant that when there was no or unreliable data coverage, Google Maps failed to load, and stopped the entire application from working. Related to this is the issue of data usage. Google Maps downloads maps for the current area every time MyWell opens. This wastes valuable data, and is something that will need to be addressed in future versions of MyWell.
-Potential issues were also encountered over the translation of MyWell. Currently, MyWell exists in English, which will decrease the utility of the app, as most BJ’s and the MARVI farmers speak mainly Hindi or Gujarati. This is also something that will need to be addressed in the future.
-MyWell SMS started with a small set of text-based queries. As features have been added to MyWell, the complexity of the queries has also grown. Testing revealed that erroneous SMS messages resulted in no response to the user. MyWell SMS will need a more robust system for handling errors. This system could reply to a user if their query doesn’t make sense, or even attempt to auto-correct the query before processing.
-Despite some minor issues, the initial results show MyWell to be fully functional; users can update wells over SMS and MyWell mobile. These changes are reflected almost instantly in the mobile heat map, which can be found at watervisualizationmobile.azurewebsites.net, or on MyWell mobile. The system for querying data was also tested for both the SMS and mobile application, and found to be working, as shown below
+One key learning from the surveys was that the BJs saw how using MyWell would lead to less errors, reduces the need for using paper, and makes recording well readings easier. From observing BJs using MyWell, we saw them quickly learning the features through simple navigation and trial and error.
 
-_Figure 7._
+Understandably, the MyWell SMS interface was harder for BJs to understand, and they all favoured using MyWell on an Android device over simple SMS. 
 
-_Figure 8_
+BJs also noted that they saw how MyWell can be used to help with crop planning, and understanding their household and farm water needs. Finally, BJs and researchers alike liked that the data stored in MyWell is secure and isn't going to get lost very easily, and it's now shareable with just about anyone.
 
-### Full Scale Testing
-Larger scale tests for MyWell are planned over the next three months. These tests will involve BJ’s from a number of villages. Before conducting these tests, the BJ’s must first be trained in using MyWell SMS. To aid this training, an SMS Query guide is currently being written to explain the functions and query formats of MyWell SMS. Once the BJ’s use MyWell for a number of weeks, the data collected will be analysed for accuracy, and the BJ’s will be interviewed to find any difficulties they encountered, and receive general feedback. After this stage, should there be no major flaws found, MyWell will be scaled up to the entire MARVI study areas in Gujarat and Rajasthan.
+One area MyWell needs improvement is in its langauge selection, which is currently only English. Every survey mentioned the need for a Hindi version of MyWell. Some users also found it difficult to see and understand the graphs, and asked for changes to be made to make the graphs more easily read on devices with small screens. 
+
+The field trials demonstrated MyWell Mobile to work as expected when recording new readings. In areas of low connectivity, users were able to save readings locally on the device, and submit them when they later regained connectivity.
+
+Due to issues with the MyWell SMS gateway provider, we were unable to test the MyWell SMS functionality completely from the field. 
 
 
 ---- 
