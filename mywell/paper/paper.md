@@ -20,7 +20,7 @@ In order to better manage groundwater usage, intervention is required; both tech
 
 The goal of the MARVI project is to give the ownership of groundwater situation to the villagers, and assist them in developing their own solutions. We foster this process through engagement with the community; helping them to understand and own the groundwater issues, and technology, namely in the collection and dissemination of information, allowing for a greater understanding and ownership of groundwater management.
 
-In order to develop frameworks for improving the groundwater situation, accurate well data and sociological data are required. While the Central Groundwater Board __make note that this is in India__ (CGWB) data are useful for groundwater monitoring on a national level, they are limited when applied to groundwater management at a village level. MARVI aims to collect more granular data, to better understand and apply to the issues directly to villages. Along with data collection, MARVI also conducted studies on the socio-economic aspects of groundwater management. Understanding the attitudes towards groundwater management for each village allows for MARVI to better apply solutions.
+In order to develop frameworks for improving the groundwater situation, accurate well data and sociological data are required. While the Indian Central Groundwater Board (CGWB) data are useful for groundwater monitoring on a national level, they are limited when applied to groundwater management at a village level. MARVI aims to collect more granular data, to better understand and apply to the issues directly to villages. Along with data collection, MARVI also conducted studies on the socio-economic aspects of groundwater management. Understanding the attitudes towards groundwater management for each village allows for MARVI to better apply solutions.
 
 MARVI engages the community through water table monitoring, crop demonstrations, workshops, education in schools (Maheshwari, 2014). The goal of this is to foster community awareness around groundwater usage and depletion, and to create a platform for further discussion on improving groundwater management.  Community engagement is also achieved through the Bhujal Jankaar program. Within each village, a volunteer known as a Bhujal Jankaar (BJ) - a hindi word for groundwater informed volunteer- has been trained to monitor wells, and act as a connection between MARVI and each village. They are able to disseminate information on rainfall and groundwater conditions, based on their water table monitoring work. They also play an important part in gathering together village communities for meetings, workshops and demonstrations.
 
@@ -79,7 +79,7 @@ The Meghraj watershed is located about 25 km west of Modasa town and 100 km from
 
 MyWell is a smartphone and SMS application for crowdsourcing groundwater, rainfall, water quality and checkdam water levels in prject MARVI. BJs armed with a smartphone or feature phone can participate in a network of connected farmers who collect information, and glean insights into the groundwater situation.
 
-In the MyWell system, any groundwater ____?___ is known as a "Resource", which can be a Well, Check dam or Rainfall Station. Every resource, village and collection of villages in the MyWell system is uniquely identifyable, using a combination of pincode, village ids and resource ids.
+In the MyWell system, a groundwater metric is known as a "Resource", which can be a Well, Check dam or Rainfall Station. Every resource, village and collection of villages in the MyWell system is uniquely identifyable, using a combination of pincode, village ids and resource ids.
 
 _Figure 2_
 
@@ -94,13 +94,13 @@ _Figure 4.?_
 
 #### MyWell SMS
 
-Users interact with MyWell by sending and recieving SMS messages, a part of the application known as MyWell SMS. MyWell users submit resource readings, as well as query MyWell for some basic groundwater statistics. 
+Users interact with MyWell by sending and recieving SMS messages, a part of the application called MyWell SMS. MyWell users submit resource readings, as well as query MyWell for some basic groundwater statistics. 
 
 Data submission is performed over a single SMS message to MyWell's phone number. The most common case is submitting a well reading. The message takes the format: "`MYWL S PINCODE/RESOURCE_ID/READING`", where reading is the depth to water level in centimetres.
 
 Users can also query MyWell over SMS, for some basic basic groundwater statistics. To query the groundwater level of a well, most recent rainfall amount in a rainfall station, or water column height in a checkdam, users send a text message of the format "`MYWL Q PINCODE/RESOURCE_ID`". This query will return the current value, the value from last month, and the value one year ago.
 
-To get the average for a village, a user can send a query with the format "`MYWL Q PINCODE/VILLAGE_ID`". This query will return the current average depth to water level and the average rainfall amount for this village __TODO: what does this do again?__
+To get the average for a village, a user can send a query with the format "`MYWL Q PINCODE/VILLAGE_ID`". This query will return the current average depth to water level and the average monthly rainfall amount for this village.
 
 Users can also request for groundwater statistics for all resources within a pincode, which will aggregate the data from resources across multiple villages. This is done using a query with format "`MYWEL Q PINCODE`".
 
@@ -109,7 +109,7 @@ Users can also request for groundwater statistics for all resources within a pin
 
 The process for submitting readings on MyWell mobile is simpler than over SMS, but requires the user to have an Android or iOS smartphone and access to the internet, either over mobile data or Wifi.
 
-To submit a reading, the user must first login using a one time code sent to either an email address or mobile number. The user then fills out a form, specifying the type of resource - well, rainfall station or checkdam-, pincode, resource id, date of the reading (used for backdating readings) and the value of the reading - either depth to water level, rainfall amount or water column height for a well, rainfall station and checkdam accordingly.
+To submit a reading, the user must first login using a one time code sent to either an email address or mobile number. The user then fills out a form, specifying the type of resource - well, rainfall station or checkdam- pincode, resource id, date of the reading (used for backdating readings) and the value of the reading - either depth to water level, rainfall amount or water column height for a well, rainfall station and checkdam accordingly.
 
 The user then presses the "submit" button, and MyWell mobile performs some validation and submits the reading. If the user doesn't have access to the internet, they can choose to save the reading locally onto the device, and submit the reading later.
 
@@ -121,9 +121,10 @@ When the user clicks a resource, users get a popup with the Village name of the 
 _fig. n [MyWell popup screen]_
 _fig. n [MyWell resource detail screen]_
 
-MyWell also has a host of tools for BJs to manage the MyWell system. BJs can register a new Well, Rainfall Station or Checkdam - using their device's inbuilt GPS to pinpoint the location. Each well also has a unique Banner Image - usually of the well and well's owner -  allowing for greater personalisation and buy-in at the village level.
+MyWell also has a host of tools for BJs to manage the MyWell system. BJs can register a new Well, Rainfall Station or Checkdam - using their device's inbuilt GPS to pinpoint the location. Each well also has a unique Banner Image - usually of the well and well's owner -  allowing for greater personalisation and buy-in from BJs.
 
 Finally, MyWell allows MARVI project administrators and groundwater researchers to upload a large number of readings at a time. This allows an import of large amounts of historical data; increasing the immediate value of MyWell to the farmers.
+
 
 ### MyWell Architecture
 
@@ -137,14 +138,14 @@ The SMS gateway provider is responsible for recieving and sending SMS messages f
 
 The MyWell Mobile application is available on iOS and Android devices. It interacts directly with MyWell server, and also has some offline functionality to save readings and reduce the data usage for end users.
 
-Finally, MyWell Web is MyWell's website, which can be found at https://mywell.vessels.tech this site is hosted on Amazon's Cloudfront, a content delivery network (CDN) that allows for fast loading of MyWell in users's browsers.
+Finally, MyWell Web is MyWell's website, which can be found at https://mywell.vessels.tech this site is hosted on Amazon's Cloudfront, a content delivery network (CDN) that improves the load time of the web application.
 
 
 ### Implementation Journey
 
-MyWell has been under development since 2015. It originally started as a university project, run by students of Carnegie Mellon University. Since the developers have graduated, the continued development of MyWell has been taken over by australian social enterprise Vessels Tech.
+MyWell has been under development since 2015. It originally started as a  project run by graduate students at Carnegie Mellon University. Since the developers have graduated, the continued development of MyWell has been taken over by Vessels Tech, a Social Enterprise based in Adelaide, Australia.
 
-MyWell has gone through four major iterations, starting as as a small web server receiving SMS messages from an SMS gateway provider, through to it's current architecture, running as a collection of services hosted on AWS.
+MyWell has gone through four major iterations, starting as as a small web server receiving SMS messages from an SMS gateway provider, through to it's current architecture, running as a collection of services hosted on Amazon Web Services (AWS).
 
 #### Version 1:
 
@@ -153,14 +154,14 @@ The first version of MyWell was a prototype that supported SMS only. This protot
 
 #### Version 2:
 
-After this initial prototype, Lewis Daly came on board to start building MyWell mobile, the mobile app component of MyWell. MyWell was also migrated from running on spare university infrastructure to a managed hosting service, using Azure Mobile backend as a service.
+After this initial prototype, Lewis Daly came on board to start building MyWell mobile, the mobile app component of MyWell. MyWell was also migrated from running on university infrastructure to a managed hosting service, using Azure Mobile backend as a service.
 
-After this prototype was released, we conducted field trials, learning of the benefits and limitations of the current approach, which was incorporated into the next stages.
+After this prototype was released, we conducted some field trials. We were able to observe benefits and limitations of the current approach, and incorporate this feedback into the next development stages.
 
 
 #### Version 3:
 
-The third iteration of MyWell added new features, allowing the application to handle new resource types - Checkdams and Rainfall Stations. We also added more features to help manage the MyWell system, allowing users to upload large amounts of past readings at once, and allowing for new wells to be registered at a time. We also migrated the web components of MyWell to a self-managed environment, in order to reduce costs and prevent vendor lock-in.
+The third iteration of MyWell added new features, allowing the application to handle new resource types - Checkdams and Rainfall Stations. We also added more features to help manage the MyWell system, allowing users to upload large amounts of past readings at once, and allowing for new resources to be registered from within the app . We also migrated the web components of MyWell to a self-managed environment, in order to reduce costs and prevent vendor lock-in.
 
 
 #### Version 4:
@@ -171,7 +172,7 @@ In the fourth - and latest - version of MyWell, we moved the hosting to Amazon W
 ----
 ## Testing & Evaluation
 
-### Workshops and Field Trials __TODO: better title__
+### Workshops and Field Trials
 We ran MyWell workshops with BJs in both the Dharta and Megraj watersheds. These workshops involved demonstrating to BJs both MyWell on Android and MyWell over SMS, and observing as BJs used MyWell without instruction.
 
 We also conducted field trials where BJs uploaded well readings in real time, and we were able to see them on other devices.
