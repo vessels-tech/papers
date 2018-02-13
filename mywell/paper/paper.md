@@ -55,7 +55,7 @@ Involving villagers for groundwater monitoring enables them to make a direct con
 ----
 ## Study Area
 
-MyWell has been piloted in two watersheds, the Dharta watershed in Rajasthan and the Meghraj watershed in Gujarat (Figure 2). In both watersheds, groundwater is the main source of irrigation water supply and plays an important role in agriculture and the livelihood of people. Both districts are in hard rock aquifer areas and groundwater levels have dropped significantly due to excessive pumping. MyWell is designed to be used in any part of India or in other parts of the world with minor modifications.
+MyWell has been piloted in two watersheds, the Dharta watershed in Rajasthan and the Meghraj watershed in Gujarat (Figure 1). In both watersheds, groundwater is the main source of irrigation water supply and plays an important role in agriculture and the livelihood of people. Both districts are in hard rock aquifer areas and groundwater levels have dropped significantly due to excessive pumping. MyWell is designed to be used in any part of India or in other parts of the world with minor modifications.
 
 ### Rajasthan
 
@@ -81,15 +81,12 @@ MyWell is a smartphone and SMS application for crowdsourcing groundwater, rainfa
 
 In the MyWell system, a groundwater metric is known as a "Resource", which can be a Well, Check dam or Rainfall Station. Every resource, village and collection of villages in the MyWell system is uniquely identifyable, using a combination of pincode, village ids and resource ids.
 
-_Figure 2_
 
 ### Features
 
 MyWell is available as an app on Android and iOS smartphones (MyWell Mobile), and also on any web browser as a web app (MyWelll web). For users with feature phones, MyWell's basic tools and analysis are also available over SMS (MyWell SMS). When a BJ takes a well, they can record it directly with MyWell - submitting the date, Well Id, and the depth to water level of the well.
 
 With MARVI's network of BJs collecting data, MyWell is able to provide valuable insights to villagers. MyWell displays simple graphs; snapshots of the readings from a Well, Raingauge or Checkdam over the last 3 years.  MyWell also calculates village level statistics. These tools allow villagers to easily compare and benchmark their wells against each other, and previous years.
-
-_Figure 4.?_
 
 
 #### MyWell SMS
@@ -109,17 +106,13 @@ Users can also request for groundwater statistics for all resources within a pin
 
 The process for submitting readings on MyWell mobile is simpler than over SMS, but requires the user to have an Android or iOS smartphone and access to the internet, either over mobile data or Wifi.
 
-To submit a reading, the user must first login using a one time code sent to either an email address or mobile number. The user then fills out a form, specifying the type of resource - well, rainfall station or checkdam- pincode, resource id, date of the reading (used for backdating readings) and the value of the reading - either depth to water level, rainfall amount or water column height for a well, rainfall station and checkdam accordingly.
+To submit a reading, the user must first login using a one time code sent to either an email address or mobile number. The user then fills out a form, specifying the type of resource - well, rainfall station or checkdam- pincode, resource id, date of the reading (used for backdating readings) and the value of the reading - either depth to water level, rainfall amount or water column height for a well, rainfall station and checkdam accordingly. (Figure 2)
 
 The user then presses the "submit" button, and MyWell mobile performs some validation and submits the reading. If the user doesn't have access to the internet, they can choose to save the reading locally onto the device, and submit the reading later.
 
-Groundwater statistics are also available for users of MyWell mobile. The map screen displays a map containing all the resources registed in MyWell, along with village names.
-** fig. n [MyWell mobile map screen, with wells, rainfall stations, checkdams and village names]**
+Groundwater statistics are also available for users of MyWell mobile. The map screen displays a map containing all the resources registed in MyWell, along with village names (Figure 2.).
 
-When the user clicks a resource, users get a popup with the Village name of the well, the resource id, and the last recorded reading of the resource. Clicking the "more" button takes the user to a page that shows more information about that resource, including a graph that displays data for the last 3 years.
-
-_fig. n [MyWell popup screen]_
-_fig. n [MyWell resource detail screen]_
+When the user clicks a resource, users get a popup with the Village name of the well, the resource id, and the last recorded reading of the resource. Clicking the "more" button takes the user to a page that shows more information about that resource, including a graph that displays data for the last 3 years. (Figure 3)
 
 MyWell also has a host of tools for BJs to manage the MyWell system. BJs can register a new Well, Rainfall Station or Checkdam - using their device's inbuilt GPS to pinpoint the location. Each well also has a unique Banner Image - usually of the well and well's owner -  allowing for greater personalisation and buy-in from BJs.
 
@@ -128,7 +121,7 @@ Finally, MyWell allows MARVI project administrators and groundwater researchers 
 
 ### MyWell Architecture
 
-MyWell can be seen as a collection of a number of smaller services. Figure _n_ shows an overview of each service, and how they work together.
+MyWell can be seen as a collection of a number of smaller services. Figure 4 shows an overview of each service, and how they work together.
 
 The core of the MyWell System is a service called MyWell Server. MyWell server is a web service written in Javascript, running on node js. All users, whether it be those using MyWell Web, Android or SMS ultimately end up interacting with MyWell Server.
 
@@ -233,6 +226,17 @@ Adressing these shortcomings is crucial to scaling up MyWell to more communities
 - **Bhujal Jankaar (BJ):** Bhujal Jankaar is a Hindi word meaning “Groundwater informed”. Within MARVI, BJ’s are trained, and then train farmers and villagers in effective groundwater management practices.
 - **Autoscaling:** In computing, autoscaling is when the supply of computing resources (e.g., Number of servers) is increased and decreased to match the demand placed on the resources.
 - **Continuous Integration:** Continuous Integration is a development practice that allows code to be tested and deployed automatically whenever a change is made. Within the context of MyWell, whenever code changes are submitted, MyWell will update automatically to reflect these changes.
+
+
+---
+
+## Figures
+
+- Figure 1: paper_images/fig_a_study_areas.jpg
+- Figure 2: paper_images/fig_e_submitting_reading.png
+- Figure 3: paper_images/fig_b_mywell_mobile_map_screen.png
+- Figure 4: paper_images/fig_c_mywell_mobile_popup_and_detail.png
+- Figure 5: paper_images/fig_d_mywell_architecture.png
 
 
 ----
