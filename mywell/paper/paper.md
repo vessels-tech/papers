@@ -208,7 +208,7 @@ Due to issues with the MyWell SMS gateway provider, we were unable to test the M
 
 
 ---- 
-## MyWell Benefits
+## MyWell and Other Crowdsourcing Projects
 
 MyWell is an example of crowdsourcing citizen science, made to address the needs of farmers in rural India and project MARVI. It builds on previous applications of crowdsourcing citizen science, to fit the requirements of MARVI. It also has potential as a data collection and processing platform, with a focus on data collection in low income countries.
 
@@ -227,35 +227,15 @@ MyWell also deals with a number of constraints that are unique to the areas of l
 ----
 ## Conclusion
 
-Groundwater scarcity is a serious issue faced by many communities in rural India, and around the world. In this paper we looked at project MARVI, and its approach to facilitating paticipatory approaches for groundwater management.
+Groundwater scarcity is a serious issue faced by many communities in rural India, and around the world. In this paper we looked at project MARVI, and introduced MyWell, an application for crowdsourcing groundwater levels and engage everyday citizens in groundwater science.
 
-Project MARVI looks at the issues of groundwater management in rural India, and aims to give the ownership of groundwater monitoring to the villagers, and to assist them in developing their own solutions to the issues they face. MyWell, the technology component of MARVI, is a tool that aims to facilitate crowdsourced citizen science among the villagers.
+Project MARVI looks at the issues of groundwater management in rural India, aiming to give ownership of groundwater monitoring to the villagers, and assist them in developing their own solutions to the issues they face.
 
-In this paper, we looked at how MyWell has the potential to impact the lives of farmers by (1) empowering them to participate in science, and finding solutions to groundwater scarcity, and (2) assist them in building communities which work together to conserve groundwater. We also outlined the design, architecture and development process of MyWell, and compared it to other approaches in crowdsourcing citizen science.
+In this paper, we looked at the potential MyWell has to impact the lives of farmers by (1) empowering them to participate in science, and finding solutions to groundwater scarcity, and (2) assisting them in building communities which work together to conserve groundwater. We also outlined the design, architecture and development process of MyWell, and compared it to other approaches in crowdsourcing citizen science.
 
+From our workshops and field trials, we show how farmers can use MyWell to gain visibility into the groundwater situation, and examine the limitations of this technology, along with areas for improvement.
 
-Our findings in the field... show... We show how farmers are using MyWell to gain visibility into the groundwater situation, and examine the limitations of MyWell's approach.
-
-
-
-Within the scope of project MARVI, a desirable future of MyWell is to increase the usage and utility of the application. We are actively working on features to make MyWell easier to use for both researchers and BJs, as well as looking for partnerships with ther NGOs and governments to share water data together, this will foster new opportunities in groundwater management and...
-
-We are also rolling MyWell out into other communities, and learning much about how the MyWell approach can work, and can be adapted to work in other communities.
-
-
-
-
->Abstract. Don't forget
->In rural India, over 60% of agriculture relies on groundwater. Groundwater is often over-exploited, and groundwater depletion threatens many livelihoods. Existing interventions have been insufficient, and often fail to engage farmers at the lowest level. MyWell sets out to build a participatory, bottom-up approach to groundwater management. MyWell is an application for data-driven insights of groundwater at the village level. MyWell crowdsources groundwater indicators from a group of connected farmers using SMS or a smartphone application. In this paper, we show how MyWell has the potential to impact the lives of farmers by (1) empowering them to participate in science, and finding solutions to groundwater scarcity, and (2) assist them in building communities which work together to conserve groundwater. Then, we assess MyWell's application across two watersheds in rural India. We show how farmers are using MyWell to gain visibility into the groundwater situation, and examine the limitations of MyWell's approach.
-
-
->In this paper, we examined the challenges faced by communities in rural India facing groundwater scarcity. We introducted project MARVI
-
-
-
-
-
-
+Adressing these shortcomings is crucial to scaling up MyWell to more communities and application in larger groundwater management projects. We are actively working on features to improve MyWell for both researchers and BJs, as well as looking for partnerships with ther NGOs and governments to share water data together, this will foster new opportunities in groundwater management and further contribute to improving the groundwater situation.
 
 
 
@@ -274,13 +254,13 @@ We are also rolling MyWell out into other communities, and learning much about h
 ----
 ## Definitions
 
-- WaterShed: __TODO__
-- Aquifer Recharge: Aquifer recharge is when surface water moves through the ground into an aquifer.
-- Depth to Water Level: Depth to water level is a method for measuring well depths. Instead of measuring from the bottom of the well, the well is measured from the well opening. This gives an accurate way for well depths to be compared.
-- Bhujal Jankaar: Bhujal Jankaar (BJ) is a Hindi word meaning “Groundwater informed”. Within MARVI, BJ’s are trained, and then train farmers and villagers in effective groundwater management practices.
-- Autoscaling: In computing, autoscaling is when the supply of computing resources (e.g., Number of servers) is increased and decreased to match the demand placed on the resources.
-- Continuous Integration: Continuous Integration is a development practice that allows code to be tested and deployed automatically whenever a change is made. Within the context of MyWell, whenever code changes are submitted, MyWell will update automatically to reflect these changes.
--
+- **WaterShed:** __TODO__
+- **Aquifer Recharge:** Aquifer recharge is when surface water moves through the ground into an aquifer.
+- **Depth to Water Level:** Depth to water level is a method for measuring well depths. Instead of measuring from the bottom of the well, the well is measured from the well opening. This gives an accurate way for well depths to be compared.
+- **Bhujal Jankaar (BJ):** Bhujal Jankaar is a Hindi word meaning “Groundwater informed”. Within MARVI, BJ’s are trained, and then train farmers and villagers in effective groundwater management practices.
+- **Autoscaling:** In computing, autoscaling is when the supply of computing resources (e.g., Number of servers) is increased and decreased to match the demand placed on the resources.
+- **Continuous Integration:** Continuous Integration is a development practice that allows code to be tested and deployed automatically whenever a change is made. Within the context of MyWell, whenever code changes are submitted, MyWell will update automatically to reflect these changes.
+
 
 ----
 ## References
