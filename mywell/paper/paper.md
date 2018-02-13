@@ -26,7 +26,7 @@ MARVI engages the community through water table monitoring, crop demonstrations,
 
 India has experienced exponential growth of mobile phones and almost every household has at least one mobile handset for communication (__TODO: REF__). With the availability of mobile phones brings their application to help village community to monitor the local resource such as groundwater and develop longer term strategies for village level water security.
 
----- 
+----
 ## Citizen Science in Action
 
 Crowdsourcing is the approach of collecting data from a large number of distributed people. The growth of information technology has simplified crowdsourcing, and allowed for more novel applications, such as in citizen science. Citizen science is when amateurs are actively involved in science; through their contributions, a certain field of science can progress. Crowdsourcing for citizen science is being used to go beyond the boundaries of traditional scientific study, such as budget or time constraints, and is opening up new ways for everyday citizens to be involved.
@@ -50,7 +50,7 @@ Our aim is to demystify groundwater science at the village level, making it acce
 
 The data collected by BJs are critical to build an understanding of how the groundwater levels fluctuate during the monsoon and other times of the year when pumping is in full swing. Also, local data collected this way can help us understand how we are impacting the groundwater situation at the village and inform sound decision-making about the management of groundwater.
 
-Involving villagers for groundwater monitoring enables them to make a direct contribution to scientific research in their village, gain new insights based on sound data, and learn new ways to cope with groundwater scarcity. Also, involving villagers in groundwater monitoring provide immersive experiences that can help challenge current groundwater management practices. 
+Involving villagers for groundwater monitoring enables them to make a direct contribution to scientific research in their village, gain new insights based on sound data, and learn new ways to cope with groundwater scarcity. Also, involving villagers in groundwater monitoring provide immersive experiences that can help challenge current groundwater management practices.
 
 ----
 ## Study Area
@@ -91,7 +91,7 @@ With MARVI's network of BJs collecting data, MyWell is able to provide valuable 
 
 #### MyWell SMS
 
-Users interact with MyWell by sending and recieving SMS messages, a part of the application called MyWell SMS. MyWell users submit resource readings, as well as query MyWell for some basic groundwater statistics. 
+Users interact with MyWell by sending and recieving SMS messages, a part of the application called MyWell SMS. MyWell users submit resource readings, as well as query MyWell for some basic groundwater statistics.
 
 Data submission is performed over a single SMS message to MyWell's phone number. The most common case is submitting a well reading. The message takes the format: "`MYWL S PINCODE/RESOURCE_ID/READING`", where reading is the depth to water level in centimetres.
 
@@ -176,18 +176,18 @@ After the workshops and field trials, we conducted a survey (n=10) of BJs and re
 
 One key learning from the surveys was that the BJs saw how using MyWell would lead to less errors, reduces the need for using paper, and makes recording well readings easier. From observing BJs using MyWell, we saw them quickly learning the features through simple navigation and trial and error.
 
-Understandably, the MyWell SMS interface was harder for BJs to understand, and they all favoured using MyWell on an Android device over simple SMS. 
+Understandably, the MyWell SMS interface was harder for BJs to understand, and they all favoured using MyWell on an Android device over simple SMS.
 
 BJs also noted that they saw how MyWell can be used to help with crop planning, and understanding their household and farm water needs. Finally, BJs and researchers alike liked that the data stored in MyWell is secure and isn't going to get lost very easily, and it's now shareable with just about anyone.
 
-One area MyWell needs improvement is in its langauge selection, which is currently only English. Every survey mentioned the need for a Hindi version of MyWell. Some users also found it difficult to see and understand the graphs, and asked for changes to be made to make the graphs more easily read on devices with small screens. 
+One area MyWell needs improvement is in its langauge selection, which is currently only English. Every survey mentioned the need for a Hindi version of MyWell. Some users also found it difficult to see and understand the graphs, and asked for changes to be made to make the graphs more easily read on devices with small screens.
 
 The field trials demonstrated MyWell Mobile to work as expected when recording new readings. In areas of low connectivity, users were able to save readings locally on the device, and submit them when they later regained connectivity.
 
-Due to issues with the MyWell SMS gateway provider, we were unable to test the MyWell SMS functionality completely from the field. 
+Due to issues with the MyWell SMS gateway provider, we were unable to test the MyWell SMS functionality completely from the field.
 
 
----- 
+----
 ## MyWell and Other Crowdsourcing Projects
 
 MyWell is an example of crowdsourcing citizen science, made to address the needs of farmers in rural India and project MARVI. It builds on previous applications of crowdsourcing citizen science, to fit the requirements of MARVI. It also has potential as a data collection and processing platform, with a focus on data collection in low income countries.
@@ -232,14 +232,22 @@ Adressing these shortcomings is crucial to scaling up MyWell to more communities
 
 ## Figures
 
-- Figure 1: paper_images/fig_a_study_areas.jpg
-- Figure 2: paper_images/fig_e_submitting_reading.png
-- Figure 3: paper_images/fig_b_mywell_mobile_map_screen.png
-- Figure 4: paper_images/fig_c_mywell_mobile_popup_and_detail.png
-- Figure 5: paper_images/fig_d_mywell_architecture.png
+Figure 1 - Project MARVI study areas.
+![fig_a_study_areas.jpg]({{site.baseurl}}/mywell/paper_images/fig_a_study_areas.jpg)
 
-Figure 2: Submitting a reading using MyWell Mobile
+
+Figure 2 - Submitting a reading using MyWell Mobile.
 ![fig_e_submitting_reading.png]({{site.baseurl}}/mywell/paper_images/fig_e_submitting_reading.png)
+
+
+Figure 3: - MyWell Mobile Map Screen.
+![fig 3 - MyWell Map Screen] ({{site.baseurl}}/mywell/paper_images/fig_b_mywell_mobile_map_screen.png)
+
+Figure 4: - MyWell Mobile Popup and Detail screens.
+![MyWell Mobile Popup and Detail screens.] ({{site.baseurl}}/mywell/paper_images/fig_c_mywell_mobile_popup_and_detail.png)
+
+Figure 5: - MyWell System Architecture.
+![MyWell System Architecture] ({{site.baseurl}}/mywell/paper_images/fig_d_mywell_architecture.png)
 
 
 
