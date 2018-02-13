@@ -1,19 +1,5 @@
 
-Describe your Changes
-Submit Change Request
-
-vessels-tech / papers
-Review your changes:
-Additions are highlighted in green. Deletions are crossed out.
-
 # MyWell: Crowdsourcing Citizen science for Groundwater Intervention
-
-----
-Purpose:
-1. Present MyWell, and demonstrate how it can/is being used for PGWM
-2. Compare to other approaches
-3. Evaluate use and define how it may be used in the future
-----
 
 
 ## Abstract
@@ -214,15 +200,12 @@ MyWell is an example of crowdsourcing citizen science, made to address the needs
 
 Similar to IBM's Creekwatch, MyWell uses a mobile app for data collection, with a map-based visualisation on the web. However, Creekwatch collects qualitative data such as images and text, while MyWell focuses on quantitative data.
 
-The SMS based aspect to MyWell is also similar to Social.Water. Fienen notes that in the US, using SMS lowers the barriers to entry for the platform (Lowry and Fienen, 2012). In India, where data coverage is low, and smartphones are not as popular (GSMA, 2016) Statista, 2016) this is even more the case. Using both SMS and mobile app, MyWell can have the advantage of providing advanced features to those users with smartphones, while keeping the platform accessible for all. MyWell SMS also focuses information dissemination, while Social.Water is purely a means for data collection.
+MyWell's SMS features are similar to those of Social.Water. Fienen notes that in the US, using SMS lowers the barriers to entry for the platform (Lowry and Fienen, 2012). In India, where data coverage is low, and smartphones are not as popular (GSMA, 2016) this is even more the case. Using both SMS and mobile app, MyWell can have the advantage of providing advanced features to those users with smartphones, while keeping the platform accessible for all. MyWell SMS also focuses information dissemination, while Social.Water is purely a means for data collection.
 
-MyWell is unique from the above examples, as it was built with an application for data collection in a low income country. Like Agro-Met and NEERI’s water monitoring project, MyWell must work within the technology constraints, such as limited access to mobile data and language constraints (an area of improvement for MyWell. For this reason, MyWell was built with a focus on both SMS data collection, and data collection from a smartphone app.
+Unlike the above examples, MyWell deals with a number of challenges that are unique to rolling out technology in low income countries. Like Agro-Met and NEERI’s water monitoring project, MyWell must work within the technology constraints, such as limited access to mobile data and language constraints. Mobile coverage, especially 3G/4G data is still limited in many parts of rural India, with 3G coverage reaching 75% of the population (GMSA, 2015). Also, smartphone uptake in these communities is small. In 2015, only 29.8% of all Indian mobile phone users had a smartphone (Statista, 2016). In order for MyWell as a platform to have the reach required, it needs to exist as a smartphone application and SMS application.
 
-One of the key values of MyWell is its ability to remove the need for paper-based data collection and allow a distributed, self-organised network of data collection; lowering the barriers of entry into citizen science. MyWell can minimise the manual data entry requirements of MARVI, and reduce the time demand, and errors associated with manual data entry.  Additionally, MyWell is much more ready to scale than paper-based data collection; MyWell server is configured to increase the supply of computing resources as the demand increases, something that cannot happen with manual entry.
+One of the key values of MyWell is its ability to remove the need for paper-based data collection and allow a distributed, network of data collection; lowering the barriers of entry into citizen science. MyWell can minimise the manual data entry requirements of MARVI, and reduce the time demand and errors associated with manual data entry. Additionally, the data stored in MyWell is saved instantly and backed up on an hourly basis, making it much more secure.
 
-MyWell is currently being used for groundwater data collection and information dissemination, but also has potential for other applications, especially in low income countries. The three main components; (1) data collection and processing, (2) basic analytics and (3), user verification are common to many different data collection applications, and could easily be adapted and extended for other purposes. The combination of SMS and mobile app allow it to reach a wide audience, especially in countries or situations where mobile data is limited. MyWell also has robust authentication and administration tools to protect the integrity of the data being collected, while allowing public access to the information collected.
-
-MyWell also deals with a number of constraints that are unique to the areas of low income countries, such as technology. Mobile coverage, especially mobile data coverage is still limited in many parts of rural India, with 3G coverage reaching 75% of the population (GMSA, 2015). Also, smartphone uptake in these communities is small. In 2015, only 29.8% of all Indian mobile phone users had a smartphone (Statista, 2016). In order for MyWell as a platform to have the reach required, it needs to exist as a smartphone application and SMS application.
 
 ----
 ## Conclusion
@@ -236,17 +219,6 @@ In this paper, we looked at the potential MyWell has to impact the lives of farm
 From our workshops and field trials, we show how farmers can use MyWell to gain visibility into the groundwater situation, and examine the limitations of this technology, along with areas for improvement.
 
 Adressing these shortcomings is crucial to scaling up MyWell to more communities and application in larger groundwater management projects. We are actively working on features to improve MyWell for both researchers and BJs, as well as looking for partnerships with ther NGOs and governments to share water data together, this will foster new opportunities in groundwater management and further contribute to improving the groundwater situation.
-
-
-
-
-
-
-
-
-
-
-
 
 
 
