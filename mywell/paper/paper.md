@@ -241,13 +241,13 @@ Figure 2 - Submitting a reading using MyWell Mobile.
 
 
 Figure 3: - MyWell Mobile Map Screen.
-![fig 3 - MyWell Map Screen] ({{site.baseurl}}/mywell/paper_images/fig_b_mywell_mobile_map_screen.png)
+![fig_b_mywell_mobile_map_screen.png]({{site.baseurl}}/mywell/paper_images/fig_b_mywell_mobile_map_screen.png)
 
 Figure 4: - MyWell Mobile Popup and Detail screens.
-![MyWell Mobile Popup and Detail screens.] ({{site.baseurl}}/mywell/paper_images/fig_c_mywell_mobile_popup_and_detail.png)
+![MyWell Mobile Popup and Detail screens.]({{site.baseurl}}/mywell/paper_images/fig_c_mywell_mobile_popup_and_detail.png)
 
 Figure 5: - MyWell System Architecture.
-![MyWell System Architecture] ({{site.baseurl}}/mywell/paper_images/fig_d_mywell_architecture.png)
+![MyWell System Architecture]({{site.baseurl}}/mywell/paper_images/fig_d_mywell_architecture.png)
 
 
 
