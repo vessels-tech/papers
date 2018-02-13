@@ -238,6 +238,10 @@ Adressing these shortcomings is crucial to scaling up MyWell to more communities
 - Figure 4: paper_images/fig_c_mywell_mobile_popup_and_detail.png
 - Figure 5: paper_images/fig_d_mywell_architecture.png
 
+Figure 2: Submitting a reading using MyWell Mobile
+![fig_e_submitting_reading.png]({{site.baseurl}}/mywell/paper_images/fig_e_submitting_reading.png)
+
+
 
 ----
 ## References
