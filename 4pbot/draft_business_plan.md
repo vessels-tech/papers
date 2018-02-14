@@ -4,6 +4,8 @@
 
 1. 4Pbot is a safe community for Filipinos on social welfare to share their experiences and assist one another. 
 
+2. 4Pbot is a chatbot that improves service delivery, allows for safe conversations blah blah ... and delivers insights into the every day runnings and experiences of the beneficaries.
+
 ---- 
 ## Team
 _TODO: later_
@@ -70,6 +72,8 @@ _todo: diagram_
 |------|----------|-------------|--------|
 |DSWD  | Philippines | Existing processes etc. |  |
 
+_todo: learn more about program evaluation, fraud detection, impact analysis_
+
 
 ---- 
 ## Road map
@@ -77,6 +81,29 @@ _todo: diagram_
 - **the train is leaving!!** try to build impression that this is happening without them
 - number of programs?
 	- 4Ps, then what?
+    
+### 3-6 months:
+- x MAU
+- Build relationships with DSWD and Filipino Govt.
+- Expand 4Pbot to support IVR
+- build community and inventives (eg. give people free texts for answering questions)
+- expand user base
+
+### 6-12 months:
+- y MAU
+- Work on reports and stuff
+- partnerships or something with ADB or WB
+- start delivering insights
+- expand beyond 4ps into other govt or private programs
+- expand features to bring in more users
+
+### 12 - 18 months:
+- z MAU
+- partnerships with other financial services (eg. loans and stuff)
+
+
+
+
     
 ---- 
 ## Revenue & Costs
