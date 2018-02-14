@@ -44,18 +44,23 @@ _TODO: later_
 4. 4Pbot helps user escalate to DSWD (using existing methods), and monitors the progress of the case
 5. Aggregates reports and mines data etc
 6. Produces report and sends to World Bank, etc.
-    
-
 
 
 ---- 
 ## Where does it belong?
 - marketplace, background
 
+
+
 ---- 
 ## Competitors
 - at most 4-5.
 - look at cross-industry competitors
+
+| Name | Location | Description | Status |
+|------|----------|-------------|--------|
+|DSWD  | Philippines | Existing processes etc. |  |
+
 
 ---- 
 ## Road map
