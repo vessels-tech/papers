@@ -27,7 +27,9 @@ _TODO: later_
 	- only 1 chain of trust from 1 agency/department to another.    
 - Power dynamic between DSWD and beneficaries
 - Hard for higher ups to connect with people at the bottom
-- lots of fraud
+- fraud is rife
+
+_todo: diagram_
 
 
 #### After:
@@ -45,14 +47,21 @@ _TODO: later_
 5. Aggregates reports and mines data etc
 6. Produces report and sends to World Bank, etc.
 
+_todo: diagram_
+
 
 ---- 
 ## Where does it belong?
-- marketplace, background
 
+- background
+	- why do we need 4pbot?
+    
+- marketplace
+	- who are we selling to?
 
 
 ---- 
+
 ## Competitors
 - at most 4-5.
 - look at cross-industry competitors
@@ -90,3 +99,8 @@ _TODO: later_
 - Give a breakdown
 
 
+
+
+
+qs:
+- why does the world bank need us?
