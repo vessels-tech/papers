@@ -56,9 +56,19 @@ _todo: diagram_
 ## Where does it belong?
 
 - background
+	- What is 4ps
+    	- Pantawid Pamilya Philipino Program
+        - CCT Program etc.
+        
+    - Existing Grievance program (GRS)
+    	- core part of program design [^2]
+
 	- why do we need 4pbot?
     
     - Program evaluation can't happen when beneficaries are afraid to speak their mind
+    
+    - What is the current program evaluation process?
+    	- external spot checks twice a year [1]
     
 - marketplace
 	- who are we selling to?
@@ -133,3 +143,9 @@ _todo: learn more about program evaluation, fraud detection, impact analysis_
 
 qs:
 - why does the world bank need us?
+
+
+
+## References:
+[1] https://sites.google.com/site/ncrpantawidme/
+[2] http://www.dswd.gov.ph/downloads-2/reports/pantawid-pamilya-impact-evaluation-report/ 901780BRI0P14600Philippines0Final02.pdf
