@@ -69,6 +69,10 @@ _todo: diagram_
     
     - What is the current program evaluation process?
     	- external spot checks twice a year [1]
+        
+        
+    - 4Ps oversight (3rd party)
+    	- "The DSWD partners with civil society organizations (CSOs) and nongovernmental organizations (NGOs) that serve as “watch dogs” for project implementation. [^2]
     
 - marketplace
 	- who are we selling to?
