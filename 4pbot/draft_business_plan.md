@@ -1,6 +1,7 @@
 
 
 ## Product Intro
+_We're just going to keep iterating on this one_
 
 1. 4Pbot is a safe community for Filipinos on social welfare to share their experiences and assist one another. 
 
@@ -23,6 +24,7 @@ _TODO: later_
 ## How does it work?
 
 ### B & A
+_todo: diagram_
 
 #### Before:
 - No 3rd party accountability
@@ -31,8 +33,6 @@ _TODO: later_
 - Hard for higher ups to connect with people at the bottom
 - fraud is rife
 
-_todo: diagram_
-
 
 #### After:
 - 4Pbot as a trusted 3rd party
@@ -40,7 +40,7 @@ _todo: diagram_
 - allows for
 - ...
 
-### How it works:
+### Steps:
 
 1. User files report
 2. 4Pbot anonomyses and releases to community
@@ -57,6 +57,8 @@ _todo: diagram_
 
 - background
 	- why do we need 4pbot?
+    
+    - Program evaluation can't happen when beneficaries are afraid to speak their mind
     
 - marketplace
 	- who are we selling to?
