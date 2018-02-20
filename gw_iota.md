@@ -10,7 +10,7 @@ The idea is to use micro payments between smart pumps to put a price on groundwa
 
 ## Background
 
-- groundwater scarcity
+- Groundwater scarcity is bad
 - Project MARVI and MyWell, building groundwater coooperatives
 - What are groundwater cooperatives?
 - GWIota puts a price on groundwater, enables farmers to better share water, and become more resilient in the face of global warming etc.
@@ -18,7 +18,7 @@ The idea is to use micro payments between smart pumps to put a price on groundwa
 
 ## How It Works
 
-1. Using historical groundwater measurements (eg. last year's rainfall amount) determine how much water should be pumped for a given groundwater cooperative, and at what price per litre. This will involve more economics, hydrology etc, but we can make up numbers to begin with.
+1. Using historical groundwater measurements (eg. last year's rainfall amount) determine how much water should be pumped for a given set of wells, and at what price per litre. This will involve more economics, hydrology etc, but we can make up numbers to begin with.
 
 2. Farmers pay (in INR) to secure water for that month, which then gets converted to IOTAs on smart pumps.
 
@@ -34,13 +34,13 @@ The idea is to use micro payments between smart pumps to put a price on groundwa
 - Using this method we could set up other micro payments that may benefit the farmers. For example, by slightly inflating the price for groundwater and automatically subscribe farmers to crop insurance.
 
 
-
-
 ## Proposed Technology
 
 - IOTA & IOTA Flash Channels
 - Smart Pumps
 - Rasberry Pi/Lightweight computing platform
+- Network access point (sim or wifi)
+
 
 ## Roadmap
 
