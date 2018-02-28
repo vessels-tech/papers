@@ -27,6 +27,7 @@ MARVI engages the community through water table monitoring, crop demonstrations,
 India has experienced exponential growth of mobile phones and almost every household has at least one mobile handset for communication (__TODO: REF__). With the availability of mobile phones brings their application to help village community to monitor the local resource such as groundwater and develop longer term strategies for village level water security.
 
 ----
+
 ## Citizen Science in Action
 
 Crowdsourcing is the approach of collecting data from a large number of distributed people. The growth of information technology has simplified crowdsourcing, and allowed for more novel applications, such as in citizen science. Citizen science is when amateurs are actively involved in science; through their contributions, a certain field of science can progress. Crowdsourcing for citizen science is being used to go beyond the boundaries of traditional scientific study, such as budget or time constraints, and is opening up new ways for everyday citizens to be involved.
@@ -40,6 +41,7 @@ Social.Water was a project for collecting stream data from 9 different locations
 Crowdsourcing citizen science is also being used to solve problems in low-income countries. Agro-Met is a tool for providing farmers in rural Maharashtra localized weather predictions over SMS, helping them become more resilient in the face of climate change (Singh, press). This project uses 75 weather stations, and also involves a training component. It overcomes a number of challenges unique to crowdsourcing approaches in low income countries, such as a lack of 3G/4G mobile infrastructure, language barriers, and community training. Another example is from the National Environmental Engineering Research Institute (NEERI) in India, which uses crowdsourcing to monitor water quality. Volunteers are given kits to test a number of water quality measures, and then use text messages to submit these readings. These messages are processed, aggregated and analysed, to calculate the water quality for individual villages (Toon, 2016).
 
 ----
+
 ## The citizen science and groundwater management
 
 Decisions regarding the sustainable management of groundwater should be based on objective science. By connecting farmers and local community members with hands-on monitoring opportunities, we can begin  village level movements for groundwater security by producing and empowering local groundwater champions. Crowdsourcing is suitable for groundwater monitoring since data are to be collected frequently (weekly or fortnightly) from wells, checkdams and rainfall stations spread across the country. Further, the data collection process is simple; anyone can learn how to monitor a well, checkdam or rainfall station.
@@ -53,6 +55,7 @@ The data collected by BJs are critical to build an understanding of how the grou
 Involving villagers for groundwater monitoring enables them to make a direct contribution to scientific research in their village, gain new insights based on sound data, and learn new ways to cope with groundwater scarcity. Also, involving villagers in groundwater monitoring provide immersive experiences that can help challenge current groundwater management practices.
 
 ----
+
 ## Study Area
 
 MyWell has been piloted in two watersheds, the Dharta watershed in Rajasthan and the Meghraj watershed in Gujarat (Figure 1). In both watersheds, groundwater is the main source of irrigation water supply and plays an important role in agriculture and the livelihood of people. Both districts are in hard rock aquifer areas and groundwater levels have dropped significantly due to excessive pumping. MyWell is designed to be used in any part of India or in other parts of the world with minor modifications.
@@ -63,7 +66,7 @@ The study area of this project, the Dharta watershed, in Rajasthan is located in
 
 The soil type in the district is sandy loam to clay loam and the topography is often undulating. The average rainfall of the district is 650 mm, and about 128,000 ha of land is under irrigation with 89,000 ha mainly dependent on groundwater. The Dharta watershed is about 55 km east of Udaipur city. The main Kharif crops in the Dharta Watershed are maize, pulses, sorghum, guar, soybeans and the Rabi crops are wheat, barley, chick pea and mustard. For irrigation they mainly depend on open wells or tubewells but a large proportion of open wells have dried up or they are not reliable as source of water supply. Many farmers have dug tubewells to a depth of up to 150 metres, but they can also dry up during summer months or drought years.
 
-Irrigation is widely performed using the surface method, however some farmers are rolling out sprinkler and drip systems as there is a government subsidy on the installation cost of these systems. Drinking water in these villages is soley from groundwater and is accessed through hand pumps, open wells or tubewells. Hinta village has piped water supply to most homes from a village overhead water tank constructed by the Government. Recently, a village overhead tank was constructed in Dharta village but most homes do not have piped water supply yet. Families in Sunderpura rely on hand pumps for their domestic water supply.
+Irrigation is widely performed using the surface method, however some farmers are rolling out sprinkler and drip systems as there is a government subsidy on the installation cost of these systems. Drinking water in these villages is solely from groundwater and is accessed through hand pumps, open wells or tubewells. Hinta village has piped water supply to most homes from a village overhead water tank constructed by the Government. Recently, a village overhead tank was constructed in Dharta village but most homes do not have piped water supply yet. Families in Sunderpura rely on hand pumps for their domestic water supply.
 
 ### Gujarat
 
@@ -75,11 +78,12 @@ The Meghraj watershed is located about 25 km west of Modasa town and 100 km from
 
 
 ----
+
 ## MyWell
 
-MyWell is a smartphone and SMS application for crowdsourcing groundwater, rainfall, water quality and checkdam water levels in prject MARVI. BJs armed with a smartphone or feature phone can participate in a network of connected farmers who collect information, and glean insights into the groundwater situation.
+MyWell is a smartphone and SMS application for crowdsourcing groundwater, rainfall, water quality and checkdam water levels in project MARVI. BJs armed with a smartphone or feature phone can participate in a network of connected farmers who collect information, and glean insights into the groundwater situation.
 
-In the MyWell system, a groundwater metric is known as a "Resource", which can be a Well, Check dam or Rainfall Station. Every resource, village and collection of villages in the MyWell system is uniquely identifyable, using a combination of pincode, village ids and resource ids.
+In the MyWell system, a groundwater metric is known as a "Resource", which can be a Well, Check dam or Rainfall Station. Every resource, village and collection of villages in the MyWell system is uniquely identifiable, using a combination of pincode, village ids and resource ids.
 
 
 ### Features
@@ -91,7 +95,7 @@ With MARVI's network of BJs collecting data, MyWell is able to provide valuable 
 
 #### MyWell SMS
 
-Users interact with MyWell by sending and recieving SMS messages, a part of the application called MyWell SMS. MyWell users submit resource readings, as well as query MyWell for some basic groundwater statistics.
+Users interact with MyWell by sending and receiving SMS messages, a part of the application called MyWell SMS. MyWell users submit resource readings, as well as query MyWell for some basic groundwater statistics.
 
 Data submission is performed over a single SMS message to MyWell's phone number. The most common case is submitting a well reading. The message takes the format: "`MYWL S PINCODE/RESOURCE_ID/READING`", where reading is the depth to water level in centimetres.
 
@@ -110,7 +114,7 @@ To submit a reading, the user must first login using a one time code sent to eit
 
 The user then presses the "submit" button, and MyWell mobile performs some validation and submits the reading. If the user doesn't have access to the internet, they can choose to save the reading locally onto the device, and submit the reading later.
 
-Groundwater statistics are also available for users of MyWell mobile. The map screen displays a map containing all the resources registed in MyWell, along with village names (Figure 2.).
+Groundwater statistics are also available for users of MyWell mobile. The map screen displays a map containing all the resources registered in MyWell, along with village names (Figure 2.).
 
 When the user clicks a resource, users get a popup with the Village name of the well, the resource id, and the last recorded reading of the resource. Clicking the "more" button takes the user to a page that shows more information about that resource, including a graph that displays data for the last 3 years. (Figure 3)
 
@@ -127,7 +131,7 @@ The core of the MyWell System is a service called MyWell Server. MyWell server i
 
 MyWell's database is a MariaDB database running in RDS, Amazon's managed database service. RDS is responsible for securing and backing up data of the MyWell system. MyWell Server interacts with the database in order to save and retrieve data.
 
-The SMS gateway provider is responsible for recieving and sending SMS messages for MyWell. It converts SMS messages into http calls that call MyWell Server. It also converts http calls from MyWell Server into SMS messages that get delivered to MyWell's users.
+The SMS gateway provider is responsible for receiving and sending SMS messages for MyWell. It converts SMS messages into http calls that call MyWell Server. It also converts http calls from MyWell Server into SMS messages that get delivered to MyWell's users.
 
 The MyWell Mobile application is available on iOS and Android devices. It interacts directly with MyWell server, and also has some offline functionality to save readings and reduce the data usage for end users.
 
@@ -142,7 +146,7 @@ MyWell has gone through four major iterations, starting as as a small web server
 
 #### Version 1:
 
-The first version of MyWell was a prototype that supported SMS only. This prototype was developed by Romin Parek, Constantin Baumgartner and James Laney at Carnegie Mellon University. They wrote a web server that recieved SMS messages containing well readings, and displayed them using a heatmap on a website.
+The first version of MyWell was a prototype that supported SMS only. This prototype was developed by Romin Parek, Constantin Baumgartner and James Laney at Carnegie Mellon University. They wrote a web server that received SMS messages containing well readings, and displayed them using a heatmap on a website.
 
 
 #### Version 2:
@@ -163,6 +167,7 @@ In the fourth - and latest - version of MyWell, we moved the hosting to Amazon W
 
 
 ----
+
 ## Testing & Evaluation
 
 ### Workshops and Field Trials
@@ -180,7 +185,7 @@ Understandably, the MyWell SMS interface was harder for BJs to understand, and t
 
 BJs also noted that they saw how MyWell can be used to help with crop planning, and understanding their household and farm water needs. Finally, BJs and researchers alike liked that the data stored in MyWell is secure and isn't going to get lost very easily, and it's now shareable with just about anyone.
 
-One area MyWell needs improvement is in its langauge selection, which is currently only English. Every survey mentioned the need for a Hindi version of MyWell. Some users also found it difficult to see and understand the graphs, and asked for changes to be made to make the graphs more easily read on devices with small screens.
+One area MyWell needs improvement is in its language selection, which is currently only English. Every survey mentioned the need for a Hindi version of MyWell. Some users also found it difficult to see and understand the graphs, and asked for changes to be made to make the graphs more easily read on devices with small screens.
 
 The field trials demonstrated MyWell Mobile to work as expected when recording new readings. In areas of low connectivity, users were able to save readings locally on the device, and submit them when they later regained connectivity.
 
@@ -188,6 +193,7 @@ Due to issues with the MyWell SMS gateway provider, we were unable to test the M
 
 
 ----
+
 ## MyWell and Other Crowdsourcing Projects
 
 MyWell is an example of crowdsourcing citizen science, made to address the needs of farmers in rural India and project MARVI. It builds on previous applications of crowdsourcing citizen science, to fit the requirements of MARVI. It also has potential as a data collection and processing platform, with a focus on data collection in low income countries.
@@ -202,6 +208,7 @@ One of the key values of MyWell is its ability to remove the need for paper-base
 
 
 ----
+
 ## Conclusion
 
 Groundwater scarcity is a serious issue faced by many communities in rural India, and around the world. In this paper we looked at project MARVI, and introduced MyWell, an application for crowdsourcing groundwater levels and engage everyday citizens in groundwater science.
@@ -212,12 +219,13 @@ In this paper, we looked at the potential MyWell has to impact the lives of farm
 
 From our workshops and field trials, we show how farmers can use MyWell to gain visibility into the groundwater situation, and examine the limitations of this technology, along with areas for improvement.
 
-Adressing these shortcomings is crucial to scaling up MyWell to more communities and application in larger groundwater management projects. We are actively working on features to improve MyWell for both researchers and BJs, as well as looking for partnerships with ther NGOs and governments to share water data together, this will foster new opportunities in groundwater management and further contribute to improving the groundwater situation.
+Addressing these shortcomings is crucial to scaling up MyWell to more communities and application in larger groundwater management projects. We are actively working on features to improve MyWell for both researchers and BJs, as well as looking for partnerships with ther NGOs and governments to share water data together, this will foster new opportunities in groundwater management and further contribute to improving the groundwater situation.
 
 
 
 
 ----
+
 ## Definitions
 
 - **WaterShed:** __TODO__
@@ -233,40 +241,40 @@ Adressing these shortcomings is crucial to scaling up MyWell to more communities
 ## Figures
 
 Figure 1 - Project MARVI study areas.
-![fig_a_study_areas.jpg]({{site.baseurl}}/mywell/paper_images/fig_a_study_areas.jpg)
+![fig_a_study_areas.jpg](./paper_images/fig_a_study_areas.jpg)
 
 
 Figure 2 - Submitting a reading using MyWell Mobile.
-![fig_e_submitting_reading.png]({{site.baseurl}}/mywell/paper_images/fig_e_submitting_reading.png)
+![fig_e_submitting_reading.png](paper_images/fig_e_submitting_reading.png)
 
 
 Figure 3: - MyWell Mobile Map Screen.
-![fig_b_mywell_mobile_map_screen.png]({{site.baseurl}}/mywell/paper_images/fig_b_mywell_mobile_map_screen.png)
+![fig_b_mywell_mobile_map_screen.png](paper_images/fig_b_mywell_mobile_map_screen.png)
 
 Figure 4: - MyWell Mobile Popup and Detail screens.
-![MyWell Mobile Popup and Detail screens.]({{site.baseurl}}/mywell/paper_images/fig_c_mywell_mobile_popup_and_detail.png)
+![MyWell Mobile Popup and Detail screens.](paper_images/fig_c_mywell_mobile_popup_and_detail.png)
 
 Figure 5: - MyWell System Architecture.
-![MyWell System Architecture]({{site.baseurl}}/mywell/paper_images/fig_d_mywell_architecture.png)
+![MyWell System Architecture](paper_images/fig_d_mywell_architecture.png)
 
 
 
 ----
 ## References
 
-Chinnasamy, Pennan, Basant Maheshwari, and Sanmugam Prathapar. "Understanding Groundwater Storage Changes and Recharge in Rajasthan, India Through Remote Sensing". Water 7.10 (2015): 5547-5565. Web.
-Deep Wells and Prudence. Washington D.C.: World Bank, 2010. Print.
-“Pew, 2014", “Emerging Nations Embrace Internet, Mobile Technology". Pew Research Center's Global Attitudes Project. N.p., 2014. Web. 9 Apr. 2016.
-Fienen, Michael N., and Christopher S. Lowry. "Social.Water—A Crowdsourcing Tool for Environmental Data Acquisition". Computers & Geosciences 49 (2012): 164-169. Web.
-“IBM    Research, 2012”, IBM    Research:    Creek    Watch    IPhone    App    Goes Social".
-Ibmresearchnews.blogspot.com.au. N.p., 2012. Web. 9 Apr. 2016.
-Lowry, Christopher S., and Michael N. Fienen. "Crowdhydrology: Crowdsourcing Hydrologic Data and Engaging Citizen Scientists". Ground Water 51.1 (2012): 151-156. Web.
-Maheshwari, Basant et al. "The Role of Transdisciplinary Approach and Community Participation in Village Scale Groundwater Management: Insights from Gujarat and Rajasthan, India". Water 6.11 (2014): 3386-3408. Web.
-Rathore, M. S. State Level Analysis of Drought Policies and Impacts in Rajasthan, India. Colombo, Sri Lanka: International Water Management Institute, 2004. Print.
-Rural Coverage: Strategies for Sustainability. GSMA Intelligence, 2015. Web. 1 Apr. 2016. Country Case Studies.
-"Service Level Agreements Summary Microsoft Azure". Azure.microsoft.com. N.p., 2016. Web. 9 Apr. 2016.
-"Smartphone User Penetration in India 2014-2019". Statista. N.p., 2016. Web. 9 Apr. 2016.
-"The Geological Society of London - Crowdsourcing Science". Geolsoc.org.uk. N.p., 2016. Web. 9 Apr. 2016.
-"The History of Audubon". Audubon. N.p., 2015. Web. 9 Apr. 2016.
-Toon, John. "Crowdsourcing Could Lead to Better Water in Rural India". News.gatech.edu. N.p., 2016. Web. 9 Apr. 2016.
-Singh, Tanaya. "Farmers in Rural Maharashtra Are Fighting Climate Change. With Just a Mobile Phone.". The Better India. N.p., 2016. Web. 10 Apr. 2016.
+- Chinnasamy, Pennan, Basant Maheshwari, and Sanmugam Prathapar. "Understanding Groundwater Storage Changes and Recharge in Rajasthan, India Through Remote Sensing". Water 7.10 (2015): 5547-5565. Web.
+- Deep Wells and Prudence. Washington D.C.: World Bank, 2010. Print.
+- “Pew, 2014", “Emerging Nations Embrace Internet, Mobile Technology". Pew Research Center's Global Attitudes Project. N.p., 2014. Web. 9 Apr. 2016.
+- Fienen, Michael N., and Christopher S. Lowry. "Social.Water—A Crowdsourcing Tool for Environmental Data Acquisition". Computers & Geosciences 49 (2012): 164-169. Web.
+- “IBM    Research, 2012”, IBM    Research:    Creek    Watch    IPhone    App    Goes Social".
+- Ibmresearchnews.blogspot.com.au. N.p., 2012. Web. 9 Apr. 2016.
+- Lowry, Christopher S., and Michael N. Fienen. "Crowdhydrology: Crowdsourcing Hydrologic Data and Engaging Citizen Scientists". Ground Water 51.1 (2012): 151-156. Web.
+- Maheshwari, Basant et al. "The Role of Transdisciplinary Approach and Community Participation in Village Scale Groundwater Management: Insights from Gujarat and Rajasthan, India". Water 6.11 (2014): 3386-3408. Web.
+- Rathore, M. S. State Level Analysis of Drought Policies and Impacts in Rajasthan, India. Colombo, Sri Lanka: International Water Management Institute, 2004. Print.
+- Rural Coverage: Strategies for Sustainability. GSMA Intelligence, 2015. Web. 1 Apr. 2016. Country Case Studies.
+- "Service Level Agreements Summary Microsoft Azure". Azure.microsoft.com. N.p., 2016. Web. 9 Apr. 2016.
+- "Smartphone User Penetration in India 2014-2019". Statista. N.p., 2016. Web. 9 Apr. 2016.
+- "The Geological Society of London - Crowdsourcing Science". Geolsoc.org.uk. N.p., 2016. Web. 9 Apr. 2016.
+- "The History of Audubon". Audubon. N.p., 2015. Web. 9 Apr. 2016.
+- Toon, John. "Crowdsourcing Could Lead to Better Water in Rural India". News.gatech.edu. N.p., 2016. Web. 9 Apr. 2016.
+- Singh, Tanaya. "Farmers in Rural Maharashtra Are Fighting Climate Change. With Just a Mobile Phone.". The Better India. N.p., 2016. Web. 10 Apr. 2016.
