@@ -25,16 +25,27 @@ qs:
 - Funding mostly from Govt,  + ADB + World Bank
 
 ---
+# Background & Research
 
 - Serves 4.3M Households
 - Households most ofen represented by Mother or Grandmother
-- Grants [^1]
+
+- Grants make up around 14% of household income _ref?_
+- 3rd biggest in the world
+- often a poster child for other CCT programs
+
+---
+#grant
+- Grants _^1_
   - Paid out every 2 months
   - Health: P500 per month per household 	
   - Education: P500 per child in high school, or P300 for a child in primary school
     - every ten months
     - households can register a maximum of 3 children
   - Rice subsidy: P600 a month for buying rice only (this is most often in the form of a reimbursement)
+
+---
+# Background & Research
 
 - Conditions
   - Pregnant women must go to pre-natal and post-natal care and be attended by a health professional at childbirth
@@ -47,42 +58,38 @@ qs:
 *note: P50 ~= 1 USD*
 
 
-[1] http://pantawid.dswd.gov.ph/images/stories/pantawidfaq.pdf
-[2] ???
+### _1_ http://pantawid.dswd.gov.ph/images/stories/pantawidfaq.pdf
+### _2_ ???
 
 
----
 
-- Grants make up around 14% of household income [ref?]
-- 3rd biggest in the world
-- often a poster child for other CCT programs
 ---
 
 # Disbursement
 
 - A challenge in a nation of over 7000 islands
-- Mostly through ATM cash cards (40%), or in-person [^3]
+- Mostly through ATM cash cards (40%), or in-person _^3_
 - *Side note: Mobile money has been tried in the past, but didn't work out very well :(*
-  - "However, GCASH struggled with its original 4Ps mobile money solution when it found that only 20 percent of the recipients in its payout areas had a phone." [^3]
+  - "However, GCASH struggled with its original 4Ps mobile money solution when it found that only 20 percent of the recipients in its payout areas had a phone." _^3_
 
 
-[3] http://www.cgap.org/publications/case-study-striving-e-payments-scale-philippines
+_3_ http://www.cgap.org/publications/case-study-striving-e-payments-scale-philippines
 
 ---
 # Financial inclusion in the Philippines
 
-- A priority for govt, but not for the 4Ps program [^3]
+- A priority for govt, but not for the 4Ps program _^3_
 - Mostly cash based socitey
 - Mobile money players: GCash, PayMaya
   - Not popular in big cities, let alone provinces
-  - anectodatal aside:
+  - anectodatal aside: lots of advertisment when we were in the city
 - 14% Mobile
 - Interviews we conducted:
   - 2 households we a part of a "Sinking" (shared savings) fund
   - Many households were in debt: paying 20-30% interest rates on motorbikes or the like to start a business
   - Nobody had a bank account
     - most wanted one, but felt they didn't have enough money to warrant it
-    - One gentleman showed me his bank account: [insert picture here]
+    - One gentleman showed me his bank account: _insert picture here_
 
 ---
 
@@ -135,7 +142,30 @@ well..
 
 ---
 # Demo
+## On Boarding
+
 `#TODO: Insert videos and gifs`
+
+
+---
+# Demo
+## Report a Payout Date
+
+---
+# Demo
+## Secret Report
+
+
+
+---
+# Demo
+## Payout Calculator
+
+
+---
+# Demo
+## News
+
 ---
 # Response
 
@@ -143,6 +173,8 @@ well..
 `//TODO: insert reworked feedback slide`
 
 - Insightful conversations
+
+
 - stats
   - users, reports etc.
 - graphs, charts etc.
