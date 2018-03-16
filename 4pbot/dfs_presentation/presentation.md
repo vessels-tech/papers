@@ -83,7 +83,9 @@ _3_ http://www.cgap.org/publications/case-study-striving-e-payments-scale-philip
 - Mobile money players: GCash, PayMaya
   - Not popular in big cities, let alone provinces
   - anectodatal aside: lots of advertisment when we were in the city
-- 14% Mobile
+
+
+- Low mobile penetration among 4Ps beneficaries
 - Interviews we conducted:
   - 2 households we a part of a "Sinking" (shared savings) fund
   - Many households were in debt: paying 20-30% interest rates on motorbikes or the like to start a business
