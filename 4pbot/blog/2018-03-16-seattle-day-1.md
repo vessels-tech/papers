@@ -26,7 +26,7 @@ I also had a great discussion with the DFS Lab guys about these very blog posts 
 
 ## Biometrics
 
-Two teams presented their work on the biometrics challenge: Diamond Fortress Technologies and Veridium ___ . The challenge was very well defined, in a nutshell: build an Android app that can read fingerprints with the camera only - no expensive attachments or ____. Before seeing their work, I was skeptical of the ability for a basic Android smartphone to read fingerprints with a camera alone, but both teams presented solid, working products.
+Two teams presented their work on the biometrics challenge: Diamond Fortress Technologies and Veridium ___ . The challenge was very well defined, in a nutshell: build an Android app that can read fingerprints with the camera only - no expensive attachments or ___ . Before seeing their work, I was skeptical of the ability for a basic Android smartphone to read fingerprints with a camera alone, but both teams presented solid, working products.
 
 A highlight of these presentations was Veridium's demo of using their "four finger touchless id" technology for multi-factor authentication. [add bits]
 
