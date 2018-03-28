@@ -41,7 +41,11 @@ How I pitched my project at the Bill and Melinda Gates foundation.
 
 Dan Radcliffe Panel
 - chatbots for open governance
-- other notes?
+Dan
+Spot problèmes and fraud
+Nudges and behavior change
+Could chatbot be way to get citizen votes on what services they need
+Holy Grail -- citizen oversight
 
 
 ## Next Steps
