@@ -34,6 +34,7 @@ The target is 10,000 AUD in cash or accounts receivable due by August.
 - Follow up with Basant. Let him know that we are going full time. This means more focus on MyWell. Ask for advice, support, connections for making this work. [ ]
 - Come up with 5+ start up ideas in the passionate areas space [ ]
 - Post on IOTA Devs for Hire [ ]
+- Start brainstorming future for 4PBot [ ]
 
 
 ## Passionate Areas:
