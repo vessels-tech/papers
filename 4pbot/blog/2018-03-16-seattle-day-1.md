@@ -1,4 +1,4 @@
-# How to Pitch Niece Tech to Super Important People
+# How to Pitch Niche Tech to Super Important People
 ## or, at least how I went about it, and what I learned.
 
 
