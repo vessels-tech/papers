@@ -89,9 +89,15 @@ Alright, so that's all for today. I still have a few hours left in the day, so I
 Day 2: Skills:
 
 Solidity
-- https://github.com/ethereum/wiki/wiki/Safety (dapp section)
 - https://solidity.readthedocs.io/en/develop/solidity-by-example.html
 - https://solidity.readthedocs.io/en/develop/solidity-in-depth.html
+
+These two are good resources. I got up to the functions section. I'll move on for now, and come back to this if I get time.
+
+- https://github.com/ethereum/wiki/wiki/%C3%90App-Development
+
+Good reference doc:
+https://github.com/manojpramesh/solidity-cheatsheet
 
 Dapp Design
 - https://github.com/ConsenSys/Ethereum-Development-Best-Practices/wiki/Dapp-Architecture-Designs
@@ -110,13 +116,42 @@ Bonus: Learn about Hyperledger
 - https://hyperledger-fabric.readthedocs.io/en/latest/
 
 
+- Look into how contracts can interface with off-chain stuff
+- storing files locally (or in ipfs), and storing a hash in the blockchain to verify authenticity
+
+
+## Truffle notes:
+
+- I wonder what a singleton contract is
+- reading data is called a **call**, and writing data is called a **transaction**
+- calls are free, as they don't alter any data, just read it
+
+What if you call just before a transaction? Won't you get a race condition?
+
+
+Repuation system inspiration:
+https://blog.monetha.io/decentralized-trust-reputation-system/
+https://medium.com/@alexberegszaszi/building-decentralized-reputation-management-as-a-smart-contract-6d60b0c7bd0
+
 Day 3: Tutorials
+
+We will spend the day building tutorials
+
+Wrestling app:
+- https://hackernoon.com/ethereum-development-walkthrough-part-1-smart-contracts-b3979e6e573e
+- https://hackernoon.com/ethereum-development-walkthrough-part-2-truffle-ganache-geth-and-mist-8d6320e12269
+- https://hackernoon.com/ethereum-development-walkthrough-part-3-security-limitations-and-considerations-d482f05278b4
+- https://hackernoon.com/ethereum-development-walkthrough-part-4-tokens-and-ercs-68645cf2f73e
+
 
 - https://medium.com/@merunasgrincalaitis/the-ultimate-end-to-end-tutorial-to-create-and-deploy-a-fully-descentralized-dapp-in-ethereum-18f0cf6d7e0e
 - https://dweb-primer.ipfs.io/
 - https://medium.com/@mustwin/building-an-oracle-for-an-ethereum-contract-6096d3e39551
 - http://truffleframework.com/tutorials/building-testing-frontend-app-truffle-3
 - http://truffleframework.com/tutorials/ethereum-devops-truffle-testrpc-vsts
+
+
+If we run out of time, work on building a blockchain based repuation system!
 
 
 Day 4: Application
@@ -128,6 +163,10 @@ Day 4: Application
 
 
 Day 5: Next Steps
+
+- Take what we've learned, and apply it to the BSIC Incubator project.
+    - "Define the technical specifications of your system's architecture. Include a description of system requirements, processes, business logic, technology stack, user flows, attack factors and any other technical specifications. Attach some visuals as bonus."
+    - 
 
 - Read the Eth + IPFS white papers again. 
 - Come up with new ideas
