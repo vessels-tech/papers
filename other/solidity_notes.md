@@ -235,3 +235,74 @@ emit sends a message to an event. Client side applications can easily listen for
 
 - how might one unit and integration test contracts?
 
+
+
+## Wrestling Tutorial
+
+```bash
+# start geth locally
+cd ~/developer/eth/geth_config/
+geth --datadir=./.chaindata/ --rpc
+
+# run mist, point to local geth
+open -a /Applications/Mist.app --args --rpc http://127.0.0.1:8545
+
+
+#getch attach to local
+geth attach http://localhost:8545
+```
+
+```bash
+#link the geth.ipc created by the locally running geth to where other eth clients look
+ln -s ~/developer/eth/geth_config/.chaindata/geth.ipc ~/Library/Ethereum/geth.ipc
+```
+
+```bash
+
+$ geth --datadir=./.chaindata/miner1 account new
+Address: {ee31ca00f7b5ae75907112af5659974ec8831486}
+$ geth --datadir=./.chaindata/miner1 account new
+Address: {f18a79cef4be9faa2dabfadb07fa1cbfd909f78f}
+
+geth attach
+miner.setEtherbase('ee31ca00f7b5ae75907112af5659974ec8831486');
+miner.start();
+```
+
+
+While a fungible token hold value in itself, a non-fungible token is just the representation of an asset in a smart contract.
+
+ERC20 tokens are fungible tokens. ERC721 (cryptokitties) is gaining popularity, and there are others such at ERC841 and ERC821 that extend from these ideas.
+
+
+Idea:
+
+- crypto collectibles you mine by travelling to locations. You can only mine the deed at a specific location, and people can trade assets back and forth (like stamps I suppose...)
+https://www.coindesk.com/crypto-collectables-ethereums-next-killer-app-is-on-its-way/
+
+Could be a fun and interesting demo
+
+
+
+Network config sample for truffle.js
+
+```js
+ networks: {
+    development: {
+      host: "127.0.0.1",
+      port: 8545,
+      network_id: "*"
+    },
+    local: {
+      host: "127.0.0.1",
+      port: 8545,
+      network_id: "*"
+    }
+  }
+```
+
+
+fix stupid nvm not working:
+```bash
+bass source $nvm_prefix/nvm.sh
+```

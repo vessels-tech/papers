@@ -16,7 +16,7 @@ Perhaps we can have a dedicated reading and note taking time (maybe the entire f
 > download all reading resources to the iPad, and sit in a room with the iPad all day.
 
 
-Day 1: Concepts
+# Day 1: Concepts
 
 background:
 - http://www.imponderablethings.com/2013/07/how-bitcoin-works-under-hood.html
@@ -86,7 +86,7 @@ I then spent a little bit of time learning about oracles (which are touched on i
 Alright, so that's all for today. I still have a few hours left in the day, so I might spend some more time reading before going on with my other tasks. Looking forward to tomorrow!
 
 
-Day 2: Skills:
+# Day 2: Skills:
 
 Solidity
 - https://solidity.readthedocs.io/en/develop/solidity-by-example.html
@@ -133,7 +133,7 @@ Repuation system inspiration:
 https://blog.monetha.io/decentralized-trust-reputation-system/
 https://medium.com/@alexberegszaszi/building-decentralized-reputation-management-as-a-smart-contract-6d60b0c7bd0
 
-Day 3: Tutorials
+# Day 3: Tutorials
 
 We will spend the day building tutorials
 
@@ -143,6 +143,7 @@ Wrestling app:
 - https://hackernoon.com/ethereum-development-walkthrough-part-3-security-limitations-and-considerations-d482f05278b4
 - https://hackernoon.com/ethereum-development-walkthrough-part-4-tokens-and-ercs-68645cf2f73e
 
+I feel like this has given me a pretty good grasp already. I've skimmed the following tutorial, and while looks useful (I would really like to figure out how to deploy to ipfs for example) I'd like to focus more on writing and testing contracts. I'm not too fussed with the web develpment side of things, but I'd really like to figure out how to talk to contracts both server and client side. 
 
 - https://medium.com/@merunasgrincalaitis/the-ultimate-end-to-end-tutorial-to-create-and-deploy-a-fully-descentralized-dapp-in-ethereum-18f0cf6d7e0e
 - https://dweb-primer.ipfs.io/
@@ -154,7 +155,7 @@ Wrestling app:
 If we run out of time, work on building a blockchain based repuation system!
 
 
-Day 4: Application
+# Day 4: Application
 
 - Design, Build & Deploy a Decentralized AirBnb from scratch
     - uses multiple contracts
@@ -162,7 +163,7 @@ Day 4: Application
 - Build on chain/off chain application?
 
 
-Day 5: Next Steps
+# Day 5: Next Steps
 
 - Take what we've learned, and apply it to the BSIC Incubator project.
     - "Define the technical specifications of your system's architecture. Include a description of system requirements, processes, business logic, technology stack, user flows, attack factors and any other technical specifications. Attach some visuals as bonus."
