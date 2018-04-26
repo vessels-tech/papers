@@ -270,6 +270,58 @@ miner.start();
 ```
 
 
+## Deploying a new contract from truffle to local geth
+
+1. add the following local config to `truffle.js`
+```js
+local: {
+      host: "127.0.0.1",
+      port: 8545,
+      network_id: "*", // Match any network id
+    }
+```
+
+2. In one window, run geth locally
+```bash
+# start geth locally
+cd ~/developer/eth/geth_config/
+geth --datadir=./.chaindata/ --rpc
+```
+
+3. in another terminal window, 
+```bash
+#link the geth.ipc created by the locally running geth to where other eth clients look
+ln -s ~/developer/eth/geth_config/.chaindata/geth.ipc ~/Library/Ethereum/geth.ipc
+geth attach
+
+#unlock the account we will be deploying to
+personal.unlockAccount('0x944d61C11868Dfe946282461d724a4Fa51Db64fa', 'password');
+
+miner.setEtherbase('ee31ca00f7b5ae75907112af5659974ec8831486'); #only needed once
+miner.start();
+```
+
+4. From truffle window, run:
+```bash
+truffle migrate --network local #this deploys the contract
+
+truffle console --network local #login to running geth using truffle
+
+#get the address and abi. Replace Recommend with whatever your contract is called.
+Recommend.address
+JSON.stringify(Recommend.abi)
+```
+
+5. Now we need to get the ABI, so we can interact with it.
+
+```
+Mist Browser > Contracts > Watch Contract
+```
+
+
+
+
+
 While a fungible token hold value in itself, a non-fungible token is just the representation of an asset in a smart contract.
 
 ERC20 tokens are fungible tokens. ERC721 (cryptokitties) is gaining popularity, and there are others such at ERC841 and ERC821 that extend from these ideas.

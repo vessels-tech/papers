@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Thank you Professor Basant, and thank you to the team at Ice Warm for having me here today.
+Thank you Professor Basant, and thank you to Ice Warm for having me here today.
 As Professor Basant said, my name is Lewis, and I will be sharing on my work within Project MARVI - that of MyWell. 
 MyWell is an application that enables farmers to crowdsource groundwater levels.
 
@@ -72,11 +72,15 @@ No longer does groundwater reseach happen by scientists with degrees; it's now t
 
 ## MyWell helps build groundwater sharing within communities
 
-By giving greater visibility into groundwater [finish]
+By giving greater visibility and understanding of groundwater, communities can come together to share.
 
-## MyWell helps visualize this invisible research
+## MyWell helps visualize this invisible resouce
+
+Really, that is one of the key outcomes for what we want to achive with MyWell.
 
 ## Results
+
+These are some of the early findings we've seen from using MyWell on the ground.
 
 ## Field Trials + Workshop
 
@@ -94,7 +98,7 @@ From these surveys, and the conversations we had while watching BJs use MyWell, 
 On the good side;
 - BJs noted how MyWell can be used to make their jobs easier and more accurate
 - They saw the potential for how this technology could help with crop planning, and understanding their water needs
-- They trusted MyWell inherently, and loved that the data in MyWell is both secure (it's not going anywhere soon), and accessible
+- They trusted MyWell inherently, (good, but we need to respect and not lose that trust) and loved that the data in MyWell is both secure (it's not going anywhere soon), and accessible
 
 The three main points about MyWell which can be improved are:
 - We need to translate MyWell into Hindi - it's been on the todo list for a long time, and this workshop really drove home how important it is to get this done

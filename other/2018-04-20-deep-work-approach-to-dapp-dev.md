@@ -157,6 +157,14 @@ If we run out of time, work on building a blockchain based repuation system!
 
 # Day 4: Application
 
+We're going to start by continuing our work with the ERC721 tutorial, and then go on to design, build and deploy a decentralized airbnb from scratch.
+
+Alright. Finished the tutorial. It was super buggy, and I didn't get everything working like I wanted, but I felt I should move on first.
+
+I' going to start by building a decentralised reputation system. It will start by just saving an average of all ratings for a given person, and then maybe will be a token based thing, where every interaction produces a token that can't be deleted or moved. 
+
+Then I'll go back to ERC721 or something like that to create a decentralized airbnb, one we can adapt for GreenBlocks purposes.
+
 - Design, Build & Deploy a Decentralized AirBnb from scratch
     - uses multiple contracts
     - hosted on IPFS
