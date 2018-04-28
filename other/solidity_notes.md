@@ -285,7 +285,9 @@ local: {
 ```bash
 # start geth locally
 cd ~/developer/eth/geth_config/
-geth --datadir=./.chaindata/ --rpc
+geth --datadir=./.chaindata/ --rpc 
+# params for getting around cors issues on local
+--rpccorsdomain="*"
 ```
 
 3. in another terminal window, 
@@ -295,7 +297,7 @@ ln -s ~/developer/eth/geth_config/.chaindata/geth.ipc ~/Library/Ethereum/geth.ip
 geth attach
 
 #unlock the account we will be deploying to
-personal.unlockAccount('0x944d61C11868Dfe946282461d724a4Fa51Db64fa', 'password');
+personal.unlockAccount('0xA34C759124c21039F2B941df6a9567C3EBf83798', 'password');
 
 miner.setEtherbase('ee31ca00f7b5ae75907112af5659974ec8831486'); #only needed once
 miner.start();
@@ -320,6 +322,28 @@ Mist Browser > Contracts > Watch Contract
 
 
 
+
+### Some default setup:
+
+```bash
+#for nice babeled truffle tests and async etc.
+yarn add babel-polyfill babel-preset-es2015 babel-preset-stage-2 babel-preset-stage-3 babel-register babel-preset-env
+```
+
+```js
+// ganache-cli
+    development: {
+      host: '127.0.0.1',
+      port: 7545,
+      network_id: '*',
+    },
+    //local geth
+    local: {
+      host: '127.0.0.1',
+      port: 8545,
+      network_id: '*',
+    },
+```
 
 
 While a fungible token hold value in itself, a non-fungible token is just the representation of an asset in a smart contract.
@@ -358,3 +382,13 @@ fix stupid nvm not working:
 ```bash
 bass source $nvm_prefix/nvm.sh
 ```
+
+
+
+Fixing issues with metamask not finishing transactions:
+
+https://github.com/MetaMask/metamask-extension/issues/3881
+
+A temporary solution is to use version 4.4.0:
+Download zip here: https://github.com/MetaMask/metamask-extension/releases/tag/v4.4.0
+Installing chrome extensions from source: https://stackoverflow.com/questions/24577024/install-chrome-extension-not-in-the-store

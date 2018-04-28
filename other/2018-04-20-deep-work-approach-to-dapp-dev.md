@@ -171,6 +171,19 @@ Then I'll go back to ERC721 or something like that to create a decentralized air
 - Build on chain/off chain application?
 
 
+Alright. Well today got well derailed.
+I was giving a webinar on another project I've been a part of (it's called MyWell if you want to check it out. It has nothing to do with DLT)
+
+I was able to get through the rest of the ERC721 tutorial this morning, but then I ended up presenting, and taking a break as my brain was a little fried.
+
+I did manage to get a simple decentralised rating system built, which I wrote from scratch. I was hoping to get more work on an Airbnb clone, but alas - I ended up debugging a whole lot of little issues. It seems that the interface between dapps and web apps is really fiddly. While there's a lot of tools out there, I still found myself yak shaving in order to get react to talk nicely to my backend. I shouldn't complain, maybe its just because I'm more of a server side guy nowadays.
+
+But I got it working, and that's a success. I'm going to call it a night and check back in tomorrow.
+
+Tomorrow, my goal is to design the system for BSIC. I'm going to start by actually designing a completely different application - one that I could concievably build in one day (perhaps I'll go back to my Airbnb idea), that way I can get some feedback and make some mistakes on how to build this stuff before doing the GreenBlocks design.
+
+
+
 # Day 5: Next Steps
 
 - Take what we've learned, and apply it to the BSIC Incubator project.
@@ -199,4 +212,31 @@ Potential resources:
 - https://blog.zeppelin.solutions/the-hitchhikers-guide-to-smart-contracts-in-ethereum-848f08001f05
 
 
+
+
+
+### DAirBnb notes
+
+We can't get all tokens, but we can get the tokens for a user.
+`tokenOfOwnerByIndex`. However, it looks like we will need to iterate this call, calling lastIndex + 1, until we get an error. This is less than ideal...
+
+I'm still not really sure how this will work.
+
+In order to get a token for a user, we call `getListing()` with the listingId.
+In order to get a listingId, I think we call `tokenOfOwnerByIndex()`, with a tokenIndex. The tokenIndex can be inferred from the number of tokens that the owner has. 
+
+We call `getTokensOfOwnerCount()` to get the number of tokens that that user has, then call `tokenOfOwnerByIndex()` for each of the tokens, which returns a `listingId` for each one.
+
+We then call `getListing()` for each `listingId`
+
+```js
+//maybe we can think of this in js psuedocode
+getTokensOfOwnerCount()
+.then(count => {
+    const tokenIndices = Arrays.range(0, count-1, 1);
+    return Promise.all(tokenIndices.map(index => tokensOfOwnerByIndex(index)));
+})
+.then(listingIds => Promise.all(listingIds.map(listingId => getListing(listingId))))
+.then(tokens => console.log(tokens));
+```
 
