@@ -10,7 +10,7 @@ This has been inspired by Cal Newport's book Deep Work - where basically says th
 So in order to practice my superpower, I decided to set myself the goal of becoming an expert Decentralized Application (Dapp) Developer in 1 week. Here's what I did, what I didn't do, and how it went. Now I will mention that I have a passing knowledge of Blockchain and Ethereum, and I've been a Software developer for 8 or so years. At the start of this week, I had never written any Solidity, played around with any of the tools, or even understood what a Smart Contract was.
 
 
-## What I did.
+## What I did
 
 ### Curriculum
 
@@ -18,9 +18,9 @@ I started by assembling myself a curriculum. While I saw that there were a bunch
 
 My Curriculum was broken down into the following parts, one on each day:
 
-- **Concepts:**
-- **Skills:**
-- **Practice:** Work through 2-3 tutorials that cover different Dapps. I chose to focus on 
+- **Concepts:** Get a background on Bitcoin, Etherum and IPFS. 
+- **Skills:** Learn the Solidity language, smart contract development and Dapp design patterns.
+- **Practice:** Work through 2-3 tutorials that cover different Dapps. I chose to focus on tutorials that built ERC20 and ERC721 tokens.
 - **Application:** Build a full stack Dapp project from scratch. I chose to build a basic decentralized reputation system. I might write a tutorial on it some time - let me know if you would want this in a comment below!
 - **Next Steps:** Complete a detailed system design and architecture of a new Dapp. For this I chose to design something I'm working on for the Blockchain for Social Impact Coalition Incubator program. I would love to share more about it, but I need the blessing of my teammates first. Stay tuned.
 
