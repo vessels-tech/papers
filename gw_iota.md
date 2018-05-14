@@ -60,9 +60,9 @@ By the end of Phase 1, we will be poised to implement a field trial, where we ca
 
 ### Roadmap: 
 
-**March - June 2018:** Feasibility investigation
-**June - July 2018:** Prototype Development, Landing page development
-**August 2018:** Review, blog posts etc.
+**March - June 2018:** Feasibility investigation  
+**June - July 2018:** Prototype Development, Landing page development  
+**August 2018:** Review, blog posts etc.  
 
 
 ### Deliverables
