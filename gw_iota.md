@@ -81,6 +81,6 @@ Please get in touch if you have any questions this project, or seek clarificatio
 
 Lewis Daly
 
-CTO/CoFounder - Vessels Tech
-vesselstech.com
-lewis [at] vesselstech.com
+CTO/CoFounder - Vessels Tech  
+vesselstech.com  
+lewis [at] vesselstech.com  
