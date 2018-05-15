@@ -34,6 +34,8 @@ https://gist.github.com/lewisdaly/6fbfd88779181183ab736265f0cd304f
 node blink_test.js
 ```
 
+### Step 2: IOTA and MAM libs
+
 Ok, now that we can run JS on our Arduino, we need to get the IOTA libs working.
 
 Shout out to @Chrislaive on Discord for the pointer to https://github.com/rwaldron/johnny-five#setup-and-assemble-arduino. We're going to use this to get us started with the IOTA libs on Arduino and Johnny-Five
@@ -77,6 +79,8 @@ node init_test.js
 ```
 
 Hopefully this should run correctly, and we should see some output about MAM in the console.
+
+## From Arduino -> Tangle
 
 Next up, we're going to try and actually send a message to the tangle. Unfortunately I left all of my cool sensors at home, so the message won't have any meaning, but we can at least get it working for a later tutorial.
 
