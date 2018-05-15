@@ -16,9 +16,9 @@ Across India, over 60% of agriculture relies on groundwater. Groundwater is ofte
 For the last 2 years, we have been involved building technology for Project MARVI: Managed Aquifer Recharge for Village Level Intervention. MARVI is a groundwater conservation project that spans 2 watersheds in rural West India. The goal of the project is to build a participatory, bottom-up approach to groundwater management.
 
 Figure 1 - Project MARVI study areas.
-![fig_a_study_areas.jpg](./mywell/paper/paper_images/fig_a_study_areas.jpg)
+![fig_a_study_areas.jpg](https://github.com/vessels-tech/papers/blob/master/mywell/paper/paper_images/fig_a_study_areas.jpg)
 
-One of the key outcomes from Project MARVI has been the inception of Village Groundwater Cooperatives (VGCs). VGCs are a method for smallholder farmers to coordinate and share groundwater together. Farmers agree to share groundwater, and pay one another for groundater [finish] To date, these VGCs have enabled farmers to better understand the state of groundwater scarcity, and are making steps towards making farmers more resilient towards climate change.
+One of the key outcomes from Project MARVI has been the inception of Village Groundwater Cooperatives (VGCs). VGCs are a method for smallholder farmers to coordinate and share groundwater together. Farmers agree to share groundwater, and pay one another for groundater, as well as pool funds together for other communal needs. To date, these VGCs have enabled farmers to better understand the state of groundwater scarcity, and are making steps towards making farmers more resilient towards climate change.
 
 GWIota is a next step in building tools for these VGCs. Instead of prices being based on arbitrary guesses about the state of the aquifer, advanced hydrology can be applied and a network of smart water pumps can be rolled out to automatically pay and settle groundwater sharing between farmers.
 
