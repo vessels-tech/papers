@@ -1,12 +1,12 @@
 
->GWIota puts a price on groundwater, enables farmers to better share water, and become more resilient in the face of global warming.
+**GWIota puts a price on groundwater, enables farmers to better share water, and become more resilient in the face of global warming.**
 
 
 ## Groundwater Iota
 
-GWIota is a project we've been considering over the last 6 months. It comes out of our experiences learning about groundwater scarcity in India, and our desire to test out IOTA in the real world - especially in emerging markets.
+GWIota is a project we've been considering over the last 6 months. It comes out of our experiences learning about groundwater scarcity in India, and our desire to see DLT used for climate change intervention in the real world.
 
-GWIota utilizes IOTA flash channels for making micro payments between smart pumps, effectively putting a price on groundwater. Instead of paying to a central authority, a smart pump is capable of paying others in a network of collective farmers in a groundwater cooperative. This accurately puts the price of groundwater right where the costs are imposed, on a farmer's neighbour.
+GWIota utilizes IOTA flash channels for making feeless micro payments between smart pumps, effectively putting a price on groundwater. Instead of paying to a central authority, a smart pump is capable of paying others in a network of collective farmers in a groundwater cooperative. This accurately puts the price of groundwater right where the costs are imposed, on a farmer's neighbour.
 
 
 ## Background
@@ -15,8 +15,9 @@ Across India, over 60% of agriculture relies on groundwater. Groundwater is ofte
 
 For the last 2 years, we have been involved building technology for Project MARVI: Managed Aquifer Recharge for Village Level Intervention. MARVI is a groundwater conservation project that spans 2 watersheds in rural West India. The goal of the project is to build a participatory, bottom-up approach to groundwater management.
 
-Figure 1 - Project MARVI study areas.
-![fig_a_study_areas.jpg](https://github.com/vessels-tech/papers/blob/master/mywell/paper/paper_images/fig_a_study_areas.jpg)
+![fig_a_study_areas.jpg](./mywell/paper/paper_images/fig_a_study_areas.jpg){ width=50% }  
+*Figure 1 - Project MARVI study areas.*  
+
 
 One of the key outcomes from Project MARVI has been the inception of Village Groundwater Cooperatives (VGCs). VGCs are a method for smallholder farmers to coordinate and share groundwater together. Farmers agree to share groundwater, and pay one another for groundater, as well as pool funds together for other communal needs. To date, these VGCs have enabled farmers to better understand the state of groundwater scarcity, and are making steps towards making farmers more resilient towards climate change.
 
@@ -47,33 +48,29 @@ GWIota will enable these VGCs to put an accurate price on groundwater, making th
 ## Proposed Technology
 
 - IOTA & IOTA Flash Channels
-- Smart Pumps
+- Smart Pumps (IOT connected pumps which record real-time pumping data)
 - Rasberry Pi/Lightweight computing platform + Cloud Services for performing PoW and fleet management
 - Network access point (sim card or wifi)
 
 
 ## Phase 1
 
-The funding we request for Phase 1 of this project is primarily to demonstrate a real world use case for IOTA, and to show as much "working out" as possible. We want to contribute to the IOTA community, and enourage as many people as possible to get on board with the IOTA revolution.
+The funding we request for Phase 1 of this project is primarily to demonstrate a real world use case for DLT to work towards climate change intervention.
 
-By the end of Phase 1, we will be poised to implement a field trial, where we can study how this concept and IOTA performs in the real world. We also hope that this will be the beginning of a research paper that can submitted to an academic journal or conference, further bolstering the reputation of IOTA.
+By the end of Phase 1, we will be poised to implement a field trial, where we can study how this concept and technology performs in the real world. We also hope that this will be the beginning of a research paper that can submitted to an academic journal or conference.
 
 ### Roadmap: 
 
-**March - June 2018:** Feasibility investigation  
-**June - July 2018:** Prototype Development, Landing page development  
-**August 2018:** Review, blog posts etc.  
+**May - July 2018:** Feasibility investigation  
+**July - August 2018:** Prototype Development, Landing page development  
+**September 2018:** Project Review, Publish Code, Submit research paper for conference of journal  
 
 
 ### Deliverables
 
 - Feasibility Study into the use of IOTA for smart groundwater pumps
 - Open Source codebase for GWIota 0.1
-- A much better name
-- At least 3 tutorials on how someone else can build GWIota from scratch themselves, and apply to different intersections of IOT and Payments. Suggested topics include:
-  - Using IOTA and Flash Channels for One to Many Payments
-  - Making IOTA resilient in low-data situations
-- Basic landing page to promote GW Iota and IOTA
+- Basic landing page to promote GW Iota 
 
 
 Please get in touch if you have any questions this project, or seek clarification on any points.
