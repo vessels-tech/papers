@@ -1,4 +1,7 @@
 
+![Splitting Iota Banner](./tx_splitting.png)
+
+
 # Splitting ~~Hairs~~ Transactions with IOTA
 
 I've recently come on board the [Tanglefy](insert link) team, to help build the future of eCommerce on the Tangle.
@@ -29,7 +32,6 @@ Make sense? Well I still needed some help, so I drew us a little picture:
 
 
 ![Splittng Transactions with IOTA](./split_gateway.png)
-
 
 
 
