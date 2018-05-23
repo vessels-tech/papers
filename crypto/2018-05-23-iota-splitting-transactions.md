@@ -39,20 +39,21 @@ Make sense? Well I still needed some help, so I drew us a little picture:
 
 There are a few issues I need to work through with the above approach:
 
-- How to handle failures? What if any of the output transactions fails? 
+- **How to handle failures? What if any of the output transactions fails?**
   
 The good thing about IOTA is that we don't waste our money on fees, but we still need a method for tolerating failure, and possibly rolling back. Perhaps in step 1, the user could send a refund address that the split gateway can pay into if any of the downstream payments fail. One issue with this approach is that the split gateway could then be out of pocket, as the downstream payments would need to be reversed.
 
-- This approach relies on 3rd party state. 
+- **This approach relies on 3rd party state.**
 
 Yes, I know. Ideally we could manage the state on the tangle itself. The prototype I'm working on at the moment uses MongoDB to keep track of the state of the input and output transactions. Perhaps we could come up with a clever way to maintain the state on the Tangle, but we need a database to manage user logins, api keys etc anyway.
 
 
-- DDOS
+- **DDOS**
+
 We needn't be too worried about this, as we can simply make sure not to initiate downstream transactions if the value of the input transaction is 0. Perhaps the only thing to be worried about is lots of small transactions, but then again, that's one of the whole points of IOTA.
 
 
-- Getting addresses for downstream payments
+- **Getting addresses for downstream payments**
 
 This is one I'm a little worried about. Because of the address reuse precaution (notice I didn't say problem ;) ), it's ideal to get a new address for the downstream payments every time. For the input payment, this isn't a problem, as we can store the seed with the Split Gateway, but if one of the payees of the output transactions spends from that address, we're in trouble. 
 
@@ -78,9 +79,8 @@ I'm sure I'm going to revise this design a bunch more times, and I'd love your s
 
 >>If you liked this post, give it a ❤️ or a 👏, or whatever you crazy cats are calling it nowadays.
 
-Donations are always welcome!
-
-`BJSLSJNPWSM9QLO9JYJAG9A9LLAUKZAQJGYZLNN9YMBNPCUUS9E9EYE9PIKIKNYHXAPNFAMDGXVIPVKIWGDUVDALPD`
+>>Donations are always welcome!
+>>`BJSLSJNPWSM9QLO9JYJAG9A9LLAUKZAQJGYZLNN9YMBNPCUUS9E9EYE9PIKIKNYHXAPNFAMDGXVIPVKIWGDUVDALPD`
 
 
 
