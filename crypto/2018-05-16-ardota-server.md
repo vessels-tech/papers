@@ -9,7 +9,7 @@
 
 
 
-For this demo, I'm going to be using the D1Mini. It has a [ ESP-8266EX] wifi chip on board already, and has some great sample code already out there. I got mine (I think it's a cheap knockoff [here](insert_affilliate_link))
+For this demo, I'm going to be using the D1Mini. It has a [ ESP-8266EX] wifi chip on board already, and has some great sample code already out there. You can get yours [here](https://www.amazon.com/gp/product/B01N3P763C/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=&linkId=22d141e17670471cc2c9abf820913f2d).
 
 Let's start with the demo
 
