@@ -1,21 +1,23 @@
 # Getting the C Libraries working on Arduino
 ## From novice to slightly less novice
 
+![arduino_iota_compiling](./arduino_iota_compling.png)
 
-One of my ultimate goals with IOTA at the moment is getting it working on MCUs. In a [previous post](insert link), we managed to get an Arduino sending messages over MAM using the Johnny-Five javascript framework. This, I thought, was a good introduction, but still requires the arduino to be connected to my computer, which is less than ideal.
 
-So in order to make things harder for myself (and in the pursuit of learning and all that stuff), I set myself the challenge of getting the [iota lightweight c library](insert link) working on my arduino.
+One of my ultimate goals with IOTA at the moment is getting it working on MCUs. In a [previous post](https://medium.com/vessels/from-arduino-to-tangle-4728ddebf211), we managed to get an Arduino sending messages over MAM using the Johnny-Five javascript framework. This, I thought, was a good introduction, but still requires the arduino to be connected to my computer, which is less than ideal.
+
+So in order to make things harder for myself (and in the pursuit of learning and all that stuff), I set myself the challenge of getting the [iota lightweight c library](https://github.com/embedded-iota/iota-c-light-wallet) working on my arduino.
 
 In this post, we're going to look at how to write an Arduino library that takes advantage of the lightweight arduino library. This will be the starting point for a series of blog posts, where we go from starting the library to (hopefully) sending MAM messages directly to the tangle from my D1Mini.
  
 *Note: A library of a library? Really? Well as far as I've been able to find, we can't just include the iota library in our arduino code - arduino libraries are quite specific in their structure, and require a little bit of fiddling around to get working nicely. I'm happy to be proven wrong however!*
 
-And just a little disclaimer before we dive in. I originally wanted to get full transactions working (creating bundles, signing bundles, transmitting to the tangle using HTTP requests) before I showed you how I got there, but unfortunately I've run into a few hurdles, and I didn't want to wait to get this post out there and share my knowledge. I am by no means a C or Arduino expert (yet), so have likely made some mistakes that both of us can learn from. 
+And just a little disclaimer before we dive in. I originally wanted to get full transactions working (creating and signing bundles, transmitting to the tangle using HTTP requests) before I showed you how I got there, but unfortunately I've run into a few hurdles, and I didn't want to wait to get this post out there and share my knowledge. I am by no means a C or Arduino expert (yet), so have likely made some mistakes that both of us can learn from. 
 
 
 ## Prerequisites
 
-- ESP8266 MCU (I'm using a knockoff D1 Mini, which you can find [here](insert affiliate link))
+- ESP8266 MCU (I'm using a knockoff D1 Mini, which you can find [here](https://www.amazon.com/gp/product/B01N3P763C/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=&linkId=22d141e17670471cc2c9abf820913f2d))
 - Arduino IDE
 - `git`
 
@@ -47,54 +49,13 @@ Now it's time to write some sweet, sweet code. My experience with C++ is limited
 
 Open up your `library.properties` file, and put in the following:
 
-```
-name=IotaClient
-version=0.1.0
-author=Lewis Daly
-maintainer=Lewis Daly <lewis@vesselstech.com>
-sentence=IOTA Client 
-paragraph=IOTA Client 
-category=Other
-url=https://github.com/vesselstech/arduino_iota_client
-architectures=*
-```
+https://gist.github.com/lewisdaly/ba7fd5b271b4539056c8d0914ae69e63
 
 Or something to your liking.
 
 Next up, we need to define our `IotaClient.h` file:
 
-```cpp
-#ifndef iota_client_h
-#define iota_client_h
-
-#include "Arduino.h"
-#include "IotaClient.h"
-
-#ifdef __cplusplus
-extern "C"
-{
-#endif
-
-#include "external/iota-c-light-wallet/src/main.h"
-#include "external/iota-c-light-wallet/src/iota/addresses.h"
-#include "external/iota-c-light-wallet/src/iota/conversion.h"
-
-#ifdef __cplusplus
-}
-#endif
-
-
-
-class IotaClient {
-  public:
-    IotaClient(String host, String port);
-    void testAddress();
-
-  private:
-};
-
-#endif
-```
+https://gist.github.com/lewisdaly/7994b2a4bc6c61a1a5affb47a78217a2
 
 Hopefully for C++ novices (myself included), you can see what's going on here. We're including a bunch of required libraries, and wrap the `iota-c-light-wallet` libraries in an `extern "C"` block, so that the complier knows what to do with them.
 
@@ -105,49 +66,7 @@ For now, we're only going to implement 2 methods, a constructor and `testAddress
 
 Let's go on to implement those 2 methods:
 
-
-```cpp
-#include "Arduino.h"
-#include "IotaClient.h"
-
-#ifdef __cplusplus
-extern "C"
-{
-#endif
-
-#include "external/iota-c-light-wallet/src/iota/addresses.h"
-#include "external/iota-c-light-wallet/src/iota/conversion.h"
-#include "external/iota-c-light-wallet/src/iota/transfers.h"
-
-
-#ifdef __cplusplus
-}
-#endif
-
-
-String _host;
-String _port;
-
-IotaClient::IotaClient(String host, String port)
-{
-  _host = host;
-  _port = _port;
-}
-
-void IotaClient::testAddress() {
-  unsigned char address[81];
-  char seedChars[] = "DONTEVERUSETHISSEED999";
-  unsigned char seedBytes[48];
-  chars_to_bytes(seedChars, seedBytes, 81);
-  
-  get_public_addr(seedBytes, 0, 2, address);
-  char charAddress[81];
-  bytes_to_chars(address, charAddress, 48);
-
-  Serial.print("charAddress is: ");
-  Serial.println((char *)charAddress);
-}
-```
+https://gist.github.com/lewisdaly/2102801b4df0feb0045da795f7ae2a8c
 
 Let's walk it through section by section. We can ignore the includes at the top for now, we've already mentioned them in the header. 
 
@@ -210,25 +129,8 @@ Open up your Arduino IDE, and make a new sketch. Now I should mention again that
 
 I've named my sketch `test_d1_client.ino`
 
-```cpp
-#include <Arduino.h>
-#include <IotaClient.h>
+https://gist.github.com/lewisdaly/4c3b841cfd446a0459e78afc88b53e7e
 
-String host = "https://testnet140.tangle.works";
-String httpsPort = 443;
-
-IotaClient iota_client(host, httpsPort);
-
-void setup() {
-  Serial.begin(9600);
-  Serial.println("HELLO IOTA");
-
-  iota_client.testAddress();
-}
-
-void loop() {  
-}
-```
 
 This should be pretty straight forward. There's no magic here, we just include the `IotaClient` library, initialize it with a `host` and `port`, and then call `testAddress()`. Here's what it looks like running on my D1 mini:
 
