@@ -1,12 +1,8 @@
+# From Device to Tangle - Approach #2
 
+If you've been following along with my [blogs](insert_link), you would know that I'm especially interested in IOTA working on Arduino and similar MCU platforms. In this post, I'm going to explore one way we can get sensor data from our locally running Arduino devices, and publish it on the Tangle using MAM.
 
-## Goal:
-
-- run a webserver on D1Mini that updates sensor measurements every n seconds
-- run a publisher that reads from this webserver and publishes to mam
-- run a subscriber that reads from mam
-
-
+Now I'm the first to say that this approach is less than ideal, as it relies on a locally running webserver to fetch the local data and publish it to the tangle. My ultimate goal is to get these making the iota transactions all locally, but in the pursuit of constant iteration, we have to start somewhere. So here we will start.
 
 
 For this demo, I'm going to be using the D1Mini. It has a [ ESP-8266EX] wifi chip on board already, and has some great sample code already out there. You can get yours [here](https://www.amazon.com/gp/product/B01N3P763C/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=&linkId=22d141e17670471cc2c9abf820913f2d).
@@ -465,5 +461,21 @@ decoded: { reading: 528 }
 decoded: { reading: 535 }
 decoded: { reading: 538 }
 ```
+
+
+
+It's working! I must say I'm at least a little bit surprised. 
+
+Here's a couple things I plan on doing next:
+- pushing transactions to the tangle directly from an Arduino
+- Using the arduino to sign MAM bundles, and push them onto the tangle using a local gateway
+
+As always, thanks for reading, and please let me know in the comments if you have any suggestions for my code, or are having trouble replicating this. I'd love to chat! You can also reach out to me on the IOTA discord `@lwilld`.
+
+
+>>If you liked this post, give it a ❤️ or a 👏, or whatever you crazy cats are calling it nowadays.
+>>Donations are always welcome!
+>>`BJSLSJNPWSM9QLO9JYJAG9A9LLAUKZAQJGYZLNN9YMBNPCUUS9E9EYE9PIKIKNYHXAPNFAMDGXVIPVKIWGDUVDALPD`
+
 
 
