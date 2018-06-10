@@ -3,19 +3,19 @@
 
 Last friday (the 8th of June, 2018) I arrived home from the Unleash summit in Singapore. Exhaused from both flying, talking, and working, I crawled into bed and fell asleep for the best part of a day. How did it come to this? 
 
-As I wrote in my previous [post](insert link), I was lucky enough to be 1 of 1000 young talents selected to participate in Unleash's 2018 global innovation summit in Singapore. [Unleash](insert_link) brings together 1000 talents (their word, not mine) from around the world to tangible businesses and innovations in pursuit of the sustainable development goals. 
+As I wrote in my previous [post](https://medium.com/unleash-lab/setting-goals-for-unleash-2018-2e8c120b5533) , I was lucky enough to be 1 of 1000 young talents selected to participate in Unleash's 2018 global innovation summit in Singapore. [Unleash](https://unleash.org) brings together 1000 talents (their word, not mine) from around the world to tangible businesses and innovations in pursuit of the sustainable development goals. 
 
 I'm going to break down my Unleash experience into 6 points: *2 hard things, 2 fun things, and 2 tangible next steps* for myself to take in my career and vocation.
 
 ## Hard Thing #1: Gate Checks.
 
-Ok. Let me back up here for you non-unleashers. During unleash, we are divided up into smaller groups based on the sustainable development goals (SDGs) which float your boat. I was in Clean Water & Sanitation, based on my experiences with [MyWell](insert link), and then divided into smaller groups of 4-6 to work on a specific issue related to our SDG. My team were focussed on water scarcity, but more on that later.
+Ok. Let me back up here for you non-unleashers. During unleash, we are divided up into smaller groups based on the sustainable development goals (SDGs) which float your boat. I was in Clean Water & Sanitation, based on my experiences with [MyWell](https://vesselstech.com/mywell.html), and then divided into smaller groups of 4-6 to work on a specific issue related to our SDG. My team were focussed on water scarcity, but more on that later.
 
-Unleash uses an innovation process quite similar to Google Ventures Design Sprint - called ____. The process was made by Deloitte (one of unleashed's sponsors), and came along with some experienced facilitators to guide us through the process. It involves a whole bunch of sticky notes, whiteboard markers and coffee (or tea in my case). 
+Unleash uses an innovation process quite similar to Google Ventures Design Sprint - called [insert]. The process was made by Deloitte (one of unleashed's sponsors), and came along with some experienced facilitators to guide us through the process. It involves a whole bunch of sticky notes, whiteboard markers and coffee (or tea in my case). 
 
 ![so many papers!](./unleash_summary_pics/postits.JPG)
 
-The process is broken down into 4 distinct phases, with each phase ending in a "Gate". [insert phases]. In order to pass a gate, you must complete the exercises within a phase, and stand up to an intense round of questioning from your facilitators.
+The process is broken down into 4 distinct phases, with each phase ending in a "Gate". In order to pass a gate, you must complete the exercises within a phase, and stand up to an intense round of questioning from your facilitators.
 
 Gate checks are kind of like fighting bosses in Zelda, you don't strictly need to beat each boss in a defined order, you can move around from one to another, but you won't finish the game unless you beat all of them. 
 
@@ -24,7 +24,7 @@ So gate checks were hard. They forced us to give mini-pitches as we were going a
 
 And the team?
 
-That's right, before we go any further, I should introduce you briefly to my team, and the challenge we aimed to solve. Our team  - a.k.a Fugee Water - was Steve (Germany), Arielle (USA), Naveed (USA), Michael (USA), and myself, from Australia.
+That's right, before we go any further, I should introduce you briefly to my team, and the challenge we aimed to solve. Our team  - a.k.a Fugee Water - was Steve *Germany*, Arielle *USA*, Naveed *USA*, Michael *USA*, and myself, from Australia.
 
 ![The Fugee Water Team](./unleash_summary_pics/team_dinner.jpg)
 The team minus Steve (sorry Steve)
@@ -64,7 +64,7 @@ Singapore is also a world leader in many of the sustainable development goals. I
 
 ## Next Step #1: Taking Unleash back to Vessels Tech
 
-At [Vessels Tech](vesselstech.com) (my tech 4 dev company), we are passionate about seeing technology used to lift up the lives of others. While we have always had a focus on sustainablity, I'm now starting to see our projects in light of the sustainable development goals. Take just two of our projects for example:
+At [Vessels Tech](https://vesselstech.com) (my tech 4 dev company), we are passionate about seeing technology used to lift up the lives of others. While we have always had a focus on sustainablity, I'm now starting to see our projects in light of the sustainable development goals. Take just two of our projects for example:
 
 - [MyWell](https://vesselstech.com/mywell.html), for example support SDG6: Clean water and sanitation for farmers and their families, as well as 1 (No Poverty), 12 Responsible Consumption & Production, and 13 Climate Action
 
@@ -93,17 +93,16 @@ As Garauv Gupta - director at Dalberg - put it, "The business opportunity is eno
 ![Closing Ceremony](./unleash_summary_pics/closing_ceremony.jpg)
 The closing ceremony. Look at all those beautiful LED screens!
 
-
 "This is not the end, it's the end of the beginning", said Chairman of Unleash, Flemming Besenbacher, at the closing ceremony of Unleash. And I agree with him. Unleash isn't about going home with good stories, or a full belly - it's about inspiring a generation of leaders in the Sustainable Development Goals, and them in turn inspiring others.
 
 In these 6 points, I hope I captured some of the essence of Unleash, and I hope I encouraged you to pursue the sustainable development goals - whether that's inside of your existing work, as you study, or as you set out on new ventures.
 
 Finally, I'd like to say thanks to just some of the sponsors who made Unleash possible:
-- DBS, for letting us blow off steam on the Marina Regatta
-- NUS, for housing, feeding and clothing us
-- Deloitte, for lending us your expert facilitators, and training us up in the innovation process
-- Calsberg, for the beer (need I say more?)
-- Lego, for inspiring us to keep on playing! 
+- **DBS**, for letting us blow off steam on the Marina Regatta
+- **NUS**, for housing, feeding and clothing us
+- **Deloitte**, for lending us your expert facilitators, and training us up in the innovation process
+- **Calsberg**, for the beer (need I say more?)
+- **Lego**, for inspiring us to keep on playing! 
 
 
 
