@@ -1,8 +1,10 @@
 # Triggering Email alerts from the IOTA Tangle
 ## The DIY Guide
 
+![Banner Image](./pl_images/banner.png)
 
-I recently noticed a new project called [Totangle](insert_link). Totangle integrates the tangle with Zapier, which allows you to integrate things happening on tangle to your existing APIs or workflows. The first use case they present is receiving an email alert when you get a payment on the tangle.
+
+I recently noticed a new project called [Totangle](https://totangle.com/). Totangle integrates the tangle with Zapier, which allows you to integrate things happening on the tangle to your existing APIs or workflows. The first use case they present is setting up an email alert when you get a payment on the tangle.
 
 Inspired by this, and also needing this tool myself (I want to get alerts when I recieve tips from my Medium articles, without having to constantly keep my wallet open), I thought I'd see if I could make an open source lambda function that copies this basic functionality.
 
@@ -233,11 +235,9 @@ Let's deploy one more time and see what happens.
 ![empty inbox](./pl_images/emails.png)
 IT'S WORKING!
 
-Aaaand it's working. That wasn't so hard, was it?
-
+Aaaand it's working. That wasn't so hard, was it? You can check out the full code [here](https://github.com/vessels-tech/tangletrigger), and make sure you check the other branches for each of the steps we went through above.
 
 Did you manage to get this working? Or got stuck? Let me know. I'd love to help. You can also reach me on twitter `@lewdaly`, or on the IOTA Discord at `lwilld`.
-
 
 
 >>If you enjoyed this post, or have any suggestions or questions, let me know in the comments. If you liked this post, give it a ❤️ or a 👏, or whatever you crazy cats are calling it nowadays.
@@ -251,7 +251,6 @@ Did you manage to get this working? Or got stuck? Let me know. I'd love to help.
 
 
 TODO:
-- add to git
 - make pretty pictures
 - publish to medium
 - update readme to point to medium
