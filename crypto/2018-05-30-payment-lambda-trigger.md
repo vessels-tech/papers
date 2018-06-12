@@ -4,7 +4,7 @@
 ![Banner Image](./pl_images/banner.png)
 
 
-I recently noticed a new project called [Totangle](https://totangle.com/). Totangle integrates the tangle with Zapier, which allows you to integrate things happening on the tangle to your existing APIs or workflows. The first use case they present is setting up an email alert when you get a payment on the tangle.
+I recently came across a new project called [Totangle](https://totangle.com/). Totangle integrates the tangle with Zapier, which allows you to integrate things happening on the tangle to your existing APIs or workflows. The first use case they present is setting up an email alert when you get a payment on the tangle.
 
 Inspired by this, and also needing this tool myself (I want to get alerts when I recieve tips from my Medium articles, without having to constantly keep my wallet open), I thought I'd see if I could make an open source lambda function that copies this basic functionality.
 
@@ -80,11 +80,11 @@ Navigating to the AWS console, we should be able to see a Cloudformation stack:
 
 A Lambda Function:
 
-![lambda_function](./pf_lambda_1.png)
+![lambda_function](./pl_lambda_1.png)
 
 and some Cloudwatch logs, which are written every time the lambda is triggered:
 
-![cloudwatch_logs](./pf_cloudwatch_1.png)
+![cloudwatch_logs](./pl_cloudwatch_1.png)
 
 
 ## Part Two: Talking to the tangle
