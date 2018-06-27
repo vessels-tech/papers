@@ -244,16 +244,3 @@ Did you manage to get this working? Or got stuck? Let me know. I'd love to help.
 
 >>Tips are always welcome 🙌🙌🙌
 `BJSLSJNPWSM9QLO9JYJAG9A9LLAUKZAQJGYZLNN9YMBNPCUUS9E9EYE9PIKIKNYHXAPNFAMDGXVIPVKIWGDUVDALPD`
-
-
-
-
-
-
-TODO:
-- make pretty pictures
-- publish to medium
-- update readme to point to medium
-- publish to reddit
-- post on discord
-
