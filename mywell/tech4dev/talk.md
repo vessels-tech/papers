@@ -49,9 +49,12 @@ One of the key outcomes of MAVI was the formation of Village Groundwater Coopera
 The MyWell study area was two watersheds in rural west India, in the Rujarat and Gajasthan states. Inside these watersheds, we looked at 13 villages, and monitored around 150 wells on a weekly basis. This type of data colletion is much more granular than what has been recorded previously in the region.
 
 ## What is MyWell?
-[finish]
 
-... I'm now going to show you some screenshots of MyWell in action on a smartphone. Please keep in mind that many of these features are also available in text format over SMS messages.
+- We see MyWell as the technology component of project MARVI
+- It is an application that enables farmers to crowdsource groundwater data.
+- It allows farmers to participate in a network of data collectors, and empowers them to understand the science behind their water, and actively be a part of the solution
+
+I'm now going to show you some screenshots of MyWell in action on a smartphone. Please keep in mind that many of these features are also available in text format over SMS messages.
 
 ## Data driven insights into the groundwater situation
 
@@ -73,9 +76,29 @@ The real key here is that MyWell aims to empower farmers to be a part of their o
 ## Impact: Builds Groundwater sharing within communities.
 And that MyWell enables groundwater sharing between communities. As I said eariler, one of the key outcomes of MyWell's parent project were these village groundwater cooperatives. VGS need data in order to assess what measures need to be taken, and these data need to be collected in a scalable manner, and insights need to be localised for those communities.
 
-## Results
+## Results: Field Trials + Workshops
 
-[todo]
+I was lucky enough to travel to Megraj and Dharta villages earlier this year with some of the MARVI team.
+
+We ran field trials, gave demos of MyWell in action in workshops, and surveyed 15 BJs about their opinion of using MyWell. In our field trials we went out to a well and recorded a reading (as you can see in the photo), and also got BJs to submit well readings from some paper recordings they had made in the last couple weeks.
+
+This was a great opportunity for us to teach the BJs about MyWell, but also be taught about the ways they interact with technology, and the areas where we can improve MyWell.
+
+
+## Results: Good + Bad
+
+
+From these surveys, and the conversations we had while watching BJs use MyWell, we came away with the following points:
+
+On the good side;
+- BJs noted how MyWell can be used to make their jobs easier and more accurate
+- They saw the potential for how this technology could help with crop planning, and understanding their water needs
+- They trusted MyWell inherently, (good, but we need to respect and not lose that trust) and loved that the data in MyWell is both secure (it's not going anywhere soon), and accessible
+
+The three main points about MyWell which can be improved are:
+- We need to translate MyWell into Hindi - it's been on the todo list for a long time, and this workshop really drove home how important it is to get this done
+- It was difficult to read the graphs inside of MyWell, especially on android phones with small screens. We need to work on ways to make these more accessible, especially to people who aren't used to reading graphs every day.
+- Finally, there were some minor user interface bugs, which to us might seem trivial, but when we saw the BJs using them, with low technology literacy, they were much more apparent, and in some cases deal breakers for making MyWell usable
 
 ## Lessons Learned
 
@@ -100,8 +123,23 @@ MyWell has been a great lesson in patience for me, and I've learned a lot about 
 
 ## Next Steps: Short Term
 
+In the short term, we're focusing on those translations as I said, as well as improvements to the user interface and user experience
+
+We're also going to trial out an idea that came out of the workshops with using QR codes to identify wells, rain gauges and checkdams. Instead of users having to remember a string of numbers or a location to identify a well, the user can simply scan a qr code (much like PayTM), reducing the number of fields to be filled out from 4 down to 1 or 2. This will hopefully also reduce the likelyhood of farmers entering fake or incorrect readings, as they have to be at the well to make these readings.
+
+Finally, we're working on a set of tools to make MyWell more accessible to researchers. Among others, we have a researcher from Flinders University who is trialling MyWell in Laos, and we want to make it possible and easy to adapt this from india to other places.
+
+
 
 ## Next Steps: Long Term
+
+Longer term, we're interested in pursuing partnerships and integrations. This is really the future we see for MyWell, to become a useful tool for Groundwater conservation projects and citizen engagement around the world. 
+
+We're already working on an integration with the International Groundwater Resources Assessment Centre in the Netherlands, and this is my chance  to say: please get in touch if you're interested in partnering or integrating with our platform.
+
+Sharing of scarce resources is not a problem unique to groundwater, and we're hoping to adapt MyWell and the MARVI approach to other projects where engaging local citizens in being part of the solution to coordinate and share resources is key.
+
+Finally, we've had talks with a number of parties about building out an Open Water Data Platform. If you don't know much about Open Data, it's an initiative much like open source software or open access journals: institutions can freely publish data, and access eachothers data. We would love to see a platform where organisations who are involved in groundwater research can collaborate and share their water data, reducing the amount of institutional silos, and hopefully enabling more learning from each other and application of different ideas and innovations.
 
 
 
