@@ -29,7 +29,7 @@ Much of India's agriculture is run by smallholder farmers, with access to their 
 
 So, intervention is required. Existing interventions have seen top-down approaches to groundwater management, where policy makers and scientists go into villages and tell farmers to reduce their water consumption. In typical cases, farmers are skeptical, don't understand the groundwater science, and naturally, don't want to change their ways.
 
-So we need new forms of intervention. Interventions that are bottom-up in approach, where farmers are engaged and empowered with information and understanding of groundwater science. And this is where data comes in. IN our world, data so often is power. Data, combined with education and ___ poses a great opportunity for citizen-led groundwater interventions.
+So we need new forms of intervention. Interventions that are bottom-up in approach, where farmers are engaged and empowered with information and understanding of groundwater science. And this is where data comes in. In our modern world, data so often leads to power. Data, combined with education and awareness poses a great opportunity for citizen-led groundwater interventions.
 
 Such a method is called Paticipatory Groundwater Management, and this is the subject of MyWell's parent project: MARVI.
 
@@ -42,17 +42,19 @@ Among other things, MARVI went into 13 villages and trained local groundwater ch
 
 It's the BJs job which MyWell aims to augment, by giving them additional tools to record groundwater readings more easily and accurately, as well as providing data and insights into groundwater to any farmer or villager who has access to a smartphone or sms phone.
 
-One of the key outcomes of MAVI was the formation of Village Groundwater Cooperatives. These cooperatives were formed with the purpose to facilitate sharing of groundwater between the villagers, and are fully citizen led, with inputs from [finish]. This marks a significant milestone in the goal of [finish]
+One of the key outcomes of MARVI was the formation of Village Groundwater Cooperatives. These cooperatives were formed with the purpose to facilitate sharing of groundwater between the villagers, and are fully citizen led, with inputs from experts and local NGOs.
 
 ## The Study Area
 
-The MyWell study area was two watersheds in rural west India, in the Rujarat and Gajasthan states. Inside these watersheds, we looked at 13 villages, and monitored around 150 wells on a weekly basis. This type of data colletion is much more granular than what has been recorded previously in the region.
+The MyWell study area was two watersheds in rural west India, in the Gujarat and Rajasthan states. Inside these watersheds, we looked at 13 villages, and monitored around 150 wells on a weekly basis. This type of data colletion is much more granular than what has been recorded previously in the region.
 
 ## What is MyWell?
 
 - We see MyWell as the technology component of project MARVI
 - It is an application that enables farmers to crowdsource groundwater data.
-- It allows farmers to participate in a network of data collectors, and empowers them to understand the science behind their water, and actively be a part of the solution
+- Data is collected in the form of rainfall, groundwater levels, checkdam water levels, and water quality, which is soon to be added
+- It allows farmers to participate in a network of data collectors
+- and empowers them to understand the science behind their water, and actively be a part of the solution
 
 I'm now going to show you some screenshots of MyWell in action on a smartphone. Please keep in mind that many of these features are also available in text format over SMS messages.
 
@@ -74,7 +76,7 @@ Farmers and BJs then access these insights, which leads to an improved understan
 The real key here is that MyWell aims to empower farmers to be a part of their own solutions.
 
 ## Impact: Builds Groundwater sharing within communities.
-And that MyWell enables groundwater sharing between communities. As I said eariler, one of the key outcomes of MyWell's parent project were these village groundwater cooperatives. VGS need data in order to assess what measures need to be taken, and these data need to be collected in a scalable manner, and insights need to be localised for those communities.
+And that MyWell enables groundwater sharing between communities. As I said eariler, one of the key outcomes of MyWell's parent project were these village groundwater cooperatives. VGC need data in order to assess what measures need to be taken, and these data need to be collected in a scalable manner, while still delivering insights that are localised for those communities.
 
 ## Results: Field Trials + Workshops
 
@@ -93,7 +95,7 @@ From these surveys, and the conversations we had while watching BJs use MyWell, 
 On the good side;
 - BJs noted how MyWell can be used to make their jobs easier and more accurate
 - They saw the potential for how this technology could help with crop planning, and understanding their water needs
-- They trusted MyWell inherently, (good, but we need to respect and not lose that trust) and loved that the data in MyWell is both secure (it's not going anywhere soon), and accessible
+- They trusted MyWell inherently, (good, but we need to respect and not lose that trust) and loved that the data in MyWell is both secure (it's not going anywhere soon), and accessible by anyone
 
 The three main points about MyWell which can be improved are:
 - We need to translate MyWell into Hindi - it's been on the todo list for a long time, and this workshop really drove home how important it is to get this done
@@ -135,11 +137,11 @@ Finally, we're working on a set of tools to make MyWell more accessible to resea
 
 Longer term, we're interested in pursuing partnerships and integrations. This is really the future we see for MyWell, to become a useful tool for Groundwater conservation projects and citizen engagement around the world. 
 
-We're already working on an integration with the International Groundwater Resources Assessment Centre in the Netherlands, and this is my chance  to say: please get in touch if you're interested in partnering or integrating with our platform.
+We're already working on an integration with the International Groundwater Resources Assessment Centre in the Netherlands. And we're looking for other integrations as well.
 
 Sharing of scarce resources is not a problem unique to groundwater, and we're hoping to adapt MyWell and the MARVI approach to other projects where engaging local citizens in being part of the solution to coordinate and share resources is key.
 
-Finally, we've had talks with a number of parties about building out an Open Water Data Platform. If you don't know much about Open Data, it's an initiative much like open source software or open access journals: institutions can freely publish data, and access eachothers data. We would love to see a platform where organisations who are involved in groundwater research can collaborate and share their water data, reducing the amount of institutional silos, and hopefully enabling more learning from each other and application of different ideas and innovations.
+Finally, we've had talks with a number of parties about building out an Open Water Data Platform. We would love to see a platform where organisations who are involved in groundwater research can collaborate and share their water data, reducing the amount of institutional silos, and hopefully enabling more learning from each other and application of different ideas and innovations.
 
 
 
