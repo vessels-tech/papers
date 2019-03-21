@@ -79,6 +79,10 @@ One day, I hope this could turn into an API or service that offers NLP tools for
 
 
 
+>>If you enjoyed this post, or have any suggestions or questions, let me know in the comments. If you liked this post, give it a ❤️ or a 👏, or whatever you crazy cats are calling it nowadays.
+
+
+
 
 extra:
 
