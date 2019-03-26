@@ -63,11 +63,9 @@ This post is part of my research on the potential for building natural langauge 
 
 
 
-
-
-[1] https://www.firstpost.com/tech/news-analysis/google-assistant-on-kaios-to-receive-support-for-seven-indian-languages-actions-6150501.html
-[2] https://dangerousspeech.org/umati-monitoring-online-dangerous-speech/
-[3] https://issafrica.org/iss-today/hate-speech-and-ethnic-tension-ahead-of-kenyas-2017-elections
-[4] https://www.africasvoices.org/case-studies/well-told-story-nlp-of-conversations-in-swahili-slang-sheng/
-[5] http://www.welltoldstory.com/chai-chapatis-and-the-propensity-for-success/
-[6] https://www.reuters.com/brandfeatures/venture-capital/article?id=48355
+[1] https://www.firstpost.com/tech/news-analysis/google-assistant-on-kaios-to-receive-support-for-seven-indian-languages-actions-6150501.html  
+[2] https://dangerousspeech.org/umati-monitoring-online-dangerous-speech/  
+[3] https://issafrica.org/iss-today/hate-speech-and-ethnic-tension-ahead-of-kenyas-2017-elections  
+[4] https://www.africasvoices.org/case-studies/well-told-story-nlp-of-conversations-in-swahili-slang-sheng/  
+[5] http://www.welltoldstory.com/chai-chapatis-and-the-propensity-for-success/  
+[6] https://www.reuters.com/brandfeatures/venture-capital/article?id=48355  
