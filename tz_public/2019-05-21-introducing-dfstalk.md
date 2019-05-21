@@ -3,7 +3,7 @@
 
 [todo: insert logo]
 
-DFSTalk is a spinoff project from some of our work with delivering payment notifications to farmers in rural Tanzania. We aren't yet ready to share too many details of that project but in short:
+[DFSTalk](https://github.com/vessels-tech/dfstalk) is a spinoff project from some of our work with delivering payment notifications to farmers in rural Tanzania. We aren't yet ready to share too many details of that project but in short:
 
 - We needed a way to send payment notifications to rural people without consistent access to smartphones or data (no Whatsapp, sorry)
 - We also needed to communicate these notifications to people who might not be too good at reading
