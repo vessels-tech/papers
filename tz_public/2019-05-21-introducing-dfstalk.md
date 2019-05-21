@@ -58,7 +58,7 @@ You can check out the github for this project [here](https://github.com/vessels-
 
 ## Support
 
-As always, thanks to our generous supporters at [DFS Lab](http://dfslab.net). They have a real vision for the future of financial services, and we at Vessels Tech are truly lucky that they have chosen to work with us to forward their vision. I'm a real big fan of these guys: so much so that as I'm sitting in a cafe writing this piece, I'm sporting my very own DFS Labs shirt. 
+As always, thanks to our generous supporters at [DFS Lab](http://dfslab.net). They have a real vision for the future of financial services, and we at Vessels Tech are truly lucky that they have chosen to work with us to forward their vision. I'm a real big fan of these guys: so much so that as I'm sitting in a cafe writing this piece, I'm sporting my very own DFS Lab shirt. 
 
 ![insert screenshot of shirt](./img/dfs_shirt.png)
 My coveted DFS Lab shirt.
